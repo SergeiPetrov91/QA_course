@@ -1,0 +1,87 @@
+#1) Создать переменную типа String
+String = 'Hello'
+
+#2) Создать переменную типа Integer
+Integer = 30
+
+#3) Создать переменную типа Float
+Float = 2.5
+
+#4) Создать переменную типа Bytes
+Bytes = bytes(0)
+
+#5) Создать переменную типа List
+List = ['s', 'e', 'r', 'g', 'e', 'i']
+
+#6) Создать переменную типа Tuple
+Tuple = (10, 2.13, "square", 89, 'C')
+
+#7) Создать переменную типа Set
+Set = {"set", "list", "tuple"}
+
+#8. Создать переменную типа Frozen set
+Frozenset = frozenset([1, 2, 3, -10, 40])
+
+#9) Создать переменную типа Dict
+Dict = dict(Ivan="manager", Mark="worker")
+ 
+#10) Вывести в консоль все выше перечисленные переменные с добавлением типа данных.
+
+print(String)
+print(Integer)
+print(Float)
+print(Bytes)
+print(List)
+print(Tuple)
+print(Set)
+print(Frozenset)
+print(Dict)
+
+#11) Создать 2 переменные String, создать переменную в которой суммируете эти переменные. Вывести в консоль.
+
+string_1 = 'Arina'
+string_2 = 'Milana'
+string_3 = string_1 + string_2
+
+print(string_3)
+
+#12) Создать 2 переменные Integer, создать переменную в которой суммируете эти переменные. Вывести в консоль.
+
+integer_1 = 2
+integer_2 = 5
+integer_3 = (integer_1 + integer_2)
+
+print(integer_3)
+
+
+#13) Создать переменную в которой Разделите эти переменные Int. Вывести в консоль.
+
+integer_4 = (integer_1 / integer_2)
+
+print(integer_4)
+
+
+#14) Создать переменную в которой Умножите эти переменные Int. Вывести в консоль.
+
+integer_5 = (integer_1 * integer_2)
+
+print(integer_5)
+
+
+#15) Создать переменную в которой Разделите без остатка эти переменные Int. Вывести в консоль.
+
+integer_6 = (integer_1 % integer_2)
+
+print(integer_6)
+
+
+#Создать переменную в которой надо присвоить остаток от деления этих переменные Int. Вывести в консоль.
+
+integer_7 = (integer_1 // integer_2)
+
+print(integer_7)
+
+
+#(7 + 12)  3 + 7 * 4 - 44 / 2  4 расставить точки так чтобы получилось 6884.25. Вывести в конс
+
+print((7 + 12) ** 3 + 7 * 4 - 44 / 2 ** 4)
