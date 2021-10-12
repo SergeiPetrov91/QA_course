@@ -1,0 +1,202 @@
+#Создать 2 переменных типа String с разными значениями
+string_1 = 'Arina'
+string_2 = 'Milana'
+
+#Создать 4 переменных типа Integer с разными значениями
+Integer_1 = 2
+Integer_2 = 5
+Integer_3 = 30
+Integer_4 = 29
+
+#Создать 3 переменных типа Float с разными значениями
+Float_1 = 2.5
+Float_2 = 3.5
+Float_3 = 5.5
+
+#Реализовать 15 варианта сравнения int переменных с операторами >, <, >=, <=, !=. Pезультаты весвести в консоль.
+if Integer_1 < Integer_3:
+    print('True')
+else:
+    print('False')
+
+if Integer_2 != Integer_3:
+    print('True')
+else:
+    print('False')
+
+if Integer_3 > Integer_4:
+    print('True')
+else:
+    print('False')
+
+if Integer_4 < Integer_1:
+    print('True')
+else:
+    print('False')
+
+if Integer_1 >= Integer_2:
+    print('True')
+else:
+    print('False')
+
+if Integer_2 <= Integer_3:
+    print('True')
+else:
+    print('False')
+
+if Integer_3 > Integer_2:
+    print('True')
+else:
+    print('False')
+
+if Integer_4 != Integer_3:
+    print('True')
+else:
+    print('False')
+
+if Integer_1 > Integer_4:
+    print('True')
+else:
+    print('False')
+
+if Integer_2 < Integer_2:
+    print('True')
+else:
+    print('False')
+
+if Integer_3 >= Integer_1:
+    print('True')
+else:
+    print('False')
+
+if Integer_4 <= Integer_2:
+    print('True')
+else:
+    print('False')
+
+if Integer_2 != Integer_4:
+    print('True')
+else:
+    print('false')
+
+#Реализовать 9 варианта сравнения Float переменных с операторами >, <, >=, <=, !=. Pезультаты весвести в консоль.
+if Float_1 > Float_2:
+    print('Верное утверждение_1')
+elif Float_2 < Float_3:
+    print('Верное утверждение_2')
+else:
+    print('Не верно')
+
+if Float_3 >= Float_1:
+    print('Верное утверждение_1')
+elif Float_1 <= Float_2:
+    print('Верное утверждение_2')
+else:
+    print('Не верно')
+
+if Float_2 != Float_3:
+    print('Верное утверждение_1')
+elif Float_3 < Float_1:
+    print('Верное утверждение_2')
+else:
+    print('Не верно')
+
+if Float_1 > Float_2:
+    print('Верное утверждение_1')
+elif Float_2 >= Float_3:
+    print('Верное утверждение_2')
+else:
+    print('Не верно')
+
+if Float_3 <= Float_1:
+    print('Верно')
+else:
+    print('Не верно')
+
+#Реализовать 10 варианта сравнения int переменных с операторами >, <, >=, <=, != и условными выражениями (end, or, not). Pезультаты весвести в консоль.  
+if not Integer_1 > Integer_2:
+    print('yes')
+else:
+    print('no')
+
+if not Integer_2 < Integer_3:
+    print('yes')
+else:
+    print('no')
+
+if Integer_1 >= Integer_2 or Integer_3 <= Integer_4:
+    print('yes')
+else:
+    print('no')
+
+if Integer_1 <= Integer_2 and Integer_3 >= Integer_4:
+    print('yes')
+else:
+    print('no')
+
+if not Integer_2 >= Integer_3:
+    print('yes')
+else:
+    print('no')
+
+if Integer_1 >= Integer_2 and Integer_3 <= Integer_4 and Integer_1 < Integer_2:
+    print('yes')
+else:
+    print('no')
+
+if not Integer_1 < Integer_1 and Integer_2 > Integer_1:
+    print('yes')
+else:
+    print('no')
+
+if Integer_1 != Integer_2 or Integer_1 != Integer_4:
+    print('yes')
+else:
+    print('no')
+
+if Integer_4 > Integer_2 and Integer_1 < Integer_3 or Integer_1 != Integer_2:
+    print('yes')
+else:
+    print('no')
+
+#Сделать скрипт используя функцию input().
+   # 1. Функция должна на вход принимать целое число.
+   # 2. Выводить должна "Вы вели число = (введённое число) которое (меньше/больше/равно) 30"
+#вариант_1
+script = int(input())
+print('Вы вели число =', script > 30)
+#вариант_2
+script = int(input())
+
+if script > 30:
+    print('Вы вели число =', script)
+elif script < 30:
+    print('Вы ввели число которое меньше 30 =', script)
+elif script == 30:
+    print('Вы ввели число которое равно 30', script)
+else:
+    print('Не верное значение')
+
+#Сделать скрипт используя функцию input().
+    #1. Функция должна на вход принимать целое число.
+    #2. Внутри функции должно сгенерироваться рандомное целое число (import random)...(random.randint(1, 100))
+    #3. Выводить должна "Вы вели число = (введённое число) которое (меньше/больше/равно) сгенерированному числу"
+#import random 
+
+script_1 = int(input())
+print('"Вы вели число =', script_1 < (random.randint(1, 100)))
+
+#Сделать скрипт используя функцию input().
+    #1. Функция должна на вход принимать целое число.
+    #2. Внутри функции должно сгенерироваться рандомное 2 целых числа (import random)...(random.randint(1, 100))
+    #3. Выводить должна "Вы вели число = (введённое число) которое (меньше/больше/равно и меньше/больше/равно) сгенерированному числу"
+
+import random
+
+a = int(input())
+
+b = random.randint(1, 100)
+c = random.randint(1, 100)
+
+print('Вы вели число =', a > b)
+print('Вы вели число =', a < c)
