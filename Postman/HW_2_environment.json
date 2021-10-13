@@ -1,0 +1,19 @@
+{
+	"id": "10448d7d-82fd-4d83-bcef-929f314760de",
+	"name": "group_23",
+	"values": [
+		{
+			"key": "url",
+			"value": "",
+			"enabled": true
+		},
+		{
+			"key": "token",
+			"value": "",
+			"enabled": true
+		}
+	],
+	"_postman_variable_scope": "environment",
+	"_postman_exported_at": "2021-10-13T12:36:16.512Z",
+	"_postman_exported_using": "Postman/8.11.1"
+}
