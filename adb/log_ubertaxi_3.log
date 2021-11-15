@@ -1,0 +1,409 @@
+(standard input):41327:11-15 17:21:24.163  4311  4365 W system_server: resources.arsc in APK '/data/app/ru.yandex.uber-7xTDdpOEnf7oZEWnsuo6EQ==/base.apk' is compressed.
+(standard input):54718:11-15 17:29:50.844  4311  4618 I ApplicationPolicy: isApplicationExternalStorageWhitelisted:ru.yandex.uber user:0
+(standard input):54720:11-15 17:29:50.844  4311  4618 D ActivityManager: package  ru.yandex.uber, user - 0 is SDcard whitelisted
+(standard input):54721:11-15 17:29:50.844  4311  4618 I ApplicationPolicy: isApplicationExternalStorageBlacklisted:ru.yandex.uber user:0
+(standard input):54723:11-15 17:29:50.844  4311  4618 I ApplicationPolicy: isApplicationExternalStorageBlacklisted:ru.yandex.uber user:0
+(standard input):54729:11-15 17:29:50.873  4311  4367 I ActivityManager: Start proc 27204:ru.yandex.uber/u0a116 for activelaunch {ru.yandex.uber/ru.yandex.taxi.activity.StartActivity}
+(standard input):54730:11-15 17:29:50.884 27204 27204 E ru.yandex.uber: Not starting debugger since process cannot load the jdwp agent.
+(standard input):54733:11-15 17:29:50.898  4311  6596 I ActivityManager: DSS OFF for ru.yandex.uber
+(standard input):54748:11-15 17:29:50.921  4311  6596 I ActivityTaskManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=ru.yandex.uber/ru.yandex.taxi.activity.StartActivity bnds=[530,918][695,1162]} from uid 10086
+(standard input):54749:11-15 17:29:50.927 27204 27204 I ru.yandex.uber: The ClassLoaderContext is a special shared library.
+(standard input):54750:11-15 17:29:50.937  4311  6596 W system_server: resources.arsc in APK '/data/app/ru.yandex.uber-7xTDdpOEnf7oZEWnsuo6EQ==/base.apk' is compressed.
+(standard input):54763:11-15 17:29:51.126  3867  3917 I SurfaceFlinger: createSurf start. lock debugging [AppWindowToken{3bb5b42 token=Token{da3d8d ActivityRecord{9f75e24 u0 ru.yandex.uber/ru.yandex.taxi.activity.StartActivity t13889}}}]
+(standard input):54764:11-15 17:29:51.127  3867  3917 I SurfaceFlinger: id=11655 createSurf (0x0),-1 flag=80004, AppWindowToken{3bb5b42 token=Token{da3d8d ActivityRecord{9f75e24 u0 ru.yandex.uber/ru.yandex.taxi.activity.StartActivity t13889}}}#0
+(standard input):54775:11-15 17:29:51.143  4311  4360 D GameSDKService: MultiWindowEventListener.onFocusStackChanged(), state=0, top=ComponentInfo{ru.yandex.uber/ru.yandex.taxi.activity.StartActivity}
+(standard input):54780:11-15 17:29:51.153  4311  4680 D GamePkgDataHelper: notifyAppCreate(), pkgName: ru.yandex.uber, sendRet: true
+(standard input):54781:11-15 17:29:51.153  4311  4615 D GamePkgDataHelper: getGamePkgData(). ru.yandex.uber
+(standard input):54782:11-15 17:29:51.153  4311  4615 D GameManagerService: handleMessage(), MSG_APP_CREATE. ignore. pkgName: ru.yandex.uber
+(standard input):54785:11-15 17:29:51.157  4311  4680 D MARsPolicyManager: onPackageResumedFG pkgName = ru.yandex.uber, userId = 0
+(standard input):54787:11-15 17:29:51.175  4311  4360 D GameSDKService: MultiWindowEventListener.onFocusStackChanged(): ru.yandex.uber
+(standard input):54789:11-15 17:29:51.178  4311  4360 D GameManagerService: MultiWindowEventListener.onFocusStackChanged(), state=0, top=ComponentInfo{ru.yandex.uber/ru.yandex.taxi.activity.StartActivity}
+(standard input):54796:11-15 17:29:51.190  4311  4358 D CodecSolution: isMaxAspectPackageEx: ru.yandex.uber : false(0)
+(standard input):54802:11-15 17:29:51.192  4311  4360 D GameManagerService: noteResumeComponent(), resumeComponent: ru.yandex.uber
+(standard input):54804:11-15 17:29:51.192  4311  4360 D GamePkgDataHelper: getSosPolicy(). ru.yandex.uber
+(standard input):54806:11-15 17:29:51.192  4311  4615 D GameManagerService: handleForegroundChange(). pkgName: ru.yandex.uber, clsName: ru.yandex.taxi.activity.StartActivity,FgActivityName:ru.yandex.uber/ru.yandex.taxi.activity.StartActivity,userID:0
+(standard input):54807:11-15 17:29:51.192  4311  4615 D GameManagerService:   handleForegroundChange(). set mFgApp: ru.yandex.uber
+(standard input):54808:11-15 17:29:51.192  4311  4615 D GameManagerService: notifyResumePause(). pkg: ru.yandex.uber, type: 4, isMinimized: false, isTunableApp: false
+(standard input):54811:11-15 17:29:51.193  4311  6606 D GamePkgDataHelper: getSosPolicy(). ru.yandex.uber
+(standard input):54812:11-15 17:29:51.193  4311  4360 D GameManagerService: identifyGamePackage. ru.yandex.uber, mCurrentUserId: 0, callerUserId: 0
+(standard input):54813:11-15 17:29:51.193  4311  4360 D GamePkgDataHelper: getGamePkgData(). ru.yandex.uber
+(standard input):54816:11-15 17:29:51.199 27204 27204 W ru.yandex.uber: resources.arsc in APK '/data/app/ru.yandex.uber-7xTDdpOEnf7oZEWnsuo6EQ==/base.apk' is compressed.
+(standard input):54822:11-15 17:29:51.202  4801  4833 V PermissionManager_FLP: onOpChanged, op=0 / packageName=ru.yandex.uber
+(standard input):54826:11-15 17:29:51.213  4311  4361 D PhoneWindow: forceLight changed to true [Splash Screen ru.yandex.uber] from com.android.internal.policy.PhoneWindow.updateForceLightNavigationBar:4238 com.android.internal.policy.DecorView.updateColorViews:1494 com.android.internal.policy.PhoneWindow.dispatchWindowAttributesChanged:3216 android.view.Window.setFlags:1148 com.android.internal.policy.PhoneWindow.generateLayout:2444 
+(standard input):54827:11-15 17:29:51.213  4311  4361 D PhoneWindow: forceLight changed to false [Splash Screen ru.yandex.uber] from com.android.internal.policy.PhoneWindow.updateForceLightNavigationBar:4244 com.android.internal.policy.DecorView.updateColorViews:1494 com.android.internal.policy.PhoneWindow.dispatchWindowAttributesChanged:3216 android.view.Window.setFlags:1148 com.android.internal.policy.PhoneWindow.generateLayout:2590 
+(standard input):54829:11-15 17:29:51.219  4311  4311 I ApplicationPolicy: isApplicationExternalStorageWhitelisted:ru.yandex.uber user:0
+(standard input):54833:11-15 17:29:51.220  4311  4311 D ActivityManager: package  ru.yandex.uber, user - 0 is SDcard whitelisted
+(standard input):54834:11-15 17:29:51.220  4311  4311 I ApplicationPolicy: isApplicationExternalStorageBlacklisted:ru.yandex.uber user:0
+(standard input):54836:11-15 17:29:51.220  4311  4311 I ApplicationPolicy: isApplicationExternalStorageBlacklisted:ru.yandex.uber user:0
+(standard input):54838:11-15 17:29:51.223  3867  5370 I SurfaceFlinger: createSurf start. lock debugging [8c71fbb Splash Screen ru.yandex.uber]
+(standard input):54839:11-15 17:29:51.223  3867  5370 I SurfaceFlinger: id=11656 createSurf (0x0),-1 flag=80004, 8c71fbb Splash Screen ru.yandex.uber#0
+(standard input):54842:11-15 17:29:51.224  4311  4361 D ViewRootImpl@54ad44a[uber]: setView = com.android.internal.policy.DecorView@e15acd8 TM=true MM=false
+(standard input):54849:11-15 17:29:51.241  4311  4361 V WindowManager: Relayout Window{8c71fbb u0 Splash Screen ru.yandex.uber}: viewVisibility=0 req=720x1560
+(standard input):54850:11-15 17:29:51.244  3867  5370 I SurfaceFlinger: createSurf start. lock debugging [Splash Screen ru.yandex.uber]
+(standard input):54851:11-15 17:29:51.245  3867  5370 I SurfaceFlinger: id=11657 createSurf (720x1560),1 flag=4, Splash Screen ru.yandex.uber#0
+(standard input):54852:11-15 17:29:51.246  4311  4361 D WindowManager: makeSurface duration=2 name=Splash Screen ru.yandex.uber
+(standard input):54857:11-15 17:29:51.249  4311  4361 D ViewRootImpl@54ad44a[uber]: Relayout returned: old=(0,0,720,1560) new=(0,0,720,1560) req=(720,1560)0 dur=9 res=0x7 s={true 487348006912} ch=true
+(standard input):54861:11-15 17:29:51.259  4311  4367 I ActivityManager: Start proc 27226:ru.yandex.uber:Metrica/u0a116 for service {ru.yandex.uber/com.yandex.metrica.ConfigurationJobService}
+(standard input):54863:11-15 17:29:51.263  4311  4361 D WindowManager: finishDrawingWindow: Window{8c71fbb u0 Splash Screen ru.yandex.uber} mDrawState=DRAW_PENDING
+(standard input):54864:11-15 17:29:51.274  4311  4361 V WindowManager: performShow on Window{8c71fbb u0 Splash Screen ru.yandex.uber}: mDrawState=READY_TO_SHOW readyForDisplay=false starting=true during animation: policyVis=true parentHidden=false tok.hiddenRequested=false tok.hidden=true animating=true tok animating=true Callers=com.android.server.wm.WindowState.performShowLocked:4660 com.android.server.wm.WindowStateAnimator.commitFinishDrawingLocked:380 com.android.server.wm.DisplayContent.lambda$new$8$DisplayContent:948 com.android.server.wm.-$$Lambda$DisplayContent$qxt4izS31fb0LF2uo_OF9DMa7gc.accept:4 
+(standard input):54869:11-15 17:29:51.279  4311  4361 I WindowManager: Reparenting to leash, surface=Surface(name=AppWindowToken{3bb5b42 token=Token{da3d8d ActivityRecord{9f75e24 u0 ru.yandex.uber/ru.yandex.taxi.activity.StartActivity t13889}}})/@0x3a4be84
+(standard input):54870:11-15 17:29:51.279  3867  5370 I SurfaceFlinger: createSurf start. lock debugging [Surface(name=AppWindowToken{3bb5b42 token=Token{da3d8d ActivityRecord{9f75e24 u0 ru.yandex.uber/ru.yandex.taxi.activity.StartActivity t13889}}})/@0x3a4be84 - animation-leash]
+(standard input):54871:11-15 17:29:51.280  3867  5370 I SurfaceFlinger: id=11659 createSurf (0x0),-1 flag=80004, Surface(name=AppWindowToken{3bb5b42 token=Token{da3d8d ActivityRecord{9f75e24 u0 ru.yandex.uber/ru.yandex.taxi.activity.StartActivity t13889}}})/@0x3a4be84 - animation-leash#0
+(standard input):54872:11-15 17:29:51.280  4311  4361 D WindowManager: makeSurface duration=2 leash=Surface(name=Surface(name=AppWindowToken{3bb5b42 token=Token{da3d8d ActivityRecord{9f75e24 u0 ru.yandex.uber/ru.yandex.taxi.activity.StartActivity t13889}}})/@0x3a4be84 - animation-leash)/@0xd49866d
+(standard input):54877:11-15 17:29:51.286  4311  4358 D WindowManager: setSystemUiVisibility: displayId=0, vis=0x8008, fullVis=0x0, dockVis=0x0, win=Window{8c71fbb u0 Splash Screen ru.yandex.uber}
+(standard input):54887:11-15 17:29:51.314 27226 27226 E ex.uber:Metric: Not starting debugger since process cannot load the jdwp agent.
+(standard input):54893:11-15 17:29:51.331  3867  3867 I SurfaceFlinger:      CLIENT | 0x71bbf13980 | 0000 | RGBA_8888 |   0.0    0.0  720.0 1560.0 |   83  129  713 1493 | Splash Screen ru.yandex.uber#0
+(standard input):54902:11-15 17:29:51.398  4311  4680 I ActivityManager: DSS OFF for ru.yandex.uber
+(standard input):54906:11-15 17:29:51.407  4311  4684 D MdnieScenarioControlService:  packageName : ru.yandex.uber    className : ru.yandex.taxi.activity.StartActivity
+(standard input):54909:11-15 17:29:51.409  4311  4361 D ViewRootImpl@54ad44a[uber]: MSG_RESIZED: frame=(0,0,720,1560) ci=(0,53,0,84) vi=(0,53,0,84) or=1
+(standard input):54917:11-15 17:29:51.419  4311  6606 I WindowManager: Reparenting to original parent: Surface(name=Task=13889)/@0x7fde78f, destroyLeash=true, surface=Surface(name=AppWindowToken{3bb5b42 token=Token{da3d8d ActivityRecord{9f75e24 u0 ru.yandex.uber/ru.yandex.taxi.activity.StartActivity t13889}}})/@0x3a4be84
+(standard input):54922:11-15 17:29:51.428  3867  5370 I Layer   : id=11659 removeFromCurrentState Surface(name=AppWindowToken{3bb5b42 token=Token{da3d8d ActivityRecord{9f75e24 u0 ru.yandex.uber/ru.yandex.taxi.activity.StartActivity t13889}}})/@0x3a4be84 - animation-leash#0 (246)
+(standard input):54925:11-15 17:29:51.435  3867  3867 E Layer   : [Surface(name=AppWindowToken{3bb5b42 token=Token{da3d8d ActivityRecord{9f75e24 u0 ru.yandex.uber/ru.yandex.taxi.activity.StartActivity t13889}}})/@0x3a4be84 - animation-leash#0] No local sync point found
+(standard input):54930:11-15 17:29:51.444  3867  3867 I SurfaceFlinger:      DEVICE | 0x71bbf13980 | 0000 | RGBA_8888 |   0.0    0.0  720.0 1560.0 |    0    0  720 1560 | Splash Screen ru.yandex.uber#0
+(standard input):54936:11-15 17:29:51.448 27226 27226 I ex.uber:Metric: The ClassLoaderContext is a special shared library.
+(standard input):54946:11-15 17:29:51.463  3867  3917 I SurfaceFlinger: id=11659 Removed Surface(name=AppWindowToken{3bb5b42 token=Token{da3d8d ActivityRecord{9f75e24 u0 ru.yandex.uber/ru.yandex.taxi.activity.StartActivity t13889}}})/@0x3a4be84 - animation-leash#0 (246)
+(standard input):54956:11-15 17:29:51.468  3867  3867 I Layer   : id=11659[1] Destroyed Surface(name=AppWindowToken{3bb5b42 token=Token{da3d8d ActivityRecord{9f75e24 u0 ru.yandex.uber/ru.yandex.taxi.activity.StartActivity t13889}}})/@0x3a4be84 - animation-leash#0
+(standard input):54961:11-15 17:29:51.511 27226 27226 W ex.uber:Metric: resources.arsc in APK '/data/app/ru.yandex.uber-7xTDdpOEnf7oZEWnsuo6EQ==/base.apk' is compressed.
+(standard input):55018:11-15 17:29:52.680  4311  4615 D GameManagerService: handleForegroundChange(). pkgName: ru.yandex.uber, clsName: ru.yandex.taxi.activity.StartActivity,FgActivityName:ru.yandex.uber/ru.yandex.taxi.activity.StartActivity,userID:0
+(standard input):55020:11-15 17:29:52.690 27204 27293 E ru.yandex.uber: Invalid ID 0x00000000.
+(standard input):55021:11-15 17:29:52.696 27204 27293 E ru.yandex.uber: Invalid ID 0x00000000.
+(standard input):55025:11-15 17:29:52.698 27204 27290 I FA      :   adb shell setprop debug.firebase.analytics.app ru.yandex.uber
+(standard input):55026:11-15 17:29:52.702 27204 27293 E ru.yandex.uber: Invalid ID 0x00000000.
+(standard input):55027:11-15 17:29:52.703 27204 27293 E ru.yandex.uber: Invalid ID 0x00000000.
+(standard input):55066:11-15 17:29:53.213  4311  4976 I ActivityTaskManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=ru.yandex.uber/ru.yandex.taxi.activity.MainActivity bnds=[530,918][695,1162]} from uid 10116
+(standard input):55070:11-15 17:29:53.220  3867  5370 I SurfaceFlinger: createSurf start. lock debugging [AppWindowToken{f2d3b4f token=Token{cd891ae ActivityRecord{661da29 u0 ru.yandex.uber/ru.yandex.taxi.activity.MainActivity t13889}}}]
+(standard input):55071:11-15 17:29:53.221  3867  5370 I SurfaceFlinger: id=11661 createSurf (0x0),-1 flag=80004, AppWindowToken{f2d3b4f token=Token{cd891ae ActivityRecord{661da29 u0 ru.yandex.uber/ru.yandex.taxi.activity.MainActivity t13889}}}#0
+(standard input):55072:11-15 17:29:53.225  4311  4358 D WindowManager: setSystemUiVisibility: displayId=0, vis=0x8008, fullVis=0x0, dockVis=0x0, win=Window{8c71fbb u0 Splash Screen ru.yandex.uber}
+(standard input):55073:11-15 17:29:53.228  4311  4361 D ViewRootImpl@54ad44a[uber]: MSG_RESIZED: frame=(0,0,720,1560) ci=(0,53,0,84) vi=(0,53,0,84) or=1
+(standard input):55084:11-15 17:29:53.273  4311  6523 D GamePkgDataHelper: notifyAppCreate(), pkgName: ru.yandex.uber, sendRet: true
+(standard input):55085:11-15 17:29:53.274  4311  4615 D GamePkgDataHelper: getGamePkgData(). ru.yandex.uber
+(standard input):55086:11-15 17:29:53.274  4311  4615 D GameManagerService: handleMessage(), MSG_APP_CREATE. ignore. pkgName: ru.yandex.uber
+(standard input):55088:11-15 17:29:53.275  4311  6523 D MARsPolicyManager: onPackageResumedFG pkgName = ru.yandex.uber, userId = 0
+(standard input):55095:11-15 17:29:53.312  4311  4360 D GameManagerService: noteResumeComponent(), resumeComponent: ru.yandex.uber
+(standard input):55096:11-15 17:29:53.312  4311  4615 D GameManagerService: handleForegroundChange(). pkgName: ru.yandex.uber, clsName: ru.yandex.taxi.activity.MainActivity,FgActivityName:ru.yandex.uber/ru.yandex.taxi.activity.MainActivity,userID:0
+(standard input):55137:11-15 17:29:53.857  4311  4680 I ApplicationPolicy: isApplicationExternalStorageWhitelisted:ru.yandex.uber user:0
+(standard input):55139:11-15 17:29:53.857  4311  4680 D ActivityManager: package  ru.yandex.uber, user - 0 is SDcard whitelisted
+(standard input):55140:11-15 17:29:53.857  4311  4680 I ApplicationPolicy: isApplicationExternalStorageBlacklisted:ru.yandex.uber user:0
+(standard input):55142:11-15 17:29:53.857  4311  4680 I ApplicationPolicy: isApplicationExternalStorageBlacklisted:ru.yandex.uber user:0
+(standard input):55144:11-15 17:29:53.858  4311  4680 W ActivityManager: wait for provider publish: waiters=1 callerApp=ProcessRecord{56216ac 27204:ru.yandex.uber/u0a116} cpr=ContentProviderRecord{2479ac3 u0 ru.yandex.uber/com.yandex.passport.internal.provider.InternalProvider}
+(standard input):55146:11-15 17:29:53.880  4311  4367 I ActivityManager: Start proc 27387:ru.yandex.uber:passport/u0a116 for content provider {ru.yandex.uber/com.yandex.passport.internal.provider.InternalProvider}
+(standard input):55159:11-15 17:29:53.909 27387 27387 E x.uber:passpor: Not starting debugger since process cannot load the jdwp agent.
+(standard input):55164:11-15 17:29:53.924  4311  6600 I ActivityManager: DSS OFF for ru.yandex.uber
+(standard input):55165:11-15 17:29:53.943  4311  6600 D PackageManager: setEnabledSetting : userId = 0 packageName = ru.yandex.uber cmp = androidx.work.impl.background.systemjob.SystemJobService newState = 1 callingPackage = 10116/ru.yandex.uber
+(standard input):55166:11-15 17:29:53.961 27387 27387 I x.uber:passpor: The ClassLoaderContext is a special shared library.
+(standard input):55176:11-15 17:29:54.024 27204 27385 I chatty  : uid=10116(ru.yandex.uber) RxIoScheduler-4 identical 1 line
+(standard input):55182:11-15 17:29:54.040 27387 27387 W x.uber:passpor: resources.arsc in APK '/data/app/ru.yandex.uber-7xTDdpOEnf7oZEWnsuo6EQ==/base.apk' is compressed.
+(standard input):55210:11-15 17:29:54.133  4311  7356 D PackageManager: setEnabledSetting : userId = 0 packageName = ru.yandex.uber cmp = androidx.work.impl.background.systemalarm.RescheduleReceiver newState = 1 callingPackage = 10116/ru.yandex.uber
+(standard input):55212:11-15 17:29:54.145  4311  7167 D LocationManagerService: request 81257e9 passive Request[POWER_NONE passive fastest=0] from ru.yandex.uber(10116 foreground)
+(standard input):55218:11-15 17:29:54.176  4801  4833 V ListenerMonitor_FLP: addListener, type=LOCATION, packageName=ru.yandex.uber, listenerId=81257e9, size=1
+(standard input):55222:11-15 17:29:54.181  4801  4833 V RequestManager_FLP: success addListener, packageName : ru.yandex.uber , listenerId : 81257e9
+(standard input):55224:11-15 17:29:54.182  4801  4833 E RequestManager_FLP: [LocationManager] Location request  81257e9(Listener) passive interval=0 from ru.yandex.uber (10116 foreground)
+(standard input):55228:11-15 17:29:54.198 27204 27216 I ru.yandex.uber: Background concurrent copying GC freed 46071(2487KB) AllocSpace objects, 27(596KB) LOS objects, 49% free, 6269KB/12MB, paused 340us total 185.787ms
+(standard input):55239:11-15 17:29:54.220  4311  5068 D LocationManagerService: request f12cd2b passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.uber(10116 foreground)
+(standard input):55240:11-15 17:29:54.221 27204 27429 I updatesdk: UpdateSDK version is: 2.0.7.302 ,flavor: envrelease ,pkgName: ru.yandex.uber
+(standard input):55242:11-15 17:29:54.221  4801  4833 V ListenerMonitor_FLP: addListener, type=LOCATION, packageName=ru.yandex.uber, listenerId=f12cd2b, size=2
+(standard input):55243:11-15 17:29:54.221  4801  4833 V RequestManager_FLP: success addListener, packageName : ru.yandex.uber , listenerId : f12cd2b
+(standard input):55244:11-15 17:29:54.222  4801  4833 E RequestManager_FLP: [LocationManager] Location request  f12cd2b(Listener) passive interval=1000 from ru.yandex.uber (10116 foreground)
+(standard input):55247:11-15 17:29:54.231  4311  7356 D LocationManagerService: request f12cd2b passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.uber(10116 foreground)
+(standard input):55252:11-15 17:29:54.238  4801  4833 V RequestManager_FLP: success addListener, packageName : ru.yandex.uber , listenerId : f12cd2b
+(standard input):55253:11-15 17:29:54.238  4801  4833 E RequestManager_FLP: [LocationManager] Location request  f12cd2b(Listener) passive interval=1000 from ru.yandex.uber (10116 foreground)
+(standard input):55256:11-15 17:29:54.248  4311  7167 E WifiService: Permission violation - getScanResults not allowed for uid=10116, packageName=ru.yandex.uber, reason=java.lang.SecurityException: Location mode is disabled for the device
+(standard input):55258:11-15 17:29:54.265  4311  7167 D LocationManagerService: request f12cd2b passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.uber(10116 foreground)
+(standard input):55261:11-15 17:29:54.267  4801  4833 V RequestManager_FLP: success addListener, packageName : ru.yandex.uber , listenerId : f12cd2b
+(standard input):55262:11-15 17:29:54.267  4801  4833 E RequestManager_FLP: [LocationManager] Location request  f12cd2b(Listener) passive interval=1000 from ru.yandex.uber (10116 foreground)
+(standard input):55268:11-15 17:29:54.290  4311  7168 D LocationManagerService: request f12cd2b passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.uber(10116 foreground)
+(standard input):55271:11-15 17:29:54.292  4801  4833 V RequestManager_FLP: success addListener, packageName : ru.yandex.uber , listenerId : f12cd2b
+(standard input):55272:11-15 17:29:54.292  4801  4833 E RequestManager_FLP: [LocationManager] Location request  f12cd2b(Listener) passive interval=1000 from ru.yandex.uber (10116 foreground)
+(standard input):55279:11-15 17:29:54.307  4311  7356 D LocationManagerService: request f12cd2b passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.uber(10116 foreground)
+(standard input):55283:11-15 17:29:54.310  4801  4833 V RequestManager_FLP: success addListener, packageName : ru.yandex.uber , listenerId : f12cd2b
+(standard input):55284:11-15 17:29:54.310  4801  4833 E RequestManager_FLP: [LocationManager] Location request  f12cd2b(Listener) passive interval=1000 from ru.yandex.uber (10116 foreground)
+(standard input):55289:11-15 17:29:54.333  4311  7167 D LocationManagerService: request f12cd2b passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.uber(10116 foreground)
+(standard input):55292:11-15 17:29:54.335  4801  4833 V RequestManager_FLP: success addListener, packageName : ru.yandex.uber , listenerId : f12cd2b
+(standard input):55293:11-15 17:29:54.335  4801  4833 E RequestManager_FLP: [LocationManager] Location request  f12cd2b(Listener) passive interval=1000 from ru.yandex.uber (10116 foreground)
+(standard input):55297:11-15 17:29:54.354  4311  5068 D LocationManagerService: request f12cd2b passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.uber(10116 foreground)
+(standard input):55300:11-15 17:29:54.355  4801  4833 V RequestManager_FLP: success addListener, packageName : ru.yandex.uber , listenerId : f12cd2b
+(standard input):55301:11-15 17:29:54.355  4801  4833 E RequestManager_FLP: [LocationManager] Location request  f12cd2b(Listener) passive interval=1000 from ru.yandex.uber (10116 foreground)
+(standard input):55303:11-15 17:29:54.371  4311  4680 D LocationManagerService: request f12cd2b passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.uber(10116 foreground)
+(standard input):55306:11-15 17:29:54.374  4801  4833 V RequestManager_FLP: success addListener, packageName : ru.yandex.uber , listenerId : f12cd2b
+(standard input):55307:11-15 17:29:54.374  4801  4833 E RequestManager_FLP: [LocationManager] Location request  f12cd2b(Listener) passive interval=1000 from ru.yandex.uber (10116 foreground)
+(standard input):55312:11-15 17:29:54.387  4311  7168 D LocationManagerService: request f12cd2b passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.uber(10116 foreground)
+(standard input):55315:11-15 17:29:54.389  4801  4833 V RequestManager_FLP: success addListener, packageName : ru.yandex.uber , listenerId : f12cd2b
+(standard input):55316:11-15 17:29:54.389  4801  4833 E RequestManager_FLP: [LocationManager] Location request  f12cd2b(Listener) passive interval=1000 from ru.yandex.uber (10116 foreground)
+(standard input):55325:11-15 17:29:54.397  3867  4302 I SurfaceFlinger: createSurf start. lock debugging [c06be85 ru.yandex.uber/ru.yandex.taxi.activity.MainActivity]
+(standard input):55326:11-15 17:29:54.398  3867  4302 I SurfaceFlinger: id=11662 createSurf (0x0),-1 flag=80004, c06be85 ru.yandex.uber/ru.yandex.taxi.activity.MainActivity#0
+(standard input):55330:11-15 17:29:54.406  4311  7167 D LocationManagerService: request f12cd2b passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.uber(10116 foreground)
+(standard input):55334:11-15 17:29:54.407  4801  4833 V RequestManager_FLP: success addListener, packageName : ru.yandex.uber , listenerId : f12cd2b
+(standard input):55335:11-15 17:29:54.408  4801  4833 E RequestManager_FLP: [LocationManager] Location request  f12cd2b(Listener) passive interval=1000 from ru.yandex.uber (10116 foreground)
+(standard input):55341:11-15 17:29:54.411  4311  7168 D LocationManagerService: request f12cd2b passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.uber(10116 foreground)
+(standard input):55344:11-15 17:29:54.413  4801  4833 V RequestManager_FLP: success addListener, packageName : ru.yandex.uber , listenerId : f12cd2b
+(standard input):55345:11-15 17:29:54.413  4801  4833 E RequestManager_FLP: [LocationManager] Location request  f12cd2b(Listener) passive interval=1000 from ru.yandex.uber (10116 foreground)
+(standard input):55355:11-15 17:29:54.428  4311  4680 D LocationManagerService: request f12cd2b passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.uber(10116 foreground)
+(standard input):55360:11-15 17:29:54.433  4801  4833 V RequestManager_FLP: success addListener, packageName : ru.yandex.uber , listenerId : f12cd2b
+(standard input):55361:11-15 17:29:54.433  4801  4833 E RequestManager_FLP: [LocationManager] Location request  f12cd2b(Listener) passive interval=1000 from ru.yandex.uber (10116 foreground)
+(standard input):55376:11-15 17:29:54.437 27204 27429 I updatesdk: UpdateSDK version is: 2.0.7.302 ,flavor: envrelease ,pkgName: ru.yandex.uber
+(standard input):55400:11-15 17:29:54.469 27387 27480 I FA      :   adb shell setprop debug.firebase.analytics.app ru.yandex.uber
+(standard input):55413:11-15 17:29:54.513  4311  7167 D LocationManagerService: request f12cd2b passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.uber(10116 foreground)
+(standard input):55416:11-15 17:29:54.515  4801  4833 V RequestManager_FLP: success addListener, packageName : ru.yandex.uber , listenerId : f12cd2b
+(standard input):55417:11-15 17:29:54.515  4801  4833 E RequestManager_FLP: [LocationManager] Location request  f12cd2b(Listener) passive interval=1000 from ru.yandex.uber (10116 foreground)
+(standard input):55427:11-15 17:29:54.539  4311  5068 D LocationManagerService: request f12cd2b passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.uber(10116 foreground)
+(standard input):55432:11-15 17:29:54.544  4801  4833 V RequestManager_FLP: success addListener, packageName : ru.yandex.uber , listenerId : f12cd2b
+(standard input):55433:11-15 17:29:54.544  4801  4833 E RequestManager_FLP: [LocationManager] Location request  f12cd2b(Listener) passive interval=1000 from ru.yandex.uber (10116 foreground)
+(standard input):55437:11-15 17:29:54.559  4311  6948 D LocationManagerService: request f12cd2b passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.uber(10116 foreground)
+(standard input):55439:11-15 17:29:54.561  4801  4833 V RequestManager_FLP: success addListener, packageName : ru.yandex.uber , listenerId : f12cd2b
+(standard input):55440:11-15 17:29:54.561  4801  4833 E RequestManager_FLP: [LocationManager] Location request  f12cd2b(Listener) passive interval=1000 from ru.yandex.uber (10116 foreground)
+(standard input):55465:11-15 17:29:54.637  4311  7361 D LocationManagerService: request f12cd2b passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.uber(10116 foreground)
+(standard input):55468:11-15 17:29:54.639  4801  4833 V RequestManager_FLP: success addListener, packageName : ru.yandex.uber , listenerId : f12cd2b
+(standard input):55469:11-15 17:29:54.639  4801  4833 E RequestManager_FLP: [LocationManager] Location request  f12cd2b(Listener) passive interval=1000 from ru.yandex.uber (10116 foreground)
+(standard input):55471:11-15 17:29:54.685 27226 27260 I chatty  : uid=10116(ru.yandex.uber) YMM-NC-10 identical 2 lines
+(standard input):55483:11-15 17:29:54.745 27226 27238 I ex.uber:Metric: Background concurrent copying GC freed 16885(1559KB) AllocSpace objects, 16(1088KB) LOS objects, 49% free, 2455KB/4910KB, paused 96us total 105.245ms
+(standard input):55487:11-15 17:29:54.755  4311  5068 D LocationManagerService: request f12cd2b passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.uber(10116 foreground)
+(standard input):55489:11-15 17:29:54.758  4801  4833 V RequestManager_FLP: success addListener, packageName : ru.yandex.uber , listenerId : f12cd2b
+(standard input):55490:11-15 17:29:54.758  4801  4833 E RequestManager_FLP: [LocationManager] Location request  f12cd2b(Listener) passive interval=1000 from ru.yandex.uber (10116 foreground)
+(standard input):55496:11-15 17:29:54.770 27387 27412 W x.uber:passpor: Long monitor contention with owner Thread-7 (27497) at long android.database.sqlite.SQLiteConnection.nativeOpen(java.lang.String, int, java.lang.String, boolean, boolean, int, int)(SQLiteConnection.java:-2) waiters=1 in com.yandex.passport.a.c com.yandex.passport.a.d.a.f.a() for 373ms
+(standard input):55498:11-15 17:29:54.790  4311  4346 D LocationManagerService: request f12cd2b passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.uber(10116 foreground)
+(standard input):55501:11-15 17:29:54.792  4801  4833 V RequestManager_FLP: success addListener, packageName : ru.yandex.uber , listenerId : f12cd2b
+(standard input):55502:11-15 17:29:54.792  4801  4833 E RequestManager_FLP: [LocationManager] Location request  f12cd2b(Listener) passive interval=1000 from ru.yandex.uber (10116 foreground)
+(standard input):55532:11-15 17:29:54.932 27387 27497 W x.uber:passpor: Long monitor contention with owner Binder:27387_1 (27411) at com.yandex.passport.a.c com.yandex.passport.a.d.a.f.a()(SourceFile:-1) waiters=1 in com.yandex.passport.a.c com.yandex.passport.a.d.a.f.a() for 326ms
+(standard input):55547:11-15 17:29:55.024 27204 27216 I ru.yandex.uber: Background concurrent copying GC freed 96479(5512KB) AllocSpace objects, 37(1392KB) LOS objects, 49% free, 13MB/26MB, paused 1.981ms total 208.782ms
+(standard input):55614:11-15 17:29:55.463  4311  6518 V WindowManager: Relayout Window{c06be85 u0 ru.yandex.uber/ru.yandex.taxi.activity.MainActivity}: viewVisibility=0 req=720x1560
+(standard input):55615:11-15 17:29:55.470  3867  4302 I SurfaceFlinger: createSurf start. lock debugging [ru.yandex.uber/ru.yandex.taxi.activity.MainActivity$_27204]
+(standard input):55616:11-15 17:29:55.471  3867  4302 I SurfaceFlinger: id=11663 createSurf (720x1560),1 flag=4, ru.yandex.uber/ru.yandex.taxi.activity.MainActivity$_27204#0
+(standard input):55617:11-15 17:29:55.473  4311  6518 D WindowManager: makeSurface duration=3 name=ru.yandex.uber/ru.yandex.taxi.activity.MainActivity$_27204
+(standard input):55618:11-15 17:29:55.481  4311  6518 V WindowManager: Changing focus from null to Window{c06be85 u0 ru.yandex.uber/ru.yandex.taxi.activity.MainActivity} displayId=0 Callers=com.android.server.wm.RootWindowContainer.updateFocusedWindowLocked:203 com.android.server.wm.WindowManagerService.updateFocusedWindowLocked:6107 com.android.server.wm.WindowManagerService.relayoutWindow:2554 com.android.server.wm.Session.relayout:202 android.view.IWindowSession$Stub.onTransact:708 com.android.server.wm.Session.onTransact:142 
+(standard input):55620:11-15 17:29:55.482  4311  4358 D WindowManager: setSystemUiVisibility: displayId=0, vis=0x8608, fullVis=0x0, dockVis=0x0, win=Window{c06be85 u0 ru.yandex.uber/ru.yandex.taxi.activity.MainActivity}
+(standard input):56027:11-15 17:29:55.784  4311  5068 D WindowManager: finishDrawingWindow: Window{c06be85 u0 ru.yandex.uber/ru.yandex.taxi.activity.MainActivity} mDrawState=DRAW_PENDING
+(standard input):56034:11-15 17:29:55.826  3867  3867 I SurfaceFlinger:      DEVICE | 0x71d9ed5180 | 0000 | RGBA_8888 |   0.0    0.0  720.0 1560.0 |    0    0  720 1560 | ru.yandex.uber/ru.yandex.taxi.activity.MainActivity$_27204#0
+(standard input):56035:11-15 17:29:55.826  3867  3867 I SurfaceFlinger:      DEVICE | 0x71bbf13980 | 0000 | RGBA_8888 |   0.0    0.0  720.0 1560.0 |    0    0  720 1560 | Splash Screen ru.yandex.uber#0
+(standard input):56041:11-15 17:29:55.829  4311  4361 D ViewRootImpl@54ad44a[uber]: dispatchDetachedFromWindow
+(standard input):56043:11-15 17:29:55.837  4311  4361 I WindowManager: Reparenting to leash, surface=Surface(name=8c71fbb Splash Screen ru.yandex.uber)/@0xc24c25a
+(standard input):56044:11-15 17:29:55.838  3867  4302 I SurfaceFlinger: createSurf start. lock debugging [Surface(name=8c71fbb Splash Screen ru.yandex.uber)/@0xc24c25a - animation-leash]
+(standard input):56045:11-15 17:29:55.839  4311  4365 I ActivityTaskManager: Displayed ru.yandex.uber/ru.yandex.taxi.activity.MainActivity: +4s879ms
+(standard input):56046:11-15 17:29:55.839  3867  4302 I SurfaceFlinger: id=11664 createSurf (0x0),-1 flag=80004, Surface(name=8c71fbb Splash Screen ru.yandex.uber)/@0xc24c25a - animation-leash#0
+(standard input):56047:11-15 17:29:55.840  4311  4361 D WindowManager: makeSurface duration=3 leash=Surface(name=Surface(name=8c71fbb Splash Screen ru.yandex.uber)/@0xc24c25a - animation-leash)/@0xa7a5c8b
+(standard input):56051:11-15 17:29:55.903  4311  4361 I WindowManager: Reparenting to original parent: Surface(name=AppWindowToken{f2d3b4f token=Token{cd891ae ActivityRecord{661da29 u0 ru.yandex.uber/ru.yandex.taxi.activity.MainActivity t13889}}})/@0xb5caa26, destroyLeash=true, surface=Surface(name=8c71fbb Splash Screen ru.yandex.uber)/@0xc24c25a
+(standard input):56054:11-15 17:29:55.926  4311  4361 E WindowManager: win=Window{8c71fbb u0 Splash Screen ru.yandex.uber EXITING} destroySurfaces: appStopped=false win.mWindowRemovalAllowed=true win.mRemoveOnExit=true win.mViewVisibility=0 caller=com.android.server.wm.AppWindowToken.destroySurfaces:1199 com.android.server.wm.AppWindowToken.destroySurfaces:1180 com.android.server.wm.WindowState.onExitAnimationDone:5030 com.android.server.wm.WindowStateAnimator.onAnimationFinished:287 com.android.server.wm.WindowState.onAnimationFinished:5471 com.android.server.wm.-$$Lambda$yVRF8YoeNdTa8GR1wDStVsHu8xM.run:2 com.android.server.wm.SurfaceAnimator.lambda$getFinishedCallback$0$SurfaceAnimator:100 
+(standard input):56058:11-15 17:29:55.928  3867  3867 I SurfaceFlinger:      DEVICE | 0x71d9ed5180 | 0000 | RGBA_8888 |   0.0    0.0  720.0 1560.0 |    0    0  720 1560 | ru.yandex.uber/ru.yandex.taxi.activity.MainActivity$_27204#0
+(standard input):56064:11-15 17:29:55.929  4311  4361 I WindowManager: Destroying surface Surface(name=Splash Screen ru.yandex.uber)/@0x1b03667 called by com.android.server.wm.WindowStateAnimator.destroySurface:1734 com.android.server.wm.WindowStateAnimator.destroySurfaceLocked:693 com.android.server.wm.WindowState.destroySurfaceUnchecked:3482 com.android.server.wm.WindowState.destroySurface:3456 com.android.server.wm.AppWindowToken.destroySurfaces:1199 com.android.server.wm.AppWindowToken.destroySurfaces:1180 com.android.server.wm.WindowState.onExitAnimationDone:5030 com.android.server.wm.WindowStateAnimator.onAnimationFinished:287 
+(standard input):56065:11-15 17:29:55.930  3867  3918 I Layer   : id=11657 removeFromCurrentState Splash Screen ru.yandex.uber#0 (247)
+(standard input):56066:11-15 17:29:55.937  3867  4302 I Layer   : id=11656 removeFromCurrentState 8c71fbb Splash Screen ru.yandex.uber#0 (247)
+(standard input):56067:11-15 17:29:55.937  3867  4302 I Layer   : id=11664 removeFromCurrentState Surface(name=8c71fbb Splash Screen ru.yandex.uber)/@0xc24c25a - animation-leash#0 (247)
+(standard input):56068:11-15 17:29:55.939  3867  4302 I SurfaceFlinger: id=11656 Removed 8c71fbb Splash Screen ru.yandex.uber#0 (247)
+(standard input):56069:11-15 17:29:55.939  3867  4302 I SurfaceFlinger: id=11664 Removed Surface(name=8c71fbb Splash Screen ru.yandex.uber)/@0xc24c25a - animation-leash#0 (247)
+(standard input):56070:11-15 17:29:55.939  3867  4302 I SurfaceFlinger: id=11657 Removed Splash Screen ru.yandex.uber#0 (247)
+(standard input):56071:11-15 17:29:55.947  3867  3867 I Layer   : id=11664[1] Destroyed Surface(name=8c71fbb Splash Screen ru.yandex.uber)/@0xc24c25a - animation-leash#0
+(standard input):56072:11-15 17:29:55.947  3867  3867 I Layer   : id=11656[1] Destroyed 8c71fbb Splash Screen ru.yandex.uber#0
+(standard input):56073:11-15 17:29:55.947  3867  3867 I Layer   : id=11657[1] Destroyed Splash Screen ru.yandex.uber#0
+(standard input):56082:11-15 17:29:56.006 27387 27406 I x.uber:passpor: Background concurrent copying GC freed 153383(9488KB) AllocSpace objects, 48(4924KB) LOS objects, 49% free, 3646KB/7292KB, paused 219us total 111.074ms
+(standard input):56146:11-15 17:29:56.245 27204 27204 V InputMethodManager: Starting input: tba=ru.yandex.uber ic=null mNaviBarColor 0 mIsGetNaviBarColorSuccess true , NavVisible : true , NavTrans : false
+(standard input):56235:11-15 17:29:56.437 27204 27429 I updatesdk: UpdateSDK version is: 2.0.7.302 ,flavor: envrelease ,pkgName: ru.yandex.uber
+(standard input):56248:11-15 17:29:56.467  4311  4346 V WindowManager: Changing focus from Window{c06be85 u0 ru.yandex.uber/ru.yandex.taxi.activity.MainActivity} to null displayId=0 Callers=com.android.server.wm.RootWindowContainer.updateFocusedWindowLocked:203 com.android.server.wm.WindowManagerService.updateFocusedWindowLocked:6107 com.android.server.wm.ActivityDisplay.setFocusedApp:1529 com.android.server.wm.ActivityTaskManagerService.setResumedActivityUncheckLocked:6719 com.android.server.wm.ActivityStack.onActivityStateChanged:642 com.android.server.wm.TaskRecord.onActivityStateChanged:2216 
+(standard input):56255:11-15 17:29:56.492 27204 27204 V InputMethodManager: Starting input: tba=ru.yandex.uber ic=null mNaviBarColor 0 mIsGetNaviBarColorSuccess true , NavVisible : true , NavTrans : false
+(standard input):56676:11-15 17:29:56.852  3867  4302 I Layer   : id=11655 removeFromCurrentState AppWindowToken{3bb5b42 token=Token{da3d8d ActivityRecord{9f75e24 u0 ru.yandex.uber/ru.yandex.taxi.activity.StartActivity t13889}}}#0 (245)
+(standard input):56677:11-15 17:29:56.854  3867  5370 I SurfaceFlinger: id=11655 Removed AppWindowToken{3bb5b42 token=Token{da3d8d ActivityRecord{9f75e24 u0 ru.yandex.uber/ru.yandex.taxi.activity.StartActivity t13889}}}#0 (245)
+(standard input):56678:11-15 17:29:56.862  3867  3867 I Layer   : id=11655[1] Destroyed AppWindowToken{3bb5b42 token=Token{da3d8d ActivityRecord{9f75e24 u0 ru.yandex.uber/ru.yandex.taxi.activity.StartActivity t13889}}}#0
+(standard input):56727:11-15 17:29:57.352 27204 27216 I ru.yandex.uber: Background concurrent copying GC freed 239612(12MB) AllocSpace objects, 67(5492KB) LOS objects, 49% free, 10MB/20MB, paused 361us total 165.164ms
+(standard input):56734:11-15 17:29:57.371 25771 25771 D BadgeCountReceiver: packageName: ru.yandex.uber, className: ru.yandex.taxi.activity.StartActivity, count: 0
+(standard input):56968:11-15 17:29:58.214 27204 27216 I ru.yandex.uber: ThreadFlipBegin blocked for 24.830ms
+(standard input):56970:11-15 17:29:58.333 27204 27216 I ru.yandex.uber: Background concurrent copying GC freed 118087(6208KB) AllocSpace objects, 44(5936KB) LOS objects, 49% free, 10MB/21MB, paused 254us total 152.589ms
+(standard input):57269:11-15 17:30:00.787  3867  3867 I SurfaceFlinger:      DEVICE | 0x71bbf13700 | 0000 | RGBA_8888 |   0.0    0.0  720.0 1560.0 |    0    0  720 1560 | ru.yandex.uber/ru.yandex.taxi.activity.MainActivity$_27204#0
+(standard input):57281:11-15 17:30:00.801  3867  3867 I SurfaceFlinger:      DEVICE | 0x71d9ed5180 | 0000 | RGBA_8888 |   0.0    0.0  720.0 1560.0 |    0    0  720 1560 | ru.yandex.uber/ru.yandex.taxi.activity.MainActivity$_27204#0
+(standard input):57298:11-15 17:30:00.830  3867  3867 I SurfaceFlinger:      DEVICE | 0x71d9ed5180 | 0000 | RGBA_8888 |   0.0    0.0  720.0 1560.0 |    0    0  720 1560 | ru.yandex.uber/ru.yandex.taxi.activity.MainActivity$_27204#0
+(standard input):57375:11-15 17:30:01.288  4801  4833 V ListenerMonitor_FLP: removeListener, type : LOCATION , packageName : ru.yandex.uber , listener count : 1
+(standard input):57376:11-15 17:30:01.289  4801  4833 E RequestManager_FLP: [LocationManager] Location remove f12cd2b from ru.yandex.uber
+(standard input):57725:11-15 17:30:03.133  4311  4358 D WindowManager: setSystemUiVisibility: displayId=0, vis=0x8608, fullVis=0x0, dockVis=0x0, win=Window{c06be85 u0 ru.yandex.uber/ru.yandex.taxi.activity.MainActivity}
+(standard input):57736:11-15 17:30:03.149  3867  3867 I SurfaceFlinger:      DEVICE | 0x71d9ed5180 | 0000 | RGBA_8888 |   0.0    0.0  720.0 1560.0 |    0    0  720 1560 | ru.yandex.uber/ru.yandex.taxi.activity.MainActivity$_27204#0
+(standard input):57750:11-15 17:30:03.157  4311  7359 V WindowManager: Changing focus from null to Window{c06be85 u0 ru.yandex.uber/ru.yandex.taxi.activity.MainActivity} displayId=0 Callers=com.android.server.wm.RootWindowContainer.updateFocusedWindowLocked:203 com.android.server.wm.WindowManagerService.updateFocusedWindowLocked:6107 com.android.server.wm.ActivityDisplay.setFocusedApp:1529 com.android.server.wm.ActivityTaskManagerService.setResumedActivityUncheckLocked:6719 com.android.server.wm.ActivityStack.onActivityStateChanged:642 com.android.server.wm.TaskRecord.onActivityStateChanged:2216 
+(standard input):57762:11-15 17:30:03.166  4311  7359 D MARsPolicyManager: onPackageResumedFG pkgName = ru.yandex.uber, userId = 0
+(standard input):57794:11-15 17:30:03.229  4311  6513 D LocationManagerService: request 693341a passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.uber(10116 foreground)
+(standard input):57802:11-15 17:30:03.245  4311  4360 D GameManagerService: noteResumeComponent(), resumeComponent: ru.yandex.uber
+(standard input):57803:11-15 17:30:03.246  4311  4360 D GamePkgDataHelper: getSosPolicy(). ru.yandex.uber
+(standard input):57804:11-15 17:30:03.246  4311  4360 D GameManagerService: identifyGamePackage. ru.yandex.uber, mCurrentUserId: 0, callerUserId: 0
+(standard input):57805:11-15 17:30:03.246  4311  4360 D GamePkgDataHelper: getGamePkgData(). ru.yandex.uber
+(standard input):57806:11-15 17:30:03.246  4311  4615 D GameManagerService: handleForegroundChange(). pkgName: ru.yandex.uber, clsName: ru.yandex.taxi.activity.MainActivity,FgActivityName:ru.yandex.uber/ru.yandex.taxi.activity.MainActivity,userID:0
+(standard input):57807:11-15 17:30:03.246  4311  4615 D GameManagerService:   handleForegroundChange(). set mFgApp: ru.yandex.uber
+(standard input):57808:11-15 17:30:03.247  4311  4615 D GameManagerService: notifyResumePause(). pkg: ru.yandex.uber, type: 4, isMinimized: false, isTunableApp: false
+(standard input):57811:11-15 17:30:03.248  4311  6590 D GamePkgDataHelper: getSosPolicy(). ru.yandex.uber
+(standard input):57812:11-15 17:30:03.249  4311  6513 D LocationManagerService: request 693341a passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.uber(10116 foreground)
+(standard input):57822:11-15 17:30:03.314  3867  3867 I SurfaceFlinger:      DEVICE | 0x71d9ed5180 | 0000 | RGBA_8888 |   0.0    0.0  720.0 1560.0 |    0    0  720 1560 | ru.yandex.uber/ru.yandex.taxi.activity.MainActivity$_27204#0
+(standard input):57926:11-15 17:30:03.417  3867  3867 I SurfaceFlinger:      DEVICE | 0x71d9ed5180 | 0000 | RGBA_8888 |   0.0    0.0  720.0 1560.0 |    0    0  720 1560 | ru.yandex.uber/ru.yandex.taxi.activity.MainActivity$_27204#0
+(standard input):57945:11-15 17:30:03.435  3867  3867 I SurfaceFlinger:      DEVICE | 0x71d9ed5180 | 0000 | RGBA_8888 |   0.0    0.0  720.0 1560.0 |    0    0  720 1560 | ru.yandex.uber/ru.yandex.taxi.activity.MainActivity$_27204#0
+(standard input):57978:11-15 17:30:03.470  4801  4833 V ListenerMonitor_FLP: addListener, type=LOCATION, packageName=ru.yandex.uber, listenerId=693341a, size=2
+(standard input):57979:11-15 17:30:03.470  4801  4833 V RequestManager_FLP: success addListener, packageName : ru.yandex.uber , listenerId : 693341a
+(standard input):57980:11-15 17:30:03.471  4801  4833 E RequestManager_FLP: [LocationManager] Location request  693341a(Listener) passive interval=1000 from ru.yandex.uber (10116 foreground)
+(standard input):57982:11-15 17:30:03.471  4801  4833 V RequestManager_FLP: success addListener, packageName : ru.yandex.uber , listenerId : 693341a
+(standard input):57983:11-15 17:30:03.471  4801  4833 E RequestManager_FLP: [LocationManager] Location request  693341a(Listener) passive interval=1000 from ru.yandex.uber (10116 foreground)
+(standard input):58067:11-15 17:30:03.621  4801  4833 V PermissionManager_FLP: checkLocationAccess for ru.yandex.uber[GMS_FUSED,3600000,100], result is true
+(standard input):58068:11-15 17:30:03.621  4801  4833 E RequestManager_FLP: [FusedLocationApi] Location request  8ac6170(Listener) PRIORITY_HIGH_ACCURACY interval=3600000 from ru.yandex.uber (10116 foreground)
+(standard input):58089:11-15 17:30:03.627  4311  4541 I WifiScanController: scan requested by ru.yandex.uber
+(standard input):58159:11-15 17:30:03.745  4311  4358 D CodecSolution: isMaxAspectPackageEx: ru.yandex.uber : false(0)
+(standard input):58198:11-15 17:30:03.870  4311  4684 D MdnieScenarioControlService:  packageName : ru.yandex.uber    className : ru.yandex.taxi.activity.MainActivity
+(standard input):58298:11-15 17:30:04.162  4801  4833 V AppState_FLP: Success to save #1 snapshot in appStateMap, time=145373061 / appList=ru.yandex.uber[GMS_FUSED,3600000,100]]
+(standard input):58379:11-15 17:30:04.476  4311  4311 D GameManagerService: identifyGamePackage. ru.yandex.uber, mCurrentUserId: 0, callerUserId: 0
+(standard input):58380:11-15 17:30:04.476  4311  4311 D GamePkgDataHelper: getGamePkgData(). ru.yandex.uber
+(standard input):58383:11-15 17:30:04.480  4311  4311 D GameManagerService: identifyGamePackage. ru.yandex.uber, mCurrentUserId: 0, callerUserId: 0
+(standard input):58384:11-15 17:30:04.480  4311  4311 D GamePkgDataHelper: getGamePkgData(). ru.yandex.uber
+(standard input):59840:11-15 17:30:07.047  4801  4833 V NlpMonitor_FLP: monitorNlp, package=ru.yandex.uber/ interval=3600000
+(standard input):59897:11-15 17:30:07.231 27226 27238 I ex.uber:Metric: Background concurrent copying GC freed 18894(1776KB) AllocSpace objects, 5(340KB) LOS objects, 49% free, 2619KB/5239KB, paused 8.644ms total 151.301ms
+(standard input):59912:11-15 17:30:07.430  4311  4311 D GameManagerService: identifyGamePackage. ru.yandex.uber, mCurrentUserId: 0, callerUserId: 0
+(standard input):59913:11-15 17:30:07.430  4311  4311 D GamePkgDataHelper: getGamePkgData(). ru.yandex.uber
+(standard input):59986:11-15 17:30:08.080 27226 27238 I ex.uber:Metric: Background concurrent copying GC freed 20776(2520KB) AllocSpace objects, 1(68KB) LOS objects, 49% free, 2139KB/4279KB, paused 12.286ms total 113.685ms
+(standard input):59992:11-15 17:30:08.128 27204 27216 I ru.yandex.uber: Background concurrent copying GC freed 158388(7351KB) AllocSpace objects, 53(2612KB) LOS objects, 49% free, 12MB/24MB, paused 330us total 381.972ms
+(standard input):60017:11-15 17:30:08.282  4311  4311 D GameManagerService: identifyGamePackage. ru.yandex.uber, mCurrentUserId: 0, callerUserId: 0
+(standard input):60018:11-15 17:30:08.282  4311  4311 D GamePkgDataHelper: getGamePkgData(). ru.yandex.uber
+(standard input):60020:11-15 17:30:08.283  4311  4311 D GameManagerService: identifyGamePackage. ru.yandex.uber, mCurrentUserId: 0, callerUserId: 0
+(standard input):60021:11-15 17:30:08.284  4311  4311 D GamePkgDataHelper: getGamePkgData(). ru.yandex.uber
+(standard input):60412:11-15 17:30:09.277  4311 12530 D GameManagerService: identifyGamePackage. ru.yandex.uber, mCurrentUserId: 0, callerUserId: 0
+(standard input):60413:11-15 17:30:09.277  4311 12530 D GamePkgDataHelper: getGamePkgData(). ru.yandex.uber
+(standard input):61402:11-15 17:30:10.745  4311  4311 D GameManagerService: identifyGamePackage. ru.yandex.uber, mCurrentUserId: 0, callerUserId: 0
+(standard input):61403:11-15 17:30:10.746  4311  4311 D GamePkgDataHelper: getGamePkgData(). ru.yandex.uber
+(standard input):61405:11-15 17:30:10.747  4311  4311 D GameManagerService: identifyGamePackage. ru.yandex.uber, mCurrentUserId: 0, callerUserId: 0
+(standard input):61406:11-15 17:30:10.747  4311  4311 D GamePkgDataHelper: getGamePkgData(). ru.yandex.uber
+(standard input):61815:11-15 17:30:11.131   459   347 W gle.android.gm: resources.arsc in APK '/data/app/ru.yandex.uber-7xTDdpOEnf7oZEWnsuo6EQ==/base.apk' is compressed.
+(standard input):61818:11-15 17:30:11.197  4627  9169 D PhoneInterfaceManager: [PhoneIntfMgr] getCellLocationBySubId: PID: 4627, UID: 1001, TID: 9169 callingPackage: ru.yandex.uber subId: 1
+(standard input):61819:11-15 17:30:11.228  4627  9169 D PhoneInterfaceManager: [PhoneIntfMgr] getCellLocationBySubId: PID: 4627, UID: 1001, TID: 9169 callingPackage: ru.yandex.uber subId: 1
+(standard input):62070:11-15 17:30:12.580  4311  4311 D GameManagerService: identifyGamePackage. ru.yandex.uber, mCurrentUserId: 0, callerUserId: 0
+(standard input):62071:11-15 17:30:12.580  4311  4311 D GamePkgDataHelper: getGamePkgData(). ru.yandex.uber
+(standard input):62074:11-15 17:30:12.586  4311  4311 D GameManagerService: identifyGamePackage. ru.yandex.uber, mCurrentUserId: 0, callerUserId: 0
+(standard input):62075:11-15 17:30:12.586  4311  4311 D GamePkgDataHelper: getGamePkgData(). ru.yandex.uber
+(standard input):63240:11-15 17:30:16.437  4311  4311 D GameManagerService: identifyGamePackage. ru.yandex.uber, mCurrentUserId: 0, callerUserId: 0
+(standard input):63241:11-15 17:30:16.437  4311  4311 D GamePkgDataHelper: getGamePkgData(). ru.yandex.uber
+(standard input):63243:11-15 17:30:16.440  4311  4311 D GameManagerService: identifyGamePackage. ru.yandex.uber, mCurrentUserId: 0, callerUserId: 0
+(standard input):63244:11-15 17:30:16.440  4311  4311 D GamePkgDataHelper: getGamePkgData(). ru.yandex.uber
+(standard input):63480:11-15 17:30:17.071  4311  6596 D LocationManagerService: request 693341a passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.uber(10116 foreground)
+(standard input):63483:11-15 17:30:17.073  4801  4833 V RequestManager_FLP: success addListener, packageName : ru.yandex.uber , listenerId : 693341a
+(standard input):63484:11-15 17:30:17.074  4801  4833 E RequestManager_FLP: [LocationManager] Location request  693341a(Listener) passive interval=1000 from ru.yandex.uber (10116 foreground)
+(standard input):63487:11-15 17:30:17.088  4311  6596 D LocationManagerService: request 693341a passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.uber(10116 foreground)
+(standard input):63490:11-15 17:30:17.091  4801  4833 V RequestManager_FLP: success addListener, packageName : ru.yandex.uber , listenerId : 693341a
+(standard input):63491:11-15 17:30:17.091  4801  4833 E RequestManager_FLP: [LocationManager] Location request  693341a(Listener) passive interval=1000 from ru.yandex.uber (10116 foreground)
+(standard input):63514:11-15 17:30:17.192  4311  6600 D LocationManagerService: request 693341a passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.uber(10116 foreground)
+(standard input):63516:11-15 17:30:17.196  4801  4833 V RequestManager_FLP: success addListener, packageName : ru.yandex.uber , listenerId : 693341a
+(standard input):63517:11-15 17:30:17.196  4801  4833 E RequestManager_FLP: [LocationManager] Location request  693341a(Listener) passive interval=1000 from ru.yandex.uber (10116 foreground)
+(standard input):63654:11-15 17:30:18.305  4311  4311 D GameManagerService: identifyGamePackage. ru.yandex.uber, mCurrentUserId: 0, callerUserId: 0
+(standard input):63655:11-15 17:30:18.305  4311  4311 D GamePkgDataHelper: getGamePkgData(). ru.yandex.uber
+(standard input):63657:11-15 17:30:18.306  4311  4311 D GameManagerService: identifyGamePackage. ru.yandex.uber, mCurrentUserId: 0, callerUserId: 0
+(standard input):63658:11-15 17:30:18.306  4311  4311 D GamePkgDataHelper: getGamePkgData(). ru.yandex.uber
+(standard input):64019:11-15 17:30:18.795  4311  4541 I WifiScanController: scan requested by ru.yandex.uber
+(standard input):64079:11-15 17:30:18.976  3866  3866 I lmkd    : Reclaim Mem 'ru.yandex.uber:passport' (27387), uid 10116, oom_adj 945, state 20 to free 123808kB
+(standard input):64082:11-15 17:30:19.040  4311  7167 I ActivityManager: Process ru.yandex.uber:passport (pid 27387) has died: cch+45 CEM (52,632)
+(standard input):64172:11-15 17:30:19.460  4311  7167 D GameManagerService: identifyGamePackage. ru.yandex.uber, mCurrentUserId: 0, callerUserId: 0
+(standard input):64173:11-15 17:30:19.461  4311  7167 D GamePkgDataHelper: getGamePkgData(). ru.yandex.uber
+(standard input):64176:11-15 17:30:19.484  4311  7167 D GameManagerService: identifyForegroundApp. ru.yandex.uber, mCurrentUserId: 0, callerUserId: 0
+(standard input):64177:11-15 17:30:19.484  4311  7167 D GamePkgDataHelper: getGamePkgData(). ru.yandex.uber
+(standard input):64473:11-15 17:30:20.216 27204 27216 I ru.yandex.uber: Background concurrent copying GC freed 283394(11MB) AllocSpace objects, 20(2064KB) LOS objects, 49% free, 10MB/21MB, paused 392us total 191.454ms
+(standard input):64479:11-15 17:30:20.227  4311  4311 D GameManagerService: identifyGamePackage. ru.yandex.uber, mCurrentUserId: 0, callerUserId: 0
+(standard input):64480:11-15 17:30:20.227  4311  4311 D GamePkgDataHelper: getGamePkgData(). ru.yandex.uber
+(standard input):64482:11-15 17:30:20.229  4311  4311 D GameManagerService: identifyGamePackage. ru.yandex.uber, mCurrentUserId: 0, callerUserId: 0
+(standard input):64483:11-15 17:30:20.229  4311  4311 D GamePkgDataHelper: getGamePkgData(). ru.yandex.uber
+(standard input):64897:11-15 17:30:21.168  4311  7356 D LocationManagerService: request 693341a passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.uber(10116 foreground)
+(standard input):64900:11-15 17:30:21.174  4801  4833 V RequestManager_FLP: success addListener, packageName : ru.yandex.uber , listenerId : 693341a
+(standard input):64901:11-15 17:30:21.174  4801  4833 E RequestManager_FLP: [LocationManager] Location request  693341a(Listener) passive interval=1000 from ru.yandex.uber (10116 foreground)
+(standard input):64904:11-15 17:30:21.201  4311  7168 D LocationManagerService: request 693341a passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.uber(10116 foreground)
+(standard input):64907:11-15 17:30:21.203  4801  4833 V RequestManager_FLP: success addListener, packageName : ru.yandex.uber , listenerId : 693341a
+(standard input):64908:11-15 17:30:21.203  4801  4833 E RequestManager_FLP: [LocationManager] Location request  693341a(Listener) passive interval=1000 from ru.yandex.uber (10116 foreground)
+(standard input):64918:11-15 17:30:21.408  4311  7356 D LocationManagerService: request 693341a passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.uber(10116 foreground)
+(standard input):64921:11-15 17:30:21.411  4801  4833 V RequestManager_FLP: success addListener, packageName : ru.yandex.uber , listenerId : 693341a
+(standard input):64922:11-15 17:30:21.411  4801  4833 E RequestManager_FLP: [LocationManager] Location request  693341a(Listener) passive interval=1000 from ru.yandex.uber (10116 foreground)
+(standard input):64923:11-15 17:30:21.414  4627  5495 D PhoneInterfaceManager: [PhoneIntfMgr] getCellLocationBySubId: PID: 4627, UID: 1001, TID: 5495 callingPackage: ru.yandex.uber subId: 1
+(standard input):64933:11-15 17:30:21.428  4627  5495 D PhoneInterfaceManager: [PhoneIntfMgr] getCellLocationBySubId: PID: 4627, UID: 1001, TID: 5495 callingPackage: ru.yandex.uber subId: 1
+(standard input):64935:11-15 17:30:21.456  4311  7356 D LocationManagerService: request 693341a passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.uber(10116 foreground)
+(standard input):64938:11-15 17:30:21.458  4801  4833 V RequestManager_FLP: success addListener, packageName : ru.yandex.uber , listenerId : 693341a
+(standard input):64939:11-15 17:30:21.458  4801  4833 E RequestManager_FLP: [LocationManager] Location request  693341a(Listener) passive interval=1000 from ru.yandex.uber (10116 foreground)
+(standard input):64940:11-15 17:30:21.465  4311  7356 D LocationManagerService: request 693341a passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.uber(10116 foreground)
+(standard input):64943:11-15 17:30:21.466  4801  4833 V RequestManager_FLP: success addListener, packageName : ru.yandex.uber , listenerId : 693341a
+(standard input):64944:11-15 17:30:21.466  4801  4833 E RequestManager_FLP: [LocationManager] Location request  693341a(Listener) passive interval=1000 from ru.yandex.uber (10116 foreground)
+(standard input):67031:11-15 17:30:33.323  4801  4833 V NlpMonitor_FLP: monitorNlp, package=ru.yandex.uber/ interval=3600000
+(standard input):67179:11-15 17:30:33.898  4311  4541 I WifiScanController: scan requested by ru.yandex.uber
+(standard input):68320:11-15 17:30:36.352 27204 27225 W ru.yandex.uber: Couldn't lock the profile file /data/user/0/ru.yandex.uber/app_working_27204/oat/SqaApNtgTeexjxsSUISjpWg.27204.dex.cur.prof: Failed to open file '/data/user/0/ru.yandex.uber/app_working_27204/oat/SqaApNtgTeexjxsSUISjpWg.27204.dex.cur.prof': No such file or directory
+(standard input):68321:11-15 17:30:36.353 27204 27225 W ru.yandex.uber: Could not forcefully load profile /data/user/0/ru.yandex.uber/app_working_27204/oat/SqaApNtgTeexjxsSUISjpWg.27204.dex.cur.prof
+(standard input):68322:11-15 17:30:36.353 27204 27225 W ru.yandex.uber: Couldn't lock the profile file /data/user/0/ru.yandex.uber/app_working_27204/oat/UbxbiFuaqnWBuUepjvdmnEp.27204.dex.cur.prof: Failed to open file '/data/user/0/ru.yandex.uber/app_working_27204/oat/UbxbiFuaqnWBuUepjvdmnEp.27204.dex.cur.prof': No such file or directory
+(standard input):68323:11-15 17:30:36.353 27204 27225 W ru.yandex.uber: Could not forcefully load profile /data/user/0/ru.yandex.uber/app_working_27204/oat/UbxbiFuaqnWBuUepjvdmnEp.27204.dex.cur.prof
+(standard input):68324:11-15 17:30:36.353 27204 27225 W ru.yandex.uber: Couldn't lock the profile file /data/user/0/ru.yandex.uber/app_working_27204/oat/XARYqIrKeZwPEVEZhBQkNHT.27204.dex.cur.prof: Failed to open file '/data/user/0/ru.yandex.uber/app_working_27204/oat/XARYqIrKeZwPEVEZhBQkNHT.27204.dex.cur.prof': No such file or directory
+(standard input):68325:11-15 17:30:36.353 27204 27225 W ru.yandex.uber: Could not forcefully load profile /data/user/0/ru.yandex.uber/app_working_27204/oat/XARYqIrKeZwPEVEZhBQkNHT.27204.dex.cur.prof
+(standard input):68967:11-15 17:30:49.024  4311  4541 I WifiScanController: scan requested by ru.yandex.uber
+(standard input):70806:11-15 17:31:01.857 27204 27216 I ru.yandex.uber: Background concurrent copying GC freed 306513(10MB) AllocSpace objects, 4(76KB) LOS objects, 49% free, 10MB/21MB, paused 443us total 152.119ms
+(standard input):71159:11-15 17:31:04.113  4311  4534 I WifiScanRequestProxy: Scan request from ru.yandex.uber throttled
+(standard input):71234:11-15 17:31:04.269 27226 27260 I chatty  : uid=10116(ru.yandex.uber) YMM-NC-10 identical 2 lines
+(standard input):73603:11-15 17:31:12.498  4311  4311 D GameManagerService: identifyGamePackage. ru.yandex.uber, mCurrentUserId: 0, callerUserId: 0
+(standard input):73604:11-15 17:31:12.498  4311  4311 D GamePkgDataHelper: getGamePkgData(). ru.yandex.uber
+(standard input):73606:11-15 17:31:12.501  4311  4311 D GameManagerService: identifyGamePackage. ru.yandex.uber, mCurrentUserId: 0, callerUserId: 0
+(standard input):73607:11-15 17:31:12.501  4311  4311 D GamePkgDataHelper: getGamePkgData(). ru.yandex.uber
+(standard input):73619:11-15 17:31:13.077  4627  4763 D PhoneInterfaceManager: [PhoneIntfMgr] getCellLocationBySubId: PID: 4627, UID: 1001, TID: 4763 callingPackage: ru.yandex.uber subId: 1
+(standard input):73620:11-15 17:31:13.104  4627  4763 D PhoneInterfaceManager: [PhoneIntfMgr] getCellLocationBySubId: PID: 4627, UID: 1001, TID: 4763 callingPackage: ru.yandex.uber subId: 1
+(standard input):73621:11-15 17:31:13.105  4311  7358 D LocationManagerService: request 693341a passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.uber(10116 foreground)
+(standard input):73623:11-15 17:31:13.108  4801  4833 V RequestManager_FLP: success addListener, packageName : ru.yandex.uber , listenerId : 693341a
+(standard input):73624:11-15 17:31:13.108  4801  4833 E RequestManager_FLP: [LocationManager] Location request  693341a(Listener) passive interval=1000 from ru.yandex.uber (10116 foreground)
+(standard input):73743:11-15 17:31:16.431 27204 27225 W ru.yandex.uber: Couldn't lock the profile file /data/user/0/ru.yandex.uber/app_working_27204/oat/SqaApNtgTeexjxsSUISjpWg.27204.dex.cur.prof: Failed to open file '/data/user/0/ru.yandex.uber/app_working_27204/oat/SqaApNtgTeexjxsSUISjpWg.27204.dex.cur.prof': No such file or directory
+(standard input):73744:11-15 17:31:16.431 27204 27225 W ru.yandex.uber: Could not forcefully load profile /data/user/0/ru.yandex.uber/app_working_27204/oat/SqaApNtgTeexjxsSUISjpWg.27204.dex.cur.prof
+(standard input):73745:11-15 17:31:16.432 27204 27225 W ru.yandex.uber: Couldn't lock the profile file /data/user/0/ru.yandex.uber/app_working_27204/oat/UbxbiFuaqnWBuUepjvdmnEp.27204.dex.cur.prof: Failed to open file '/data/user/0/ru.yandex.uber/app_working_27204/oat/UbxbiFuaqnWBuUepjvdmnEp.27204.dex.cur.prof': No such file or directory
+(standard input):73746:11-15 17:31:16.432 27204 27225 W ru.yandex.uber: Could not forcefully load profile /data/user/0/ru.yandex.uber/app_working_27204/oat/UbxbiFuaqnWBuUepjvdmnEp.27204.dex.cur.prof
+(standard input):73747:11-15 17:31:16.432 27204 27225 W ru.yandex.uber: Couldn't lock the profile file /data/user/0/ru.yandex.uber/app_working_27204/oat/XARYqIrKeZwPEVEZhBQkNHT.27204.dex.cur.prof: Failed to open file '/data/user/0/ru.yandex.uber/app_working_27204/oat/XARYqIrKeZwPEVEZhBQkNHT.27204.dex.cur.prof': No such file or directory
+(standard input):73748:11-15 17:31:16.432 27204 27225 W ru.yandex.uber: Could not forcefully load profile /data/user/0/ru.yandex.uber/app_working_27204/oat/XARYqIrKeZwPEVEZhBQkNHT.27204.dex.cur.prof
+(standard input):73751:11-15 17:31:16.680 27226 27260 I chatty  : uid=10116(ru.yandex.uber) YMM-NC-10 identical 2 lines
+(standard input):74009:11-15 17:31:19.211  4311  4534 I WifiScanRequestProxy: Scan request from ru.yandex.uber throttled
+(standard input):74070:11-15 17:31:19.364 27226 27260 I chatty  : uid=10116(ru.yandex.uber) YMM-NC-10 identical 2 lines
+(standard input):74121:11-15 17:31:20.004 27204 27216 I ru.yandex.uber: Background concurrent copying GC freed 232752(9208KB) AllocSpace objects, 10(444KB) LOS objects, 49% free, 12MB/25MB, paused 220us total 208.398ms
+(standard input):74139:11-15 17:31:20.286 27204 27204 I chatty  : uid=10116(ru.yandex.uber) identical 1 line
+(standard input):74378:11-15 17:31:22.667 27204 27204 D EmergencyMode: [EmergencyManager] android createPackageContext successful: ru.yandex.uber
+(standard input):74793:11-15 17:31:23.976  4311  4311 D GameManagerService: identifyGamePackage. ru.yandex.uber, mCurrentUserId: 0, callerUserId: 0
+(standard input):74794:11-15 17:31:23.977  4311  4311 D GamePkgDataHelper: getGamePkgData(). ru.yandex.uber
+(standard input):74796:11-15 17:31:23.978  4311  4311 D GameManagerService: identifyGamePackage. ru.yandex.uber, mCurrentUserId: 0, callerUserId: 0
+(standard input):74797:11-15 17:31:23.978  4311  4311 D GamePkgDataHelper: getGamePkgData(). ru.yandex.uber
+(standard input):74910:11-15 17:31:25.398  4311  4976 D LocationManagerService: request 693341a passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.uber(10116 foreground)
+(standard input):74912:11-15 17:31:25.399  4801  4833 V RequestManager_FLP: success addListener, packageName : ru.yandex.uber , listenerId : 693341a
+(standard input):74914:11-15 17:31:25.399  4801  4833 E RequestManager_FLP: [LocationManager] Location request  693341a(Listener) passive interval=1000 from ru.yandex.uber (10116 foreground)
+(standard input):74915:11-15 17:31:25.402  4627  4763 D PhoneInterfaceManager: [PhoneIntfMgr] getCellLocationBySubId: PID: 4627, UID: 1001, TID: 4763 callingPackage: ru.yandex.uber subId: 1
+(standard input):74917:11-15 17:31:25.411  4627  4763 D PhoneInterfaceManager: [PhoneIntfMgr] getCellLocationBySubId: PID: 4627, UID: 1001, TID: 4763 callingPackage: ru.yandex.uber subId: 1
+(standard input):75333:11-15 17:31:26.048 27204 27204 V InputMethodManager: Starting input: tba=ru.yandex.uber ic=null mNaviBarColor 0 mIsGetNaviBarColorSuccess true , NavVisible : true , NavTrans : false
+(standard input):75338:11-15 17:31:26.050  4311  4976 D LocationManagerService: request 693341a passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.uber(10116 foreground)
+(standard input):75341:11-15 17:31:26.051  4801  4833 V RequestManager_FLP: success addListener, packageName : ru.yandex.uber , listenerId : 693341a
+(standard input):75342:11-15 17:31:26.052  4801  4833 E RequestManager_FLP: [LocationManager] Location request  693341a(Listener) passive interval=1000 from ru.yandex.uber (10116 foreground)
+(standard input):75350:11-15 17:31:26.064 27204 27216 I ru.yandex.uber: NativeAlloc concurrent copying GC freed 89760(3810KB) AllocSpace objects, 4(76KB) LOS objects, 49% free, 13MB/26MB, paused 460us total 161.637ms
+(standard input):75352:11-15 17:31:26.085  4311  7361 D LocationManagerService: request 693341a passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.uber(10116 foreground)
+(standard input):75355:11-15 17:31:26.086  4801  4833 V RequestManager_FLP: success addListener, packageName : ru.yandex.uber , listenerId : 693341a
+(standard input):75356:11-15 17:31:26.086  4801  4833 E RequestManager_FLP: [LocationManager] Location request  693341a(Listener) passive interval=1000 from ru.yandex.uber (10116 foreground)
+(standard input):75357:11-15 17:31:26.093  4311  5068 D LocationManagerService: request 693341a passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.uber(10116 foreground)
+(standard input):75360:11-15 17:31:26.095  4801  4833 V RequestManager_FLP: success addListener, packageName : ru.yandex.uber , listenerId : 693341a
+(standard input):75361:11-15 17:31:26.095  4801  4833 E RequestManager_FLP: [LocationManager] Location request  693341a(Listener) passive interval=1000 from ru.yandex.uber (10116 foreground)
+(standard input):75362:11-15 17:31:26.102  4311  5068 D LocationManagerService: request 693341a passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.uber(10116 foreground)
+(standard input):75365:11-15 17:31:26.104  4801  4833 V RequestManager_FLP: success addListener, packageName : ru.yandex.uber , listenerId : 693341a
+(standard input):75366:11-15 17:31:26.104  4801  4833 E RequestManager_FLP: [LocationManager] Location request  693341a(Listener) passive interval=1000 from ru.yandex.uber (10116 foreground)
+(standard input):75375:11-15 17:31:26.408 27204 27204 V InputMethodManager: Starting input: tba=ru.yandex.uber ic=com.android.internal.widget.EditableInputConnection@c93f624 mNaviBarColor 0 mIsGetNaviBarColorSuccess true , NavVisible : true , NavTrans : false
+(standard input):75398:11-15 17:31:26.491 27204 27204 D InputMethodManager: SSI - flag : 0 Pid : 27204 view : ru.yandex.uber
+(standard input):75423:11-15 17:31:27.100  7169  7169 I SKBD    : btg Package :  ru.yandex.uber  has no meta data.
+(standard input):75643:11-15 17:31:27.861  4311  4358 D WindowManager: setSystemUiVisibility: displayId=0, vis=0x8618, fullVis=0x0, dockVis=0x0, win=Window{c06be85 u0 ru.yandex.uber/ru.yandex.taxi.activity.MainActivity}
+(standard input):75649:11-15 17:31:27.891  4311  7360 V WindowManager: Relayout Window{c06be85 u0 ru.yandex.uber/ru.yandex.taxi.activity.MainActivity}: viewVisibility=0 req=720x1560
+(standard input):75655:11-15 17:31:27.921  4311  4976 D LocationManagerService: request 693341a passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.uber(10116 foreground)
+(standard input):75657:11-15 17:31:27.922  4801  4833 V RequestManager_FLP: success addListener, packageName : ru.yandex.uber , listenerId : 693341a
+(standard input):75658:11-15 17:31:27.922  4801  4833 E RequestManager_FLP: [LocationManager] Location request  693341a(Listener) passive interval=1000 from ru.yandex.uber (10116 foreground)
+(standard input):75689:11-15 17:31:28.097  3867  3867 I SurfaceFlinger:      DEVICE | 0x71bbf12f80 | 0000 | RGBA_8888 |   0.0    0.0  720.0 1560.0 |    0    0  720 1560 | ru.yandex.uber/ru.yandex.taxi.activity.MainActivity$_27204#0
+(standard input):75744:11-15 17:31:30.531 27204 27204 V InputMethodManager: Starting input: tba=ru.yandex.uber ic=com.android.internal.widget.EditableInputConnection@d1b8050 mNaviBarColor 0 mIsGetNaviBarColorSuccess true , NavVisible : true , NavTrans : false
+(standard input):75788:11-15 17:31:30.549  7169  7169 I SKBD    : btg Package :  ru.yandex.uber  has no meta data.
+(standard input):75913:11-15 17:31:30.567  4311  5068 D LocationManagerService: request 693341a passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.uber(10116 foreground)
+(standard input):75925:11-15 17:31:30.569  4801  4833 V RequestManager_FLP: success addListener, packageName : ru.yandex.uber , listenerId : 693341a
+(standard input):75928:11-15 17:31:30.569  4801  4833 E RequestManager_FLP: [LocationManager] Location request  693341a(Listener) passive interval=1000 from ru.yandex.uber (10116 foreground)
+(standard input):76108:11-15 17:31:30.597  4311  7342 D LocationManagerService: request 693341a passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.uber(10116 foreground)
+(standard input):76112:11-15 17:31:30.598  4801  4833 V RequestManager_FLP: success addListener, packageName : ru.yandex.uber , listenerId : 693341a
+(standard input):76113:11-15 17:31:30.598  4801  4833 E RequestManager_FLP: [LocationManager] Location request  693341a(Listener) passive interval=1000 from ru.yandex.uber (10116 foreground)
+(standard input):76216:11-15 17:31:30.611  4311  6948 D LocationManagerService: request 693341a passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.uber(10116 foreground)
+(standard input):76219:11-15 17:31:30.612  4801  4833 V RequestManager_FLP: success addListener, packageName : ru.yandex.uber , listenerId : 693341a
+(standard input):76220:11-15 17:31:30.612  4801  4833 E RequestManager_FLP: [LocationManager] Location request  693341a(Listener) passive interval=1000 from ru.yandex.uber (10116 foreground)
+(standard input):76236:11-15 17:31:30.684 27204 27204 D InputMethodManager: SSI - flag : 0 Pid : 27204 view : ru.yandex.uber
+(standard input):76442:11-15 17:31:31.186 29851 29851 D [SPAF]StructureParser: Parsing structure for ComponentInfo{ru.yandex.uber/ru.yandex.taxi.activity.MainActivity}
+(standard input):76474:11-15 17:31:31.432 27204 27204 V InputMethodManager: Starting input: tba=ru.yandex.uber ic=null mNaviBarColor 0 mIsGetNaviBarColorSuccess true , NavVisible : true , NavTrans : false
+(standard input):76549:11-15 17:31:31.530  4311  4311 D GameManagerService: identifyGamePackage. ru.yandex.uber, mCurrentUserId: 0, callerUserId: 0
+(standard input):76550:11-15 17:31:31.530  4311  4311 D GamePkgDataHelper: getGamePkgData(). ru.yandex.uber
+(standard input):77023:11-15 17:31:31.818  4311  4358 D WindowManager: setSystemUiVisibility: displayId=0, vis=0x8608, fullVis=0x0, dockVis=0x0, win=Window{c06be85 u0 ru.yandex.uber/ru.yandex.taxi.activity.MainActivity}
+(standard input):77042:11-15 17:31:31.865  4311  4984 V WindowManager: Relayout Window{c06be85 u0 ru.yandex.uber/ru.yandex.taxi.activity.MainActivity}: viewVisibility=0 req=720x1560
+(standard input):77048:11-15 17:31:31.891  4311  4984 D LocationManagerService: request 693341a passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.uber(10116 foreground)
+(standard input):77051:11-15 17:31:31.893  4801  4833 V RequestManager_FLP: success addListener, packageName : ru.yandex.uber , listenerId : 693341a
+(standard input):77052:11-15 17:31:31.893  4801  4833 E RequestManager_FLP: [LocationManager] Location request  693341a(Listener) passive interval=1000 from ru.yandex.uber (10116 foreground)
+(standard input):77069:11-15 17:31:31.940  4311  4984 D LocationManagerService: request 693341a passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.uber(10116 foreground)
+(standard input):77075:11-15 17:31:31.943  4801  4833 V RequestManager_FLP: success addListener, packageName : ru.yandex.uber , listenerId : 693341a
+(standard input):77076:11-15 17:31:31.943  4801  4833 E RequestManager_FLP: [LocationManager] Location request  693341a(Listener) passive interval=1000 from ru.yandex.uber (10116 foreground)
+(standard input):77077:11-15 17:31:31.950  4311  6948 D LocationManagerService: request 693341a passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.uber(10116 foreground)
+(standard input):77080:11-15 17:31:31.951  4801  4833 V RequestManager_FLP: success addListener, packageName : ru.yandex.uber , listenerId : 693341a
+(standard input):77081:11-15 17:31:31.951  4801  4833 E RequestManager_FLP: [LocationManager] Location request  693341a(Listener) passive interval=1000 from ru.yandex.uber (10116 foreground)
+(standard input):77091:11-15 17:31:32.000  3867  3867 I SurfaceFlinger:      DEVICE | 0x71d9ed5180 | 0000 | RGBA_8888 |   0.0    0.0  720.0 1560.0 |    0    0  720 1560 | ru.yandex.uber/ru.yandex.taxi.activity.MainActivity$_27204#0
+(standard input):77114:11-15 17:31:33.672  4311  6948 D LocationManagerService: request 693341a passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.uber(10116 foreground)
+(standard input):77117:11-15 17:31:33.674  4801  4833 V RequestManager_FLP: success addListener, packageName : ru.yandex.uber , listenerId : 693341a
+(standard input):77118:11-15 17:31:33.674  4801  4833 E RequestManager_FLP: [LocationManager] Location request  693341a(Listener) pas
