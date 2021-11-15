@@ -1,0 +1,782 @@
+2021-11-15 14:28:11.757 25412-25412/? E/AndroidRuntime: FATAL EXCEPTION: main
+    Process: com.android.todolist, PID: 25412
+    java.lang.ClassCastException: kotlin.collections.EmptyList cannot be cast to kotlin.collections.MutableList
+        at com.android.todolist.MainActivity.ordenarAZ(MainActivity.kt:196)
+        at com.android.todolist.MainActivity.onNavigationItemSelected(MainActivity.kt:86)
+        at com.google.android.material.navigation.NavigationView$1.onMenuItemSelected(NavigationView.java:170)
+        at androidx.appcompat.view.menu.MenuBuilder.dispatchMenuItemSelected(MenuBuilder.java:840)
+        at androidx.appcompat.view.menu.SubMenuBuilder.dispatchMenuItemSelected(SubMenuBuilder.java:90)
+        at androidx.appcompat.view.menu.MenuItemImpl.invoke(MenuItemImpl.java:158)
+        at androidx.appcompat.view.menu.MenuBuilder.performItemAction(MenuBuilder.java:991)
+        at com.google.android.material.internal.NavigationMenuPresenter$1.onClick(NavigationMenuPresenter.java:352)
+        at android.view.View.performClick(View.java:7870)
+        at android.view.View.performClickInternal(View.java:7839)
+        at android.view.View.access$3600(View.java:886)
+        at android.view.View$PerformClick.run(View.java:29363)
+        at android.os.Handler.handleCallback(Handler.java:883)
+        at android.os.Handler.dispatchMessage(Handler.java:100)
+        at android.os.Looper.loop(Looper.java:237)
+        at android.app.ActivityThread.main(ActivityThread.java:7948)
+        at java.lang.reflect.Method.invoke(Native Method)
+        at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:493)
+        at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1075)
+2021-11-15 14:57:33.195 25500-25500/? E/AndroidRuntime: FATAL EXCEPTION: main
+    Process: com.android.todolist, PID: 25500
+    java.lang.ClassCastException: kotlin.collections.EmptyList cannot be cast to kotlin.collections.MutableList
+        at com.android.todolist.MainActivity.ordenarAZ(MainActivity.kt:196)
+        at com.android.todolist.MainActivity.onNavigationItemSelected(MainActivity.kt:86)
+        at com.google.android.material.navigation.NavigationView$1.onMenuItemSelected(NavigationView.java:170)
+        at androidx.appcompat.view.menu.MenuBuilder.dispatchMenuItemSelected(MenuBuilder.java:840)
+        at androidx.appcompat.view.menu.SubMenuBuilder.dispatchMenuItemSelected(SubMenuBuilder.java:90)
+        at androidx.appcompat.view.menu.MenuItemImpl.invoke(MenuItemImpl.java:158)
+        at androidx.appcompat.view.menu.MenuBuilder.performItemAction(MenuBuilder.java:991)
+        at com.google.android.material.internal.NavigationMenuPresenter$1.onClick(NavigationMenuPresenter.java:352)
+        at android.view.View.performClick(View.java:7870)
+        at android.view.View.performClickInternal(View.java:7839)
+        at android.view.View.access$3600(View.java:886)
+        at android.view.View$PerformClick.run(View.java:29363)
+        at android.os.Handler.handleCallback(Handler.java:883)
+        at android.os.Handler.dispatchMessage(Handler.java:100)
+        at android.os.Looper.loop(Looper.java:237)
+        at android.app.ActivityThread.main(ActivityThread.java:7948)
+        at java.lang.reflect.Method.invoke(Native Method)
+        at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:493)
+        at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1075)
+2021-11-15 15:19:50.246 29090-29090/? E/AndroidRuntime: FATAL EXCEPTION: main
+    Process: com.android.todolist, PID: 29090
+    java.lang.ClassCastException: kotlin.collections.EmptyList cannot be cast to kotlin.collections.MutableList
+        at com.android.todolist.MainActivity.ordenarAZ(MainActivity.kt:196)
+        at com.android.todolist.MainActivity.onNavigationItemSelected(MainActivity.kt:86)
+        at com.google.android.material.navigation.NavigationView$1.onMenuItemSelected(NavigationView.java:170)
+        at androidx.appcompat.view.menu.MenuBuilder.dispatchMenuItemSelected(MenuBuilder.java:840)
+        at androidx.appcompat.view.menu.SubMenuBuilder.dispatchMenuItemSelected(SubMenuBuilder.java:90)
+        at androidx.appcompat.view.menu.MenuItemImpl.invoke(MenuItemImpl.java:158)
+        at androidx.appcompat.view.menu.MenuBuilder.performItemAction(MenuBuilder.java:991)
+        at com.google.android.material.internal.NavigationMenuPresenter$1.onClick(NavigationMenuPresenter.java:352)
+        at android.view.View.performClick(View.java:7870)
+        at android.view.View.performClickInternal(View.java:7839)
+        at android.view.View.access$3600(View.java:886)
+        at android.view.View$PerformClick.run(View.java:29363)
+        at android.os.Handler.handleCallback(Handler.java:883)
+        at android.os.Handler.dispatchMessage(Handler.java:100)
+        at android.os.Looper.loop(Looper.java:237)
+        at android.app.ActivityThread.main(ActivityThread.java:7948)
+        at java.lang.reflect.Method.invoke(Native Method)
+        at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:493)
+        at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1075)
+2021-11-15 15:49:36.579 1323-1323/? E/AndroidRuntime: FATAL EXCEPTION: main
+    Process: com.android.todolist, PID: 1323
+    java.lang.ClassCastException: kotlin.collections.EmptyList cannot be cast to kotlin.collections.MutableList
+        at com.android.todolist.MainActivity.ordenarAZ(MainActivity.kt:196)
+        at com.android.todolist.MainActivity.onNavigationItemSelected(MainActivity.kt:86)
+        at com.google.android.material.navigation.NavigationView$1.onMenuItemSelected(NavigationView.java:170)
+        at androidx.appcompat.view.menu.MenuBuilder.dispatchMenuItemSelected(MenuBuilder.java:840)
+        at androidx.appcompat.view.menu.SubMenuBuilder.dispatchMenuItemSelected(SubMenuBuilder.java:90)
+        at androidx.appcompat.view.menu.MenuItemImpl.invoke(MenuItemImpl.java:158)
+        at androidx.appcompat.view.menu.MenuBuilder.performItemAction(MenuBuilder.java:991)
+        at com.google.android.material.internal.NavigationMenuPresenter$1.onClick(NavigationMenuPresenter.java:352)
+        at android.view.View.performClick(View.java:7870)
+        at android.view.View.performClickInternal(View.java:7839)
+        at android.view.View.access$3600(View.java:886)
+        at android.view.View$PerformClick.run(View.java:29363)
+        at android.os.Handler.handleCallback(Handler.java:883)
+        at android.os.Handler.dispatchMessage(Handler.java:100)
+        at android.os.Looper.loop(Looper.java:237)
+        at android.app.ActivityThread.main(ActivityThread.java:7948)
+        at java.lang.reflect.Method.invoke(Native Method)
+        at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:493)
+        at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1075)
+2021-11-15 20:02:57.895 21754-21754/? E/AndroidRuntime: FATAL EXCEPTION: main
+    Process: com.android.todolist, PID: 21754
+    java.lang.ClassCastException: kotlin.collections.EmptyList cannot be cast to kotlin.collections.MutableList
+        at com.android.todolist.MainActivity.ordenarAZ(MainActivity.kt:196)
+        at com.android.todolist.MainActivity.onNavigationItemSelected(MainActivity.kt:86)
+        at com.google.android.material.navigation.NavigationView$1.onMenuItemSelected(NavigationView.java:170)
+        at androidx.appcompat.view.menu.MenuBuilder.dispatchMenuItemSelected(MenuBuilder.java:840)
+        at androidx.appcompat.view.menu.SubMenuBuilder.dispatchMenuItemSelected(SubMenuBuilder.java:90)
+        at androidx.appcompat.view.menu.MenuItemImpl.invoke(MenuItemImpl.java:158)
+        at androidx.appcompat.view.menu.MenuBuilder.performItemAction(MenuBuilder.java:991)
+        at com.google.android.material.internal.NavigationMenuPresenter$1.onClick(NavigationMenuPresenter.java:352)
+        at android.view.View.performClick(View.java:7870)
+        at android.view.View.performClickInternal(View.java:7839)
+        at android.view.View.access$3600(View.java:886)
+        at android.view.View$PerformClick.run(View.java:29363)
+        at android.os.Handler.handleCallback(Handler.java:883)
+        at android.os.Handler.dispatchMessage(Handler.java:100)
+        at android.os.Looper.loop(Looper.java:237)
+        at android.app.ActivityThread.main(ActivityThread.java:7948)
+        at java.lang.reflect.Method.invoke(Native Method)
+        at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:493)
+        at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1075)
+    
+    
+    --------- beginning of main
+2021-11-15 21:32:56.529 4311-4618/? I/ApplicationPolicy: isApplicationExternalStorageWhitelisted:com.android.todolist user:0
+2021-11-15 21:32:56.530 4311-4618/? I/ApplicationPolicy: isApplicationExternalStorageBlacklisted:com.android.todolist user:0
+2021-11-15 21:32:56.530 4311-4618/? I/ApplicationPolicy: isApplicationExternalStorageBlacklisted:com.android.todolist user:0
+2021-11-15 21:32:56.548 17127-17127/com.android.todolist E/Zygote: isWhitelistProcess - Process is Whitelisted
+2021-11-15 21:32:56.549 17127-17127/com.android.todolist E/Zygote: accessInfo : 1
+2021-11-15 21:32:56.557 17127-17127/com.android.todolist I/ndroid.todolis: Late-enabling -Xcheck:jni
+2021-11-15 21:32:56.598 17127-17127/com.android.todolist E/ndroid.todolis: Unknown bits set in runtime_flags: 0x8000
+2021-11-15 21:32:56.687 17127-17127/com.android.todolist D/ActivityThread: setConscryptValidator
+2021-11-15 21:32:56.687 17127-17127/com.android.todolist D/ActivityThread: setConscryptValidator - put
+2021-11-15 21:32:56.696 4311-4361/? D/PhoneWindow: forceLight changed to true [Splash Screen com.android.todolist] from com.android.internal.policy.PhoneWindow.updateForceLightNavigationBar:4238 com.android.internal.policy.DecorView.updateColorViews:1494 com.android.internal.policy.PhoneWindow.dispatchWindowAttributesChanged:3216 android.view.Window.setFlags:1148 com.android.internal.policy.PhoneWindow.generateLayout:2444 
+2021-11-15 21:32:56.709 3867-3918/? I/SurfaceFlinger: createSurf start. lock debugging [554643b Splash Screen com.android.todolist]
+2021-11-15 21:32:56.709 3867-3918/? I/SurfaceFlinger: id=12841 createSurf (0x0),-1 flag=80004, 554643b Splash Screen com.android.todolist#0
+2021-11-15 21:32:56.710 4311-4361/? D/ViewRootImpl@7685aca[todolist]: setView = com.android.internal.policy.DecorView@c1ad758 TM=true MM=false
+2021-11-15 21:32:56.728 4311-4361/? V/WindowManager: Relayout Window{554643b u0 Splash Screen com.android.todolist}: viewVisibility=0 req=720x1560
+2021-11-15 21:32:56.730 3867-3918/? I/SurfaceFlinger: createSurf start. lock debugging [Splash Screen com.android.todolist]
+2021-11-15 21:32:56.731 3867-3918/? I/SurfaceFlinger: id=12842 createSurf (720x1560),1 flag=404, Splash Screen com.android.todolist#0
+2021-11-15 21:32:56.734 4311-4361/? D/ViewRootImpl@7685aca[todolist]: Relayout returned: old=(0,0,720,1560) new=(0,0,720,1560) req=(720,1560)0 dur=16 res=0x7 s={true 482649059328} ch=true
+2021-11-15 21:32:56.746 4311-4358/? D/CodecSolution: isMaxAspectPackageEx: com.android.todolist : false(0)
+2021-11-15 21:32:56.762 3867-5370/? I/SurfaceFlinger: createSurf start. lock debugging [Surface(name=AppWindowToken{16f3aa4 token=Token{b25537 ActivityRecord{dcbc236 u0 com.android.todolist/.MainActivity t13898}}})/@0x78cfa27 - animation-leash]
+2021-11-15 21:32:56.763 3867-5370/? I/SurfaceFlinger: id=12844 createSurf (0x0),-1 flag=80004, Surface(name=AppWindowToken{16f3aa4 token=Token{b25537 ActivityRecord{dcbc236 u0 com.android.todolist/.MainActivity t13898}}})/@0x78cfa27 - animation-leash#0
+2021-11-15 21:32:56.769 4311-4358/? D/WindowManager: setSystemUiVisibility: displayId=0, vis=0x8018, fullVis=0x0, dockVis=0x0, win=Window{554643b u0 Splash Screen com.android.todolist}
+2021-11-15 21:32:56.777 4311-4361/? D/ViewRootImpl@7685aca[todolist]: MSG_RESIZED: frame=(0,0,720,1560) ci=(0,53,0,84) vi=(0,53,0,84) or=1
+2021-11-15 21:32:56.813 3867-3867/? I/SurfaceFlinger: Display 0 HWC layers:
+        type    |    handle    | flag |  format   |   source crop (l,t,r,b)    |         frame       | name 
+    ------------+--------------+------+-----------+----------------------------+---------------------+------
+         DEVICE | 0x71d9ed7ac0 | 0002 | RGBx_8888 |   0.0    0.0  720.0 1560.0 |    0    0  720 1560 | com.vinwap.glitter.MyWallpaperService$_6731#0
+         DEVICE | 0x71ddb1fbc0 | 0000 | RGBA_8888 |   0.0    0.0  720.0 1560.0 |    0    0  720 1560 | com.sec.android.app.launcher/com.sec[...].activities.LauncherActivity$_5087#0
+         CLIENT | 0x71ddb1f580 | 0002 | RGBA_8888 |   0.0    0.0  720.0 1560.0 |    8  143  628 1485 | Splash Screen com.android.todolist#0
+         CLIENT | 0x71bbf10780 | 0000 | RGBA_8888 |   0.0    0.0  720.0   53.0 |    0    0  720   53 | StatusBar$_4655#0
+         CLIENT | 0x71d9ed57c0 | 0000 | RGBA_8888 |   0.0    0.0  720.0   84.0 |    0 1476  720 1560 | NavigationBar0$_4655#0
+         CLIENT | 0x71d9ed7980 | 0000 | RGBA_8888 |   0.0    0.0  720.0  101.0 |    0    0  720  1
+2021-11-15 21:32:56.921 3867-5370/? I/Layer: id=12844 removeFromCurrentState Surface(name=AppWindowToken{16f3aa4 token=Token{b25537 ActivityRecord{dcbc236 u0 com.android.todolist/.MainActivity t13898}}})/@0x78cfa27 - animation-leash#0 (104)
+2021-11-15 21:32:56.935 3867-3867/? E/Layer: [Surface(name=AppWindowToken{16f3aa4 token=Token{b25537 ActivityRecord{dcbc236 u0 com.android.todolist/.MainActivity t13898}}})/@0x78cfa27 - animation-leash#0] No local sync point found
+2021-11-15 21:32:56.942 3867-5131/? I/SurfaceFlinger: id=12844 Removed Surface(name=AppWindowToken{16f3aa4 token=Token{b25537 ActivityRecord{dcbc236 u0 com.android.todolist/.MainActivity t13898}}})/@0x78cfa27 - animation-leash#0 (104)
+2021-11-15 21:32:56.944 3867-3867/? I/SurfaceFlinger: Display 0 HWC layers:
+        type    |    handle    | flag |  format   |   source crop (l,t,r,b)    |         frame       | name 
+    ------------+--------------+------+-----------+----------------------------+---------------------+------
+         DEVICE | 0x71ddb1f580 | 0002 | RGBA_8888 |   0.0    0.0  720.0 1560.0 |    0    0  720 1560 | Splash Screen com.android.todolist#0
+         DEVICE | 0x71bbf10780 | 0000 | RGBA_8888 |   0.0    0.0  720.0   53.0 |    0    0  720   53 | StatusBar$_4655#0
+         DEVICE | 0x71d9ed8380 | 0000 | RGBA_8888 |   0.0    0.0  720.0   84.0 |    0 1476  720 1560 | NavigationBar0$_4655#0
+         DEVICE | 0x71d9ed7980 | 0000 | RGBA_8888 |   0.0    0.0  720.0  101.0 |    0    0  720  101 | ScreenDecorOverlay$_4655#0
+         DEVICE | 0x71bbf11900 | 0000 | RGBA_8888 |   0.0    0.0  720.0  101.0 |    0 1459  720 1560 | ScreenDecorOverlayBottom$_4655#0
+2021-11-15 21:32:56.951 3867-3867/? I/Layer: id=12844[1] Destroyed Surface(name=AppWindowToken{16f3aa4 token=Token{b25537 ActivityRecord{dcbc236 u0 com.android.todolist/.MainActivity t13898}}})/@0x78cfa27 - animation-leash#0
+2021-11-15 21:32:57.082 17127-17127/com.android.todolist D/PhoneWindow: forceLight changed to true [] from com.android.internal.policy.PhoneWindow.updateForceLightNavigationBar:4238 com.android.internal.policy.DecorView.updateColorViews:1494 com.android.internal.policy.PhoneWindow.dispatchWindowAttributesChanged:3216 android.view.Window.setFlags:1148 com.android.internal.policy.PhoneWindow.generateLayout:2444 
+2021-11-15 21:32:57.083 17127-17127/com.android.todolist I/MultiWindowDecorSupport: updateCaptionType >> DecorView@71537db[], isFloating: false, isApplication: true, hasWindowDecorCaption: false, hasWindowControllerCallback: true
+2021-11-15 21:32:57.083 17127-17127/com.android.todolist D/MultiWindowDecorSupport: setCaptionType = 0, DecorView = DecorView@71537db[]
+2021-11-15 21:32:57.103 17127-17127/com.android.todolist W/ndroid.todolis: Accessing hidden method Landroid/view/View;->computeFitSystemWindows(Landroid/graphics/Rect;Landroid/graphics/Rect;)Z (greylist, reflection, allowed)
+2021-11-15 21:32:57.105 17127-17127/com.android.todolist W/ndroid.todolis: Accessing hidden method Landroid/view/ViewGroup;->makeOptionalFitsSystemWindows()V (greylist, reflection, allowed)
+2021-11-15 21:32:57.292 3867-3918/? I/SurfaceFlinger: createSurf start. lock debugging [51ec688 com.android.todolist/com.android.todolist.MainActivity]
+2021-11-15 21:32:57.293 3867-3918/? I/SurfaceFlinger: id=12846 createSurf (0x0),-1 flag=80004, 51ec688 com.android.todolist/com.android.todolist.MainActivity#0
+2021-11-15 21:32:57.295 17127-17127/com.android.todolist D/ViewRootImpl@f4de547[MainActivity]: setView = com.android.internal.policy.DecorView@71537db TM=true MM=false
+2021-11-15 21:32:57.337 4311-4680/? V/WindowManager: Relayout Window{51ec688 u0 com.android.todolist/com.android.todolist.MainActivity}: viewVisibility=0 req=720x1560
+2021-11-15 21:32:57.340 3867-3918/? I/SurfaceFlinger: createSurf start. lock debugging [com.android.todolist/com.android.todolist.MainActivity$_17127]
+2021-11-15 21:32:57.341 3867-3918/? I/SurfaceFlinger: id=12847 createSurf (720x1560),1 flag=404, com.android.todolist/com.android.todolist.MainActivity$_17127#0
+2021-11-15 21:32:57.347 17127-17127/com.android.todolist D/ViewRootImpl@f4de547[MainActivity]: Relayout returned: old=(0,0,720,1560) new=(0,0,720,1560) req=(720,1560)0 dur=10 res=0x7 s={true 489785991168} ch=true
+2021-11-15 21:32:57.348 17127-17151/com.android.todolist D/OpenGLRenderer: createReliableSurface : 0x72098fd300, 0x7209852000
+2021-11-15 21:32:57.398 17127-17151/com.android.todolist D/mali_winsys: EGLint new_window_surface(egl_winsys_display *, void *, EGLSurface, EGLConfig, egl_winsys_surface **, EGLBoolean) returns 0x3000
+2021-11-15 21:32:57.463 17127-17151/com.android.todolist W/Gralloc3: mapper 3.x is not supported
+2021-11-15 21:32:57.480 17127-17151/com.android.todolist I/gralloc: Arm Module v1.0
+2021-11-15 21:32:57.712 4311-4361/? D/ViewRootImpl@7685aca[todolist]: dispatchDetachedFromWindow
+2021-11-15 21:32:57.716 3867-3917/? I/SurfaceFlinger: createSurf start. lock debugging [Surface(name=554643b Splash Screen com.android.todolist)/@0x8500eff - animation-leash]
+2021-11-15 21:32:57.716 3867-3917/? I/SurfaceFlinger: id=12848 createSurf (0x0),-1 flag=80004, Surface(name=554643b Splash Screen com.android.todolist)/@0x8500eff - animation-leash#0
+2021-11-15 21:32:57.730 17127-17127/com.android.todolist D/ViewRootImpl@f4de547[MainActivity]: MSG_WINDOW_FOCUS_CHANGED 1 1
+2021-11-15 21:32:57.730 17127-17127/com.android.todolist D/InputMethodManager: prepareNavigationBarInfo() DecorView@71537db[MainActivity]
+2021-11-15 21:32:57.731 17127-17127/com.android.todolist D/InputMethodManager: getNavigationBarColor() -855310
+2021-11-15 21:32:57.735 17127-17127/com.android.todolist D/InputMethodManager: prepareNavigationBarInfo() DecorView@71537db[MainActivity]
+2021-11-15 21:32:57.735 17127-17127/com.android.todolist D/InputMethodManager: getNavigationBarColor() -855310
+2021-11-15 21:32:57.735 17127-17127/com.android.todolist V/InputMethodManager: Starting input: tba=com.android.todolist ic=null mNaviBarColor -855310 mIsGetNaviBarColorSuccess true , NavVisible : true , NavTrans : false
+2021-11-15 21:32:57.736 17127-17127/com.android.todolist D/InputMethodManager: startInputInner - Id : 0
+2021-11-15 21:32:57.736 17127-17127/com.android.todolist I/InputMethodManager: startInputInner - mService.startInputOrWindowGainedFocus
+2021-11-15 21:32:57.756 17127-17127/com.android.todolist D/ViewRootImpl@f4de547[MainActivity]: MSG_RESIZED: frame=(0,0,720,1560) ci=(0,53,0,84) vi=(0,53,0,84) or=1
+2021-11-15 21:32:57.757 17127-17127/com.android.todolist D/InputMethodManager: prepareNavigationBarInfo() DecorView@71537db[MainActivity]
+2021-11-15 21:32:57.757 17127-17127/com.android.todolist D/InputMethodManager: getNavigationBarColor() -855310
+2021-11-15 21:32:57.758 17127-17127/com.android.todolist V/InputMethodManager: Starting input: tba=com.android.todolist ic=null mNaviBarColor -855310 mIsGetNaviBarColorSuccess true , NavVisible : true , NavTrans : false
+2021-11-15 21:32:57.758 17127-17127/com.android.todolist D/InputMethodManager: startInputInner - Id : 0
+2021-11-15 21:32:57.774 3867-3867/? I/SurfaceFlinger: Display 0 HWC layers:
+        type    |    handle    | flag |  format   |   source crop (l,t,r,b)    |         frame       | name 
+    ------------+--------------+------+-----------+----------------------------+---------------------+------
+         DEVICE | 0x71bbf10640 | 0002 | RGBA_8888 |   0.0    0.0  720.0 1560.0 |    0    0  720 1560 | com.android.todolist/com.android.todolist.MainActivity$_17127#0
+         DEVICE | 0x71ddb1f580 | 0002 | RGBA_8888 |   0.0    0.0  720.0 1560.0 |    0    0  720 1560 | Splash Screen com.android.todolist#0
+         DEVICE | 0x71bbf10780 | 0000 | RGBA_8888 |   0.0    0.0  720.0   53.0 |    0    0  720   53 | StatusBar$_4655#0
+         DEVICE | 0x71d9ed8380 | 0000 | RGBA_8888 |   0.0    0.0  720.0   84.0 |    0 1476  720 1560 | NavigationBar0$_4655#0
+         DEVICE | 0x71d9ed7980 | 0000 | RGBA_8888 |   0.0    0.0  720.0  101.0 |    0    0  720  101 | ScreenDecorOverlay$_4655#0
+         DEVICE | 0x71bbf11900 | 0000 | RGBA_8888 |   0.0    0.0  720.0  101.0 |    0 1459  720 1560 | ScreenDecorOverlayBottom$_46
+2021-11-15 21:32:57.789 3867-3917/? I/Layer: id=12842 removeFromCurrentState Splash Screen com.android.todolist#0 (104)
+2021-11-15 21:32:57.792 3867-3917/? I/Layer: id=12841 removeFromCurrentState 554643b Splash Screen com.android.todolist#0 (104)
+2021-11-15 21:32:57.792 3867-3917/? I/Layer: id=12848 removeFromCurrentState Surface(name=554643b Splash Screen com.android.todolist)/@0x8500eff - animation-leash#0 (104)
+2021-11-15 21:32:57.793 3867-3917/? I/SurfaceFlinger: id=12841 Removed 554643b Splash Screen com.android.todolist#0 (104)
+2021-11-15 21:32:57.794 3867-3917/? I/SurfaceFlinger: id=12848 Removed Surface(name=554643b Splash Screen com.android.todolist)/@0x8500eff - animation-leash#0 (104)
+2021-11-15 21:32:57.794 3867-3917/? I/SurfaceFlinger: id=12842 Removed Splash Screen com.android.todolist#0 (104)
+2021-11-15 21:32:57.797 4311-4358/? D/CodecSolution: isMaxAspectPackageEx: com.android.todolist : false(0)
+2021-11-15 21:32:57.800 3867-3867/? I/Layer: id=12848[1] Destroyed Surface(name=554643b Splash Screen com.android.todolist)/@0x8500eff - animation-leash#0
+2021-11-15 21:32:57.800 3867-3867/? I/Layer: id=12841[1] Destroyed 554643b Splash Screen com.android.todolist#0
+2021-11-15 21:32:57.802 3867-3867/? I/Layer: id=12842[1] Destroyed Splash Screen com.android.todolist#0
+2021-11-15 21:32:57.806 3867-3867/? I/SurfaceFlinger: Display 0 HWC layers:
+        type    |    handle    | flag |  format   |   source crop (l,t,r,b)    |         frame       | name 
+    ------------+--------------+------+-----------+----------------------------+---------------------+------
+         DEVICE | 0x71bbf10280 | 0002 | RGBA_8888 |   0.0    0.0  720.0 1560.0 |    0    0  720 1560 | com.android.todolist/com.android.todolist.MainActivity$_17127#0
+         DEVICE | 0x71bbf10780 | 0000 | RGBA_8888 |   0.0    0.0  720.0   53.0 |    0    0  720   53 | StatusBar$_4655#0
+         DEVICE | 0x71d9ed8380 | 0000 | RGBA_8888 |   0.0    0.0  720.0   84.0 |    0 1476  720 1560 | NavigationBar0$_4655#0
+         DEVICE | 0x71d9ed7980 | 0000 | RGBA_8888 |   0.0    0.0  720.0  101.0 |    0    0  720  101 | ScreenDecorOverlay$_4655#0
+         DEVICE | 0x71bbf11900 | 0000 | RGBA_8888 |   0.0    0.0  720.0  101.0 |    0 1459  720 1560 | ScreenDecorOverlayBottom$_4655#0
+2021-11-15 21:33:00.521 17127-17127/com.android.todolist D/ViewRootImpl@f4de547[MainActivity]: ViewPostIme pointer 0
+2021-11-15 21:33:00.595 17127-17127/com.android.todolist D/ViewRootImpl@f4de547[MainActivity]: ViewPostIme pointer 1
+2021-11-15 21:33:02.491 17127-17127/com.android.todolist D/ViewRootImpl@f4de547[MainActivity]: ViewPostIme pointer 0
+2021-11-15 21:33:02.608 17127-17127/com.android.todolist D/ViewRootImpl@f4de547[MainActivity]: ViewPostIme pointer 1
+2021-11-15 21:33:03.917 17127-17127/com.android.todolist D/ViewRootImpl@f4de547[MainActivity]: ViewPostIme pointer 0
+2021-11-15 21:33:03.973 17127-17127/com.android.todolist D/ViewRootImpl@f4de547[MainActivity]: ViewPostIme pointer 1
+2021-11-15 21:33:04.450 17127-17127/com.android.todolist D/ViewRootImpl@f4de547[MainActivity]: ViewPostIme pointer 0
+2021-11-15 21:33:04.516 17127-17127/com.android.todolist D/ViewRootImpl@f4de547[MainActivity]: ViewPostIme pointer 1
+2021-11-15 21:33:04.606 17127-17127/com.android.todolist D/Dialog: mIsSamsungBasicInteraction = false, isMetaDataInActivity = false
+2021-11-15 21:33:04.616 17127-17127/com.android.todolist I/MultiWindowDecorSupport: updateCaptionType >> DecorView@22cced0[], isFloating: true, isApplication: true, hasWindowDecorCaption: false, hasWindowControllerCallback: false
+2021-11-15 21:33:04.616 17127-17127/com.android.todolist D/MultiWindowDecorSupport: setCaptionType = 0, DecorView = DecorView@22cced0[]
+2021-11-15 21:33:04.664 17127-17127/com.android.todolist D/ScrollView: initGoToTop
+2021-11-15 21:33:04.689 3867-5370/? I/SurfaceFlinger: createSurf start. lock debugging [61160c1 com.android.todolist/com.android.todolist.MainActivity]
+2021-11-15 21:33:04.689 3867-5370/? I/SurfaceFlinger: id=12849 createSurf (0x0),-1 flag=80004, 61160c1 com.android.todolist/com.android.todolist.MainActivity#0
+2021-11-15 21:33:04.695 17127-17127/com.android.todolist D/ViewRootImpl@60423df[MainActivity]: setView = com.android.internal.policy.DecorView@22cced0 TM=true MM=false
+2021-11-15 21:33:04.783 4311-6948/? V/WindowManager: Relayout Window{61160c1 u0 com.android.todolist/com.android.todolist.MainActivity}: viewVisibility=0 req=683x389
+2021-11-15 21:33:04.789 3867-5370/? I/SurfaceFlinger: createSurf start. lock debugging [com.android.todolist/com.android.todolist.MainActivity$_17127]
+2021-11-15 21:33:04.790 3867-5370/? I/SurfaceFlinger: id=12850 createSurf (795x501),1 flag=4, com.android.todolist/com.android.todolist.MainActivity$_17127#1
+2021-11-15 21:33:04.798 17127-17127/com.android.todolist D/ViewRootImpl@60423df[MainActivity]: Relayout returned: old=(0,53,720,1476) new=(18,570,701,959) req=(683,389)0 dur=15 res=0x7 s={true 485469687808} ch=true
+2021-11-15 21:33:04.798 17127-17151/com.android.todolist D/OpenGLRenderer: createReliableSurface : 0x7106ffb3c0, 0x71083f9000
+2021-11-15 21:33:04.800 17127-17151/com.android.todolist D/mali_winsys: EGLint new_window_surface(egl_winsys_display *, void *, EGLSurface, EGLConfig, egl_winsys_surface **, EGLBoolean) returns 0x3000
+2021-11-15 21:33:04.820 17127-17127/com.android.todolist D/ScrollView:  onsize change changed 
+2021-11-15 21:33:04.824 17127-17127/com.android.todolist E/DecorView: mWindow.mActivityCurrentConfig is null
+2021-11-15 21:33:04.845 17127-17127/com.android.todolist D/ViewRootImpl@60423df[MainActivity]: MSG_WINDOW_FOCUS_CHANGED 1 1
+2021-11-15 21:33:04.846 17127-17127/com.android.todolist D/InputMethodManager: prepareNavigationBarInfo() DecorView@22cced0[MainActivity]
+2021-11-15 21:33:04.846 17127-17127/com.android.todolist D/InputMethodManager: getNavigationBarColor() -855310
+2021-11-15 21:33:04.856 3867-5370/? I/SurfaceFlinger: createSurf start. lock debugging [Surface(name=61160c1 com.android.todolist/com.android.todolist.MainActivity)/@0x765ecf2 - animation-leash]
+2021-11-15 21:33:04.856 3867-5370/? I/SurfaceFlinger: id=12851 createSurf (0x0),-1 flag=80004, Surface(name=61160c1 com.android.todolist/com.android.todolist.MainActivity)/@0x765ecf2 - animation-leash#0
+2021-11-15 21:33:04.857 17127-17127/com.android.todolist D/EmergencyMode: [EmergencyManager] android createPackageContext successful: com.android.todolist
+2021-11-15 21:33:04.861 17127-17127/com.android.todolist D/InputMethodManager: prepareNavigationBarInfo() DecorView@22cced0[MainActivity]
+2021-11-15 21:33:04.861 17127-17127/com.android.todolist D/InputMethodManager: getNavigationBarColor() -855310
+2021-11-15 21:33:04.861 17127-17127/com.android.todolist V/InputMethodManager: Starting input: tba=com.android.todolist ic=null mNaviBarColor -855310 mIsGetNaviBarColorSuccess true , NavVisible : true , NavTrans : false
+2021-11-15 21:33:04.861 17127-17127/com.android.todolist D/InputMethodManager: startInputInner - Id : 0
+2021-11-15 21:33:04.861 17127-17127/com.android.todolist I/InputMethodManager: startInputInner - mService.startInputOrWindowGainedFocus
+2021-11-15 21:33:04.865 17127-17127/com.android.todolist D/InputTransport: Input channel destroyed: 'ClientS', fd=71
+2021-11-15 21:33:04.873 4311-4358/? D/WindowManager: setSystemUiVisibility: displayId=0, vis=0x8008, fullVis=0x0, dockVis=0x0, win=Window{61160c1 u0 com.android.todolist/com.android.todolist.MainActivity}
+2021-11-15 21:33:04.873 17127-17127/com.android.todolist D/ViewRootImpl@60423df[MainActivity]: MSG_RESIZED: frame=(18,570,701,959) ci=(0,0,0,0) vi=(0,0,0,0) or=1
+2021-11-15 21:33:04.874 17127-17127/com.android.todolist D/ViewRootImpl@f4de547[MainActivity]: MSG_WINDOW_FOCUS_CHANGED 0 1
+2021-11-15 21:33:04.874 17127-17127/com.android.todolist D/InputMethodManager: prepareNavigationBarInfo() DecorView@71537db[MainActivity]
+2021-11-15 21:33:04.874 17127-17127/com.android.todolist D/InputMethodManager: getNavigationBarColor() -855310
+2021-11-15 21:33:04.903 3867-3867/? I/SurfaceFlinger: Display 0 HWC layers:
+        type    |    handle    | flag |  format   |   source crop (l,t,r,b)    |         frame       | name 
+    ------------+--------------+------+-----------+----------------------------+---------------------+------
+         DEVICE | 0x71d9ed8d80 | 0002 | RGBA_8888 |   0.0    0.0  720.0 1560.0 |    0    0  720 1560 | com.android.todolist/com.android.todolist.MainActivity$_17127#0
+         DEVICE | 0x71d9ed7c00 | 0000 | RGBA_8888 |  38.0    0.0  758.0  501.0 |    0  514  720 1015 | com.android.todolist/com.android.todolist.MainActivity$_17127#1
+         DEVICE | 0x71bbf10780 | 0000 | RGBA_8888 |   0.0    0.0  720.0   53.0 |    0    0  720   53 | StatusBar$_4655#0
+         DEVICE | 0x71d9ed8380 | 0000 | RGBA_8888 |   0.0    0.0  720.0   84.0 |    0 1476  720 1560 | NavigationBar0$_4655#0
+         DEVICE | 0x71d9ed7980 | 0000 | RGBA_8888 |   0.0    0.0  720.0  101.0 |    0    0  720  101 | ScreenDecorOverlay$_4655#0
+         DEVICE | 0x71bbf11900 | 0000 | RGBA_8888 |   0.0    0.0  720.0  101.0 |    0 1459  720 1560 | S
+2021-11-15 21:33:04.919 3867-3867/? I/SurfaceFlinger: Display 0 HWC layers:
+        type    |    handle    | flag |  format   |   source crop (l,t,r,b)    |         frame       | name 
+    ------------+--------------+------+-----------+----------------------------+---------------------+------
+         DEVICE | 0x71bbf10280 | 0002 | RGBA_8888 |   0.0    0.0  720.0 1560.0 |    0    0  720 1560 | com.android.todolist/com.android.todolist.MainActivity$_17127#0
+     SOLID_COLOR |              | 0004 |  Unknown  |   0.0    0.0    0.0    0.0 |    0    0  720 1560 | Dim Layer for - Task=13898#0
+         DEVICE | 0x71d9ed7c00 | 0000 | RGBA_8888 |  38.0    0.0  758.0  501.0 |    0  514  720 1015 | com.android.todolist/com.android.todolist.MainActivity$_17127#1
+         DEVICE | 0x71bbf10780 | 0000 | RGBA_8888 |   0.0    0.0  720.0   53.0 |    0    0  720   53 | StatusBar$_4655#0
+         DEVICE | 0x71d9ed57c0 | 0000 | RGBA_8888 |   0.0    0.0  720.0   84.0 |    0 1476  720 1560 | NavigationBar0$_4655#0
+         DEVICE | 0x71d9ed7980 | 0000 | RGBA_8888 |   0.0    0.0  720.0  101.0 |    0    0  720  101 
+2021-11-15 21:33:05.014 3867-3917/? I/Layer: id=12851 removeFromCurrentState Surface(name=61160c1 com.android.todolist/com.android.todolist.MainActivity)/@0x765ecf2 - animation-leash#0 (105)
+2021-11-15 21:33:05.016 3867-3917/? I/SurfaceFlinger: id=12851 Removed Surface(name=61160c1 com.android.todolist/com.android.todolist.MainActivity)/@0x765ecf2 - animation-leash#0 (105)
+2021-11-15 21:33:05.027 3867-3867/? I/Layer: id=12851[1] Destroyed Surface(name=61160c1 com.android.todolist/com.android.todolist.MainActivity)/@0x765ecf2 - animation-leash#0
+2021-11-15 21:33:06.516 17127-17127/com.android.todolist D/ViewRootImpl@60423df[MainActivity]: ViewPostIme pointer 0
+2021-11-15 21:33:06.630 17127-17127/com.android.todolist D/ViewRootImpl@60423df[MainActivity]: ViewPostIme pointer 1
+2021-11-15 21:33:06.689 3867-3917/? E/BufferQueueProducer: [com.android.todolist/com.android.todolist.MainActivity$_17127#1] disconnect: not connected (req=1)
+2021-11-15 21:33:06.690 17127-17151/com.android.todolist W/libEGL: EGLNativeWindowType 0x7106ffb3d0 disconnect failed
+2021-11-15 21:33:06.690 17127-17151/com.android.todolist D/OpenGLRenderer: endAllActiveAnimators on 0x710850ae00 (RippleDrawable) with handle 0x72099536e0
+2021-11-15 21:33:06.690 17127-17127/com.android.todolist D/ViewRootImpl@60423df[MainActivity]: dispatchDetachedFromWindow
+2021-11-15 21:33:06.692 3867-3917/? I/SurfaceFlinger: createSurf start. lock debugging [Surface(name=61160c1 com.android.todolist/com.android.todolist.MainActivity)/@0x765ecf2 - animation-leash]
+2021-11-15 21:33:06.693 3867-3917/? I/SurfaceFlinger: id=12855 createSurf (0x0),-1 flag=80004, Surface(name=61160c1 com.android.todolist/com.android.todolist.MainActivity)/@0x765ecf2 - animation-leash#0
+2021-11-15 21:33:06.693 4311-7168/? E/InputDispatcher: Window handle Window{61160c1 u0 com.android.todolist/com.android.todolist.MainActivity} has no registered input channel
+2021-11-15 21:33:06.702 17127-17127/com.android.todolist D/InputTransport: Input channel destroyed: '61160c1', fd=84
+2021-11-15 21:33:06.709 4311-4519/? E/InputDispatcher: Window handle Window{61160c1 u0 com.android.todolist/com.android.todolist.MainActivity} has no registered input channel
+2021-11-15 21:33:06.717 17127-17127/com.android.todolist D/ViewRootImpl@88de63[Toast]: setView = android.widget.LinearLayout@19b0a60 TM=true MM=false
+2021-11-15 21:33:06.717 17127-17127/com.android.todolist V/Toast: Text: Pper in android.widget.Toast$TN@26cdb19
+2021-11-15 21:33:06.718 17127-17127/com.android.todolist D/ViewRootImpl@f4de547[MainActivity]: MSG_WINDOW_FOCUS_CHANGED 1 1
+2021-11-15 21:33:06.718 17127-17127/com.android.todolist D/InputMethodManager: prepareNavigationBarInfo() DecorView@71537db[MainActivity]
+2021-11-15 21:33:06.718 17127-17127/com.android.todolist D/InputMethodManager: getNavigationBarColor() -855310
+2021-11-15 21:33:06.722 17127-17127/com.android.todolist D/InputMethodManager: prepareNavigationBarInfo() DecorView@71537db[MainActivity]
+2021-11-15 21:33:06.722 17127-17127/com.android.todolist D/InputMethodManager: getNavigationBarColor() -855310
+2021-11-15 21:33:06.722 17127-17127/com.android.todolist V/InputMethodManager: Starting input: tba=com.android.todolist ic=null mNaviBarColor -855310 mIsGetNaviBarColorSuccess true , NavVisible : true , NavTrans : false
+2021-11-15 21:33:06.723 17127-17127/com.android.todolist D/InputMethodManager: startInputInner - Id : 0
+2021-11-15 21:33:06.723 17127-17127/com.android.todolist I/InputMethodManager: startInputInner - mService.startInputOrWindowGainedFocus
+2021-11-15 21:33:06.725 17127-17127/com.android.todolist D/InputTransport: Input channel destroyed: 'ClientS', fd=86
+2021-11-15 21:33:06.725 17127-17127/com.android.todolist E/ViewRootImpl: sendUserActionEvent() mView returned.
+2021-11-15 21:33:06.731 4311-4358/? D/WindowManager: setSystemUiVisibility: displayId=0, vis=0x8018, fullVis=0x0, dockVis=0x0, win=Window{51ec688 u0 com.android.todolist/com.android.todolist.MainActivity}
+2021-11-15 21:33:06.740 17127-17127/com.android.todolist D/ViewRootImpl@88de63[Toast]: Relayout returned: old=(0,53,720,1476) new=(189,1287,530,1364) req=(341,77)0 dur=11 res=0x7 s={true 485249970176} ch=true
+2021-11-15 21:33:06.741 17127-17151/com.android.todolist D/OpenGLRenderer: createReliableSurface : 0x7106ffb3c0, 0x70fb26f000
+2021-11-15 21:33:06.742 17127-17151/com.android.todolist D/mali_winsys: EGLint new_window_surface(egl_winsys_display *, void *, EGLSurface, EGLConfig, egl_winsys_surface **, EGLBoolean) returns 0x3000
+2021-11-15 21:33:06.769 17127-17127/com.android.todolist D/ViewRootImpl@88de63[Toast]: MSG_RESIZED: frame=(189,1287,530,1364) ci=(0,0,0,0) vi=(0,0,341,77) or=1
+2021-11-15 21:33:06.813 3867-3867/? I/SurfaceFlinger: Display 0 HWC layers:
+        type    |    handle    | flag |  format   |   source crop (l,t,r,b)    |         frame       | name 
+    ------------+--------------+------+-----------+----------------------------+---------------------+------
+         DEVICE | 0x71d9ed8d80 | 0002 | RGBA_8888 |   0.0    0.0  720.0 1560.0 |    0    0  720 1560 | com.android.todolist/com.android.todolist.MainActivity$_17127#0
+     SOLID_COLOR |              | 0004 |  Unknown  |   0.0    0.0    0.0    0.0 |    0    0  720 1560 | Dim Layer for - Task=13898#0
+         DEVICE | 0x71d9ed7c00 | 0000 | RGBA_8888 |  38.0    0.0  758.0  501.0 |    0  514  720 1015 | com.android.todolist/com.android.todolist.MainActivity$_17127#1
+         DEVICE | 0x71bbf10780 | 0000 | RGBA_8888 |   0.0    0.0  720.0   53.0 |    0    0  720   53 | StatusBar$_4655#0
+         DEVICE | 0x71d9ed5680 | 0000 | RGBA_8888 |   0.0    0.0  341.0   77.0 |  189 1287  530 1364 | Toast$_17127#0
+         DEVICE | 0x71d9ed57c0 | 0000 | RGBA_8888 |   0.0    0.0  720.0   84.0 |    0 1476  720 1560 | Naviga
+2021-11-15 21:33:06.861 3867-5370/? I/Layer: id=12850 removeFromCurrentState com.android.todolist/com.android.todolist.MainActivity$_17127#1 (109)
+2021-11-15 21:33:06.864 3867-5131/? I/Layer: id=12849 removeFromCurrentState 61160c1 com.android.todolist/com.android.todolist.MainActivity#0 (109)
+2021-11-15 21:33:06.864 3867-5131/? I/Layer: id=12855 removeFromCurrentState Surface(name=61160c1 com.android.todolist/com.android.todolist.MainActivity)/@0x765ecf2 - animation-leash#0 (109)
+2021-11-15 21:33:06.866 3867-5131/? I/SurfaceFlinger: id=12855 Removed Surface(name=61160c1 com.android.todolist/com.android.todolist.MainActivity)/@0x765ecf2 - animation-leash#0 (109)
+2021-11-15 21:33:06.866 3867-5131/? I/SurfaceFlinger: id=12850 Removed com.android.todolist/com.android.todolist.MainActivity$_17127#1 (109)
+2021-11-15 21:33:06.876 3867-3867/? I/Layer: id=12855[1] Destroyed Surface(name=61160c1 com.android.todolist/com.android.todolist.MainActivity)/@0x765ecf2 - animation-leash#0
+2021-11-15 21:33:06.880 3867-3867/? I/Layer: id=12850[1] Destroyed com.android.todolist/com.android.todolist.MainActivity$_17127#1
+2021-11-15 21:33:06.884 3867-3867/? I/SurfaceFlinger: Display 0 HWC layers:
+        type    |    handle    | flag |  format   |   source crop (l,t,r,b)    |         frame       | name 
+    ------------+--------------+------+-----------+----------------------------+---------------------+------
+         DEVICE | 0x71d9ed8d80 | 0002 | RGBA_8888 |   0.0    0.0  720.0 1560.0 |    0    0  720 1560 | com.android.todolist/com.android.todolist.MainActivity$_17127#0
+         DEVICE | 0x71bbf10780 | 0000 | RGBA_8888 |   0.0    0.0  720.0   53.0 |    0    0  720   53 | StatusBar$_4655#0
+         DEVICE | 0x71d9ed5680 | 0000 | RGBA_8888 |   0.0    0.0  341.0   77.0 |  189 1287  530 1364 | Toast$_17127#0
+         DEVICE | 0x71bbf108c0 | 0000 | RGBA_8888 |   0.0    0.0  720.0   84.0 |    0 1476  720 1560 | NavigationBar0$_4655#0
+         DEVICE | 0x71d9ed7980 | 0000 | RGBA_8888 |   0.0    0.0  720.0  101.0 |    0    0  720  101 | ScreenDecorOverlay$_4655#0
+         DEVICE | 0x71bbf11900 | 0000 | RGBA_8888 |   0.0    0.0  720.0  101.0 |    0 1459  720 1560 | ScreenDecorOverlayBottom$_4655#0
+2021-11-15 21:33:07.641 17127-17127/com.android.todolist D/ViewRootImpl@f4de547[MainActivity]: ViewPostIme pointer 0
+2021-11-15 21:33:07.772 17127-17127/com.android.todolist D/ViewRootImpl@f4de547[MainActivity]: ViewPostIme pointer 1
+2021-11-15 21:33:08.689 17127-17151/com.android.todolist W/libEGL: EGLNativeWindowType 0x7106ffb3d0 disconnect failed
+2021-11-15 21:33:08.690 17127-17127/com.android.todolist D/ViewRootImpl@88de63[Toast]: dispatchDetachedFromWindow
+2021-11-15 21:33:08.697 17127-17127/com.android.todolist D/InputTransport: Input channel destroyed: 'e68d5d9', fd=83
+2021-11-15 21:33:08.700 17127-17127/com.android.todolist D/ViewRootImpl@f4de547[MainActivity]: ViewPostIme pointer 0
+2021-11-15 21:33:08.780 17127-17127/com.android.todolist D/ViewRootImpl@f4de547[MainActivity]: ViewPostIme pointer 1
+2021-11-15 21:33:09.228 3867-3867/? I/SurfaceFlinger: Display 0 HWC layers:
+        type    |    handle    | flag |  format   |   source crop (l,t,r,b)    |         frame       | name 
+    ------------+--------------+------+-----------+----------------------------+---------------------+------
+         DEVICE | 0x71bbf10640 | 0002 | RGBA_8888 |   0.0    0.0  720.0 1560.0 |    0    0  720 1560 | com.android.todolist/com.android.todolist.MainActivity$_17127#0
+         DEVICE | 0x71bbf11e00 | 0000 | RGBA_8888 |   0.0    0.0  720.0   53.0 |    0    0  720   53 | StatusBar$_4655#0
+         DEVICE | 0x71d9ed8380 | 0000 | RGBA_8888 |   0.0    0.0  720.0   84.0 |    0 1476  720 1560 | NavigationBar0$_4655#0
+         DEVICE | 0x71d9ed7980 | 0000 | RGBA_8888 |   0.0    0.0  720.0  101.0 |    0    0  720  101 | ScreenDecorOverlay$_4655#0
+         DEVICE | 0x71bbf11900 | 0000 | RGBA_8888 |   0.0    0.0  720.0  101.0 |    0 1459  720 1560 | ScreenDecorOverlayBottom$_4655#0
+2021-11-15 21:33:54.724 3867-5131/? I/SurfaceFlinger: id=12849 Removed 61160c1 com.android.todolist/com.android.todolist.MainActivity#0 (101)
+2021-11-15 21:33:54.731 3867-3867/? I/Layer: id=12849[1] Destroyed 61160c1 com.android.todolist/com.android.todolist.MainActivity#0
+2021-11-15 21:36:17.952 4311-4311/? D/GameManagerService: identifyGamePackage. com.android.todolist, mCurrentUserId: 0, callerUserId: 0
+2021-11-15 21:36:17.952 4311-4311/? D/GamePkgDataHelper: getGamePkgData(). com.android.todolist
+2021-11-15 21:36:17.953 4311-4311/? D/GameManagerService: identifyGamePackage. com.android.todolist, mCurrentUserId: 0, callerUserId: 0
+2021-11-15 21:36:17.954 4311-4311/? D/GamePkgDataHelper: getGamePkgData(). com.android.todolist
+2021-11-15 21:37:41.662 18481-18541/? V/DWBAppUsageDataUpdater: com.android.todolist Activity until the end of the day ( 1637001178801 ~ 1637001461316 )
+2021-11-15 21:38:15.814 4311-4358/? V/WindowManager: Changing focus from Window{51ec688 u0 com.android.todolist/com.android.todolist.MainActivity} to null displayId=0 Callers=com.android.server.wm.RootWindowContainer.updateFocusedWindowLocked:203 com.android.server.wm.WindowManagerService.updateFocusedWindowLocked:6107 com.android.server.wm.ActivityDisplay.setFocusedApp:1529 com.android.server.wm.ActivityTaskManagerService.setResumedActivityUncheckLocked:6719 com.android.server.wm.ActivityRecord.moveFocusableActivityToTop:1810 com.android.server.wm.ActivityStack.moveTaskToFrontLocked:5557 
+2021-11-15 21:38:15.937 17127-17127/com.android.todolist D/ViewRootImpl@f4de547[MainActivity]: MSG_WINDOW_FOCUS_CHANGED 0 1
+2021-11-15 21:38:15.938 17127-17127/com.android.todolist D/InputMethodManager: prepareNavigationBarInfo() DecorView@71537db[MainActivity]
+2021-11-15 21:38:15.938 17127-17127/com.android.todolist D/InputMethodManager: getNavigationBarColor() -855310
+2021-11-15 21:38:16.119 4311-4361/? I/WindowManager: Reparenting to leash, surface=Surface(name=AppWindowToken{16f3aa4 token=Token{b25537 ActivityRecord{dcbc236 u0 com.android.todolist/.MainActivity t13898}}})/@0x78cfa27
+2021-11-15 21:38:16.120 3867-5370/? I/SurfaceFlinger: createSurf start. lock debugging [Surface(name=AppWindowToken{16f3aa4 token=Token{b25537 ActivityRecord{dcbc236 u0 com.android.todolist/.MainActivity t13898}}})/@0x78cfa27 - animation-leash]
+2021-11-15 21:38:16.121 3867-5370/? I/SurfaceFlinger: id=12862 createSurf (0x0),-1 flag=80004, Surface(name=AppWindowToken{16f3aa4 token=Token{b25537 ActivityRecord{dcbc236 u0 com.android.todolist/.MainActivity t13898}}})/@0x78cfa27 - animation-leash#0
+2021-11-15 21:38:16.121 4311-4361/? D/WindowManager: makeSurface duration=2 leash=Surface(name=Surface(name=AppWindowToken{16f3aa4 token=Token{b25537 ActivityRecord{dcbc236 u0 com.android.todolist/.MainActivity t13898}}})/@0x78cfa27 - animation-leash)/@0x2c12be8
+2021-11-15 21:38:16.179 17127-17127/com.android.todolist D/InputTransport: Input channel destroyed: 'ClientS', fd=84
+2021-11-15 21:38:16.258 3867-3867/? I/SurfaceFlinger: Display 0 HWC layers:
+        type    |    handle    | flag |  format   |   source crop (l,t,r,b)    |         frame       | name 
+    ------------+--------------+------+-----------+----------------------------+---------------------+------
+         DEVICE | 0x71bbf103c0 | 0002 | RGBx_8888 |   0.0    0.0  720.0 1560.0 |    0    0  720 1560 | com.vinwap.glitter.MyWallpaperService$_6731#0
+         DEVICE | 0x71bbf10f00 | 0000 | RGBA_8888 |   0.0    0.0  720.0 1560.0 |    0    0  720 1560 | com.sec.android.app.launcher/com.sec[...].activities.LauncherActivity$_5087#0
+         CLIENT | 0x71bbf10280 | 0002 | RGBA_8888 |   0.0    0.0  720.0 1560.0 |    6   13  714 1547 | com.android.todolist/com.android.todolist.MainActivity$_17127#0
+         CLIENT | 0x71d9ed6580 | 0000 | RGBA_8888 |   0.0    0.0  720.0   53.0 |    0    0  720   53 | StatusBar$_4655#0
+         CLIENT | 0x71d9ed57c0 | 0000 | RGBA_8888 |   0.0    0.0  720.0   84.0 |    0 1476  720 1560 | NavigationBar0$_4655#0
+         CLIENT | 0x71d9ed7980 | 0000 | RGBA_8888 |   0.0    0.0  720.0
+2021-11-15 21:38:16.337 4311-7342/? I/WindowManager: Reparenting to original parent: Surface(name=Task=13898)/@0x1c5ad79, destroyLeash=true, surface=Surface(name=AppWindowToken{16f3aa4 token=Token{b25537 ActivityRecord{dcbc236 u0 com.android.todolist/.MainActivity t13898}}})/@0x78cfa27
+2021-11-15 21:38:16.340 4311-7342/? V/WindowManager: Setting visibility of Window{51ec688 u0 com.android.todolist/com.android.todolist.MainActivity}: false, caller=com.android.server.wm.WindowContainer.sendAppVisibilityToClients:640 com.android.server.wm.AppWindowToken.setClientHidden:621 com.android.server.wm.AppWindowToken.onAnimationFinished:3516 com.android.server.wm.-$$Lambda$yVRF8YoeNdTa8GR1wDStVsHu8xM.run:2 com.android.server.wm.SurfaceAnimator.lambda$getFinishedCallback$0$SurfaceAnimator:100 
+2021-11-15 21:38:16.347 3867-4302/? I/Layer: id=12862 removeFromCurrentState Surface(name=AppWindowToken{16f3aa4 token=Token{b25537 ActivityRecord{dcbc236 u0 com.android.todolist/.MainActivity t13898}}})/@0x78cfa27 - animation-leash#0 (104)
+2021-11-15 21:38:16.350 3867-3867/? E/Layer: [Surface(name=AppWindowToken{16f3aa4 token=Token{b25537 ActivityRecord{dcbc236 u0 com.android.todolist/.MainActivity t13898}}})/@0x78cfa27 - animation-leash#0] No local sync point found
+2021-11-15 21:38:16.366 3867-4302/? E/BufferQueueProducer: [com.android.todolist/com.android.todolist.MainActivity$_17127#0] disconnect: not connected (req=1)
+2021-11-15 21:38:16.367 17127-17151/com.android.todolist W/libEGL: EGLNativeWindowType 0x72098fd310 disconnect failed
+2021-11-15 21:38:16.370 4311-4979/? V/WindowManager: Relayout Window{51ec688 u0 com.android.todolist/com.android.todolist.MainActivity}: viewVisibility=8 req=720x1560
+2021-11-15 21:38:16.390 17127-17127/com.android.todolist D/ViewRootImpl@f4de547[MainActivity]: Relayout returned: old=(0,0,720,1560) new=(0,0,720,1560) req=(720,1560)8 dur=21 res=0x5 s={false 0} ch=true
+2021-11-15 21:38:16.408 17127-17127/com.android.todolist D/ViewRootImpl@f4de547[MainActivity]: stopped(true) old=false
+2021-11-15 21:38:16.480 4311-7342/? V/WindowManager: Relayout Window{51ec688 u0 com.android.todolist/com.android.todolist.MainActivity}: viewVisibility=8 req=720x1560
+2021-11-15 21:38:16.498 17127-17127/com.android.todolist D/ViewRootImpl@f4de547[MainActivity]: Relayout returned: old=(0,0,720,1560) new=(0,0,720,1560) req=(720,1560)8 dur=22 res=0x5 s={false 0} ch=false
+2021-11-15 21:38:16.515 4311-6606/? E/WindowManager: win=Window{51ec688 u0 com.android.todolist/com.android.todolist.MainActivity} destroySurfaces: appStopped=true win.mWindowRemovalAllowed=false win.mRemoveOnExit=false win.mViewVisibility=8 caller=com.android.server.wm.AppWindowToken.destroySurfaces:1199 com.android.server.wm.AppWindowToken.destroySurfaces:1180 com.android.server.wm.AppWindowToken.notifyAppStopped:1235 com.android.server.wm.ActivityRecord.activityStoppedLocked:2597 com.android.server.wm.ActivityTaskManagerService.activityStopped:2380 android.app.IActivityTaskManager$Stub.onTransact:2180 android.os.Binder.execTransactInternal:1056 
+2021-11-15 21:38:16.517 4311-6606/? I/WindowManager: Destroying surface Surface(name=com.android.todolist/com.android.todolist.MainActivity$_17127)/@0xf8f90c7 called by com.android.server.wm.WindowStateAnimator.destroySurface:1734 com.android.server.wm.WindowStateAnimator.destroySurfaceLocked:693 com.android.server.wm.WindowState.destroySurfaceUnchecked:3482 com.android.server.wm.WindowState.destroySurface:3456 com.android.server.wm.AppWindowToken.destroySurfaces:1199 com.android.server.wm.AppWindowToken.destroySurfaces:1180 com.android.server.wm.AppWindowToken.notifyAppStopped:1235 com.android.server.wm.ActivityRecord.activityStoppedLocked:2597 
+2021-11-15 21:38:16.518 3867-4302/? I/Layer: id=12847 removeFromCurrentState com.android.todolist/com.android.todolist.MainActivity$_17127#0 (104)
+2021-11-15 21:38:16.518 3867-4302/? I/SurfaceFlinger: id=12847 Removed com.android.todolist/com.android.todolist.MainActivity$_17127#0 (104)
+2021-11-15 21:38:16.529 3867-3867/? I/Layer: id=12847[1] Destroyed com.android.todolist/com.android.todolist.MainActivity$_17127#0
+2021-11-15 21:39:00.276 3867-5370/? I/SurfaceFlinger: id=12862 Removed Surface(name=AppWindowToken{16f3aa4 token=Token{b25537 ActivityRecord{dcbc236 u0 com.android.todolist/.MainActivity t13898}}})/@0x78cfa27 - animation-leash#0 (103)
+2021-11-15 21:39:00.288 3867-3867/? I/Layer: id=12862[1] Destroyed Surface(name=AppWindowToken{16f3aa4 token=Token{b25537 ActivityRecord{dcbc236 u0 com.android.todolist/.MainActivity t13898}}})/@0x78cfa27 - animation-leash#0
+2021-11-15 21:41:37.320 22342-22360/? I/SmProvider: makeValuesForFasUpdate contentValues=package_name=com.android.todolist extras=0 uid=10263 level=1 resetTime=1637001495819
+2021-11-15 21:46:21.459 4311-4519/? I/ActivityTaskManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.android.todolist/.MainActivity bnds=[26,918][191,1162]} from uid 10086
+2021-11-15 21:46:21.522 4311-4360/? D/GameSDKService: MultiWindowEventListener.onFocusStackChanged(), state=0, top=ComponentInfo{com.android.todolist/com.android.todolist.MainActivity}
+2021-11-15 21:46:21.540 4311-4360/? D/GameSDKService: MultiWindowEventListener.onFocusStackChanged(): com.android.todolist
+2021-11-15 21:46:21.553 4311-4360/? D/GameManagerService: MultiWindowEventListener.onFocusStackChanged(), state=0, top=ComponentInfo{com.android.todolist/com.android.todolist.MainActivity}
+2021-11-15 21:46:21.575 4311-7356/? V/WindowManager: Setting visibility of Window{51ec688 u0 com.android.todolist/com.android.todolist.MainActivity}: true, caller=com.android.server.wm.WindowContainer.sendAppVisibilityToClients:640 com.android.server.wm.AppWindowToken.setClientHidden:621 com.android.server.wm.AppWindowToken.setVisibility:717 com.android.server.wm.ActivityRecord.setVisibility:2135 com.android.server.wm.ActivityStack.resumeTopActivityInnerLocked:3376 
+2021-11-15 21:46:21.587 4311-7356/? D/MARsPolicyManager: onPackageResumedFG pkgName = com.android.todolist, userId = 0
+2021-11-15 21:46:21.602 4311-7356/? I/WindowManager: Reparenting to leash, surface=Surface(name=AppWindowToken{16f3aa4 token=Token{b25537 ActivityRecord{dcbc236 u0 com.android.todolist/.MainActivity t13898}}})/@0x78cfa27
+2021-11-15 21:46:21.602 3867-3918/? I/SurfaceFlinger: createSurf start. lock debugging [Surface(name=AppWindowToken{16f3aa4 token=Token{b25537 ActivityRecord{dcbc236 u0 com.android.todolist/.MainActivity t13898}}})/@0x78cfa27 - animation-leash]
+2021-11-15 21:46:21.603 3867-3918/? I/SurfaceFlinger: id=12869 createSurf (0x0),-1 flag=80004, Surface(name=AppWindowToken{16f3aa4 token=Token{b25537 ActivityRecord{dcbc236 u0 com.android.todolist/.MainActivity t13898}}})/@0x78cfa27 - animation-leash#0
+2021-11-15 21:46:21.603 4311-7356/? D/WindowManager: makeSurface duration=1 leash=Surface(name=Surface(name=AppWindowToken{16f3aa4 token=Token{b25537 ActivityRecord{dcbc236 u0 com.android.todolist/.MainActivity t13898}}})/@0x78cfa27 - animation-leash)/@0xaffccd8
+2021-11-15 21:46:21.616 4311-7167/? V/WindowManager: Relayout Window{51ec688 u0 com.android.todolist/com.android.todolist.MainActivity}: viewVisibility=4 req=720x1560
+2021-11-15 21:46:21.628 17127-17127/com.android.todolist D/ViewRootImpl@f4de547[MainActivity]: Relayout returned: old=(0,0,720,1560) new=(0,0,720,1560) req=(720,1560)4 dur=42 res=0x1 s={false 0} ch=false
+2021-11-15 21:46:21.630 17127-17127/com.android.todolist D/ViewRootImpl@f4de547[MainActivity]: stopped(false) old=true
+2021-11-15 21:46:21.639 4311-4358/? D/CodecSolution: isMaxAspectPackageEx: com.android.todolist : false(0)
+2021-11-15 21:46:21.649 4311-4360/? D/GameManagerService: noteResumeComponent(), resumeComponent: com.android.todolist
+2021-11-15 21:46:21.649 4311-4360/? D/GamePkgDataHelper: getSosPolicy(). com.android.todolist
+2021-11-15 21:46:21.650 4311-7167/? D/GamePkgDataHelper: getSosPolicy(). com.android.todolist
+2021-11-15 21:46:21.651 4311-4615/? D/GameManagerService: handleForegroundChange(). pkgName: com.android.todolist, clsName: com.android.todolist.MainActivity,FgActivityName:com.android.todolist/.MainActivity,userID:0
+2021-11-15 21:46:21.651 4311-4615/? D/GameManagerService:   handleForegroundChange(). set mFgApp: com.android.todolist
+2021-11-15 21:46:21.651 4311-4615/? D/GameManagerService: notifyResumePause(). pkg: com.android.todolist, type: 4, isMinimized: false, isTunableApp: false
+2021-11-15 21:46:21.656 4311-4360/? D/GameManagerService: identifyGamePackage. com.android.todolist, mCurrentUserId: 0, callerUserId: 0
+2021-11-15 21:46:21.656 4311-4360/? D/GamePkgDataHelper: getGamePkgData(). com.android.todolist
+2021-11-15 21:46:21.680 4311-4519/? D/GameManagerService: identifyForegroundApp. com.android.todolist, mCurrentUserId: 0, callerUserId: 0
+2021-11-15 21:46:21.680 4311-4519/? D/GamePkgDataHelper: getGamePkgData(). com.android.todolist
+2021-11-15 21:46:21.686 4311-4519/? D/GameManagerService: identifyGamePackage. com.android.todolist, mCurrentUserId: 0, callerUserId: 0
+2021-11-15 21:46:21.686 4311-4519/? D/GamePkgDataHelper: getGamePkgData(). com.android.todolist
+2021-11-15 21:46:21.693 17127-17127/com.android.todolist D/ViewRootImpl@f4de547[MainActivity]: stopped(false) old=false
+2021-11-15 21:46:21.710 4311-4519/? V/WindowManager: Relayout Window{51ec688 u0 com.android.todolist/com.android.todolist.MainActivity}: viewVisibility=0 req=720x1560
+2021-11-15 21:46:21.715 3867-3918/? I/SurfaceFlinger: createSurf start. lock debugging [com.android.todolist/com.android.todolist.MainActivity$_17127]
+2021-11-15 21:46:21.717 3867-3918/? I/SurfaceFlinger: id=12871 createSurf (720x1560),1 flag=404, com.android.todolist/com.android.todolist.MainActivity$_17127#0
+2021-11-15 21:46:21.719 4311-4519/? D/WindowManager: makeSurface duration=4 name=com.android.todolist/com.android.todolist.MainActivity$_17127
+2021-11-15 21:46:21.724 4311-4519/? V/WindowManager: Changing focus from null to Window{51ec688 u0 com.android.todolist/com.android.todolist.MainActivity} displayId=0 Callers=com.android.server.wm.RootWindowContainer.updateFocusedWindowLocked:203 com.android.server.wm.WindowManagerService.updateFocusedWindowLocked:6107 com.android.server.wm.WindowManagerService.relayoutWindow:2554 com.android.server.wm.Session.relayout:202 android.view.IWindowSession$Stub.onTransact:708 com.android.server.wm.Session.onTransact:142 
+2021-11-15 21:46:21.731 17127-17127/com.android.todolist D/ViewRootImpl@f4de547[MainActivity]: Relayout returned: old=(0,0,720,1560) new=(0,0,720,1560) req=(720,1560)0 dur=21 res=0x7 s={true 485249970176} ch=true
+2021-11-15 21:46:21.732 17127-17151/com.android.todolist D/OpenGLRenderer: createReliableSurface : 0x72098fd580, 0x70fb26f000
+2021-11-15 21:46:21.746 4311-4519/? I/WindowManager: Reparenting to original parent: Surface(name=Task=13898)/@0x1c5ad79, destroyLeash=true, surface=Surface(name=AppWindowToken{16f3aa4 token=Token{b25537 ActivityRecord{dcbc236 u0 com.android.todolist/.MainActivity t13898}}})/@0x78cfa27
+2021-11-15 21:46:21.753 17127-17151/com.android.todolist D/mali_winsys: EGLint new_window_surface(egl_winsys_display *, void *, EGLSurface, EGLConfig, egl_winsys_surface **, EGLBoolean) returns 0x3000
+2021-11-15 21:46:21.754 3867-4302/? I/Layer: id=12869 removeFromCurrentState Surface(name=AppWindowToken{16f3aa4 token=Token{b25537 ActivityRecord{dcbc236 u0 com.android.todolist/.MainActivity t13898}}})/@0x78cfa27 - animation-leash#0 (106)
+2021-11-15 21:46:21.766 3867-3867/? E/Layer: [Surface(name=AppWindowToken{16f3aa4 token=Token{b25537 ActivityRecord{dcbc236 u0 com.android.todolist/.MainActivity t13898}}})/@0x78cfa27 - animation-leash#0] No local sync point found
+2021-11-15 21:46:21.766 3867-3867/? E/Layer: [Surface(name=AppWindowToken{16f3aa4 token=Token{b25537 ActivityRecord{dcbc236 u0 com.android.todolist/.MainActivity t13898}}})/@0x78cfa27 - animation-leash#0] No local sync point found
+2021-11-15 21:46:21.776 4311-4684/? D/MdnieScenarioControlService:  packageName : com.android.todolist    className : com.android.todolist.MainActivity
+2021-11-15 21:46:21.802 3867-3917/? I/SurfaceFlinger: id=12869 Removed Surface(name=AppWindowToken{16f3aa4 token=Token{b25537 ActivityRecord{dcbc236 u0 com.android.todolist/.MainActivity t13898}}})/@0x78cfa27 - animation-leash#0 (106)
+2021-11-15 21:46:21.810 4311-7356/? D/WindowManager: finishDrawingWindow: Window{51ec688 u0 com.android.todolist/com.android.todolist.MainActivity} mDrawState=DRAW_PENDING
+2021-11-15 21:46:21.812 17127-17127/com.android.todolist D/ViewRootImpl@f4de547[MainActivity]: MSG_WINDOW_FOCUS_CHANGED 1 1
+2021-11-15 21:46:21.814 17127-17127/com.android.todolist D/InputMethodManager: prepareNavigationBarInfo() DecorView@71537db[MainActivity]
+2021-11-15 21:46:21.814 17127-17127/com.android.todolist D/InputMethodManager: getNavigationBarColor() -855310
+2021-11-15 21:46:21.816 3867-3867/? I/Layer: id=12869[1] Destroyed Surface(name=AppWindowToken{16f3aa4 token=Token{b25537 ActivityRecord{dcbc236 u0 com.android.todolist/.MainActivity t13898}}})/@0x78cfa27 - animation-leash#0
+2021-11-15 21:46:21.824 17127-17127/com.android.todolist D/InputMethodManager: prepareNavigationBarInfo() DecorView@71537db[MainActivity]
+2021-11-15 21:46:21.824 17127-17127/com.android.todolist D/InputMethodManager: getNavigationBarColor() -855310
+2021-11-15 21:46:21.825 17127-17127/com.android.todolist V/InputMethodManager: Starting input: tba=com.android.todolist ic=null mNaviBarColor -855310 mIsGetNaviBarColorSuccess true , NavVisible : true , NavTrans : false
+2021-11-15 21:46:21.826 17127-17127/com.android.todolist D/InputMethodManager: startInputInner - Id : 0
+2021-11-15 21:46:21.826 17127-17127/com.android.todolist I/InputMethodManager: startInputInner - mService.startInputOrWindowGainedFocus
+2021-11-15 21:46:21.839 3867-3867/? I/SurfaceFlinger: Display 0 HWC layers:
+        type    |    handle    | flag |  format   |   source crop (l,t,r,b)    |         frame       | name 
+    ------------+--------------+------+-----------+----------------------------+---------------------+------
+         DEVICE | 0x71ddb1ee00 | 0002 | RGBA_8888 |   0.0    0.0  720.0 1560.0 |    0    0  720 1560 | com.android.todolist/com.android.todolist.MainActivity$_17127#0
+         DEVICE | 0x71d9ed4f00 | 0000 | RGBA_8888 |   0.0    0.0  720.0 1560.0 |    0    0  720 1560 | SnapshotStartingWindow for taskId=13898#0
+         DEVICE | 0x71d9ed8600 | 0000 | RGBA_8888 |   0.0    0.0  720.0   53.0 |    0    0  720   53 | StatusBar$_4655#0
+         DEVICE | 0x71d9ed8380 | 0000 | RGBA_8888 |   0.0    0.0  720.0   84.0 |    0 1476  720 1560 | NavigationBar0$_4655#0
+         DEVICE | 0x71d9ed7980 | 0000 | RGBA_8888 |   0.0    0.0  720.0  101.0 |    0    0  720  101 | ScreenDecorOverlay$_4655#0
+         DEVICE | 0x71bbf11900 | 0000 | RGBA_8888 |   0.0    0.0  720.0  101.0 |    0 1459  720 1560 | ScreenDecorOverlayBotto
+2021-11-15 21:46:21.873 4311-4358/? D/CodecSolution: isMaxAspectPackageEx: com.android.todolist : false(0)
+2021-11-15 21:46:21.900 4311-4361/? I/WindowManager: Reparenting to original parent: Surface(name=AppWindowToken{16f3aa4 token=Token{b25537 ActivityRecord{dcbc236 u0 com.android.todolist/.MainActivity t13898}}})/@0x78cfa27, destroyLeash=true, surface=Surface(name=c5ff44a SnapshotStartingWindow for taskId=13898)/@0x4220dab
+2021-11-15 21:46:21.920 3867-3867/? I/SurfaceFlinger: Display 0 HWC layers:
+        type    |    handle    | flag |  format   |   source crop (l,t,r,b)    |         frame       | name 
+    ------------+--------------+------+-----------+----------------------------+---------------------+------
+         DEVICE | 0x71ddb20980 | 0002 | RGBA_8888 |   0.0    0.0  720.0 1560.0 |    0    0  720 1560 | com.android.todolist/com.android.todolist.MainActivity$_17127#0
+         DEVICE | 0x71d9ed8600 | 0000 | RGBA_8888 |   0.0    0.0  720.0   53.0 |    0    0  720   53 | StatusBar$_4655#0
+         DEVICE | 0x71d9ed8380 | 0000 | RGBA_8888 |   0.0    0.0  720.0   84.0 |    0 1476  720 1560 | NavigationBar0$_4655#0
+         DEVICE | 0x71d9ed7980 | 0000 | RGBA_8888 |   0.0    0.0  720.0  101.0 |    0    0  720  101 | ScreenDecorOverlay$_4655#0
+         DEVICE | 0x71bbf11900 | 0000 | RGBA_8888 |   0.0    0.0  720.0  101.0 |    0 1459  720 1560 | ScreenDecorOverlayBottom$_4655#0
+2021-11-15 21:46:22.003 4311-4684/? D/MdnieScenarioControlService:  packageName : com.android.todolist    className : com.android.todolist.MainActivity
+2021-11-15 21:46:23.055 4311-4615/? D/GameManagerService: handleForegroundChange(). pkgName: com.android.todolist, clsName: com.android.todolist.MainActivity,FgActivityName:com.android.todolist/.MainActivity,userID:0
+2021-11-15 21:46:25.200 17127-17127/com.android.todolist D/ViewRootImpl@f4de547[MainActivity]: ViewPostIme pointer 0
+2021-11-15 21:46:25.289 17127-17127/com.android.todolist D/ViewRootImpl@f4de547[MainActivity]: ViewPostIme pointer 1
+2021-11-15 21:46:25.290 4311-4311/? D/GameManagerService: identifyGamePackage. com.android.todolist, mCurrentUserId: 0, callerUserId: 0
+2021-11-15 21:46:25.290 4311-4311/? D/GamePkgDataHelper: getGamePkgData(). com.android.todolist
+2021-11-15 21:46:25.758 17127-17127/com.android.todolist D/ViewRootImpl@f4de547[MainActivity]: ViewPostIme pointer 0
+2021-11-15 21:46:25.824 17127-17127/com.android.todolist D/ViewRootImpl@f4de547[MainActivity]: ViewPostIme pointer 1
+2021-11-15 21:46:27.137 17127-17127/com.android.todolist D/ViewRootImpl@f4de547[MainActivity]: ViewPostIme pointer 0
+2021-11-15 21:46:27.226 17127-17127/com.android.todolist D/ViewRootImpl@f4de547[MainActivity]: ViewPostIme pointer 1
+2021-11-15 21:46:27.684 4311-12530/? D/GameManagerService: identifyGamePackage. com.android.todolist, mCurrentUserId: 0, callerUserId: 0
+2021-11-15 21:46:27.684 4311-12530/? D/GamePkgDataHelper: getGamePkgData(). com.android.todolist
+2021-11-15 21:46:31.461 17127-17127/com.android.todolist D/ViewRootImpl@f4de547[MainActivity]: ViewPostIme pointer 0
+2021-11-15 21:46:31.573 17127-17127/com.android.todolist D/ViewRootImpl@f4de547[MainActivity]: ViewPostIme pointer 1
+2021-11-15 21:46:31.594 17127-17127/com.android.todolist W/ndroid.todolis: Accessing hidden method Landroid/widget/PopupWindow;->setClipToScreenEnabled(Z)V (greylist, reflection, allowed)
+2021-11-15 21:46:31.692 17127-17127/com.android.todolist W/ndroid.todolis: Accessing hidden field Landroid/widget/AbsListView;->mIsChildViewEnabled:Z (greylist, reflection, allowed)
+2021-11-15 21:46:31.715 4311-7361/? V/WindowManager: Changing focus from Window{51ec688 u0 com.android.todolist/com.android.todolist.MainActivity} to Window{f6f075a u0 PopupWindow:abd8b97} displayId=0 Callers=com.android.server.wm.RootWindowContainer.updateFocusedWindowLocked:203 com.android.server.wm.WindowManagerService.updateFocusedWindowLocked:6107 com.android.server.wm.WindowManagerService.addWindow:1822 com.android.server.wm.Session.addToDisplay:167 android.view.IWindowSession$Stub.onTransact:549 com.android.server.wm.Session.onTransact:142 
+2021-11-15 21:46:31.718 17127-17127/com.android.todolist D/ViewRootImpl@a45bda2[PopupWindow:abd8b97]: setView = android.widget.PopupWindow$PopupDecorView@cc54a33 TM=true MM=false
+2021-11-15 21:46:31.767 17127-17127/com.android.todolist D/ViewRootImpl@a45bda2[PopupWindow:abd8b97]: Relayout returned: old=(0,53,720,1476) new=(377,60,720,228) req=(343,168)0 dur=13 res=0x7 s={true 489786757120} ch=true
+2021-11-15 21:46:31.768 17127-17151/com.android.todolist D/OpenGLRenderer: createReliableSurface : 0x717cb95d80, 0x720990d000
+2021-11-15 21:46:31.769 17127-17151/com.android.todolist D/mali_winsys: EGLint new_window_surface(egl_winsys_display *, void *, EGLSurface, EGLConfig, egl_winsys_surface **, EGLBoolean) returns 0x3000
+2021-11-15 21:46:31.808 17127-17127/com.android.todolist D/AbsListView:  in onLayout changed 
+2021-11-15 21:46:31.836 17127-17127/com.android.todolist D/ViewRootImpl@a45bda2[PopupWindow:abd8b97]: MSG_WINDOW_FOCUS_CHANGED 1 1
+2021-11-15 21:46:31.848 17127-17127/com.android.todolist D/ViewRootImpl@a45bda2[PopupWindow:abd8b97]: MSG_RESIZED: frame=(377,60,720,228) ci=(0,0,0,0) vi=(0,0,0,0) or=1
+2021-11-15 21:46:31.848 17127-17127/com.android.todolist D/ViewRootImpl@f4de547[MainActivity]: MSG_WINDOW_FOCUS_CHANGED 0 1
+2021-11-15 21:46:31.848 17127-17127/com.android.todolist D/InputMethodManager: prepareNavigationBarInfo() DecorView@71537db[MainActivity]
+2021-11-15 21:46:31.849 17127-17127/com.android.todolist D/InputMethodManager: getNavigationBarColor() -855310
+2021-11-15 21:46:31.862 3867-3867/? I/SurfaceFlinger: Display 0 HWC layers:
+        type    |    handle    | flag |  format   |   source crop (l,t,r,b)    |         frame       | name 
+    ------------+--------------+------+-----------+----------------------------+---------------------+------
+         DEVICE | 0x71ddb20480 | 0002 | RGBA_8888 |   0.0    0.0  720.0 1560.0 |    0    0  720 1560 | com.android.todolist/com.android.todolist.MainActivity$_17127#0
+         DEVICE | 0x71bbf10f00 | 0000 | RGBA_8888 |   0.0    0.0  399.0  280.0 |  321    4  720  284 | PopupWindow:abd8b97$_17127#0
+         DEVICE | 0x71d9ed7700 | 0000 | RGBA_8888 |   0.0    0.0  720.0   53.0 |    0    0  720   53 | StatusBar$_4655#0
+         DEVICE | 0x71d9ed8380 | 0000 | RGBA_8888 |   0.0    0.0  720.0   84.0 |    0 1476  720 1560 | NavigationBar0$_4655#0
+         DEVICE | 0x71d9ed7980 | 0000 | RGBA_8888 |   0.0    0.0  720.0  101.0 |    0    0  720  101 | ScreenDecorOverlay$_4655#0
+         DEVICE | 0x71bbf11900 | 0000 | RGBA_8888 |   0.0    0.0  720.0  101.0 |    0 1459  720 1560 | ScreenDecorOverlayBottom$_4655#0
+2021-11-15 21:46:32.124 17127-17133/com.android.todolist I/ndroid.todolis: Compiler allocated 4266KB to compile void android.view.ViewRootImpl.performTraversals()
+2021-11-15 21:46:33.694 4311-4311/? D/GameManagerService: identifyGamePackage. com.android.todolist, mCurrentUserId: 0, callerUserId: 0
+2021-11-15 21:46:33.694 4311-4311/? D/GamePkgDataHelper: getGamePkgData(). com.android.todolist
+2021-11-15 21:46:33.696 4311-4311/? D/GameManagerService: identifyGamePackage. com.android.todolist, mCurrentUserId: 0, callerUserId: 0
+2021-11-15 21:46:33.696 4311-4311/? D/GamePkgDataHelper: getGamePkgData(). com.android.todolist
+2021-11-15 21:46:36.295 17127-17127/com.android.todolist D/ViewRootImpl@a45bda2[PopupWindow:abd8b97]: ViewPostIme pointer 0
+2021-11-15 21:46:36.308 4311-6600/? V/WindowManager: Changing focus from Window{f6f075a u0 PopupWindow:abd8b97} to Window{51ec688 u0 com.android.todolist/com.android.todolist.MainActivity} displayId=0 Callers=com.android.server.wm.RootWindowContainer.updateFocusedWindowLocked:203 com.android.server.wm.WindowManagerService.updateFocusedWindowLocked:6107 com.android.server.wm.WindowManagerService.relayoutWindow:2554 com.android.server.wm.Session.relayout:202 android.view.IWindowSession$Stub.onTransact:708 com.android.server.wm.Session.onTransact:142 
+2021-11-15 21:46:36.313 17127-17127/com.android.todolist D/ViewRootImpl@a45bda2[PopupWindow:abd8b97]: Relayout returned: old=(377,60,720,228) new=(377,60,720,228) req=(343,168)0 dur=10 res=0x1 s={true 489786757120} ch=false
+2021-11-15 21:46:36.317 17127-17127/com.android.todolist D/ViewRootImpl@f4de547[MainActivity]: MSG_WINDOW_FOCUS_CHANGED 1 1
+2021-11-15 21:46:36.318 17127-17127/com.android.todolist D/InputMethodManager: prepareNavigationBarInfo() DecorView@71537db[MainActivity]
+2021-11-15 21:46:36.318 17127-17127/com.android.todolist D/InputMethodManager: getNavigationBarColor() -855310
+2021-11-15 21:46:36.324 17127-17127/com.android.todolist D/ViewRootImpl@a45bda2[PopupWindow:abd8b97]: MSG_WINDOW_FOCUS_CHANGED 0 1
+2021-11-15 21:46:36.383 17127-17127/com.android.todolist D/ViewRootImpl@a45bda2[PopupWindow:abd8b97]: ViewPostIme pointer 1
+2021-11-15 21:46:36.625 17127-17151/com.android.todolist W/libEGL: EGLNativeWindowType 0x717cb95d90 disconnect failed
+2021-11-15 21:46:36.625 17127-17127/com.android.todolist D/ViewRootImpl@a45bda2[PopupWindow:abd8b97]: dispatchDetachedFromWindow
+2021-11-15 21:46:36.631 17127-17127/com.android.todolist D/InputTransport: Input channel destroyed: 'f6f075a', fd=80
+2021-11-15 21:46:36.644 3867-3867/? I/SurfaceFlinger: Display 0 HWC layers:
+        type    |    handle    | flag |  format   |   source crop (l,t,r,b)    |         frame       | name 
+    ------------+--------------+------+-----------+----------------------------+---------------------+------
+         CLIENT | 0x71ddb20480 | 0002 | RGBA_8888 |   0.0    0.0  720.0 1560.0 |    0    0  720 1560 | com.android.todolist/com.android.todolist.MainActivity$_17127#0
+         CLIENT | 0x71d9ed6f80 | 0000 | RGBA_8888 |   0.0    0.0  720.0   53.0 |    0    0  720   53 | StatusBar$_4655#0
+         CLIENT | 0x71d9ed8380 | 0000 | RGBA_8888 |   0.0    0.0  720.0   84.0 |    0 1476  720 1560 | NavigationBar0$_4655#0
+         CLIENT | 0x71d9ed7980 | 0000 | RGBA_8888 |   0.0    0.0  720.0  101.0 |    0    0  720  101 | ScreenDecorOverlay$_4655#0
+         CLIENT | 0x71bbf11900 | 0000 | RGBA_8888 |   0.0    0.0  720.0  101.0 |    0 1459  720 1560 | ScreenDecorOverlayBottom$_4655#0
+2021-11-15 21:46:37.181 17127-17127/com.android.todolist D/ViewRootImpl@f4de547[MainActivity]: ViewPostIme pointer 0
+2021-11-15 21:46:37.270 17127-17127/com.android.todolist D/ViewRootImpl@f4de547[MainActivity]: ViewPostIme pointer 1
+2021-11-15 21:46:38.694 17127-17127/com.android.todolist D/ViewRootImpl@f4de547[MainActivity]: ViewPostIme pointer 0
+2021-11-15 21:46:38.777 17127-17127/com.android.todolist D/ViewRootImpl@f4de547[MainActivity]: ViewPostIme pointer 1
+2021-11-15 21:46:38.790 17127-17127/com.android.todolist D/Dialog: mIsSamsungBasicInteraction = false, isMetaDataInActivity = false
+2021-11-15 21:46:38.802 17127-17127/com.android.todolist I/MultiWindowDecorSupport: updateCaptionType >> DecorView@8869776[], isFloating: true, isApplication: true, hasWindowDecorCaption: false, hasWindowControllerCallback: false
+2021-11-15 21:46:38.802 17127-17127/com.android.todolist D/MultiWindowDecorSupport: setCaptionType = 0, DecorView = DecorView@8869776[]
+2021-11-15 21:46:38.852 17127-17127/com.android.todolist D/ScrollView: initGoToTop
+2021-11-15 21:46:38.887 3867-3917/? I/SurfaceFlinger: createSurf start. lock debugging [8ac6f6c com.android.todolist/com.android.todolist.MainActivity]
+2021-11-15 21:46:38.888 3867-3917/? I/SurfaceFlinger: id=12875 createSurf (0x0),-1 flag=80004, 8ac6f6c com.android.todolist/com.android.todolist.MainActivity#0
+2021-11-15 21:46:38.890 4311-6513/? V/WindowManager: Changing focus from Window{51ec688 u0 com.android.todolist/com.android.todolist.MainActivity} to Window{8ac6f6c u0 com.android.todolist/com.android.todolist.MainActivity} displayId=0 Callers=com.android.server.wm.RootWindowContainer.updateFocusedWindowLocked:203 com.android.server.wm.WindowManagerService.updateFocusedWindowLocked:6107 com.android.server.wm.WindowManagerService.addWindow:1822 com.android.server.wm.Session.addToDisplay:167 android.view.IWindowSession$Stub.onTransact:549 com.android.server.wm.Session.onTransact:142 
+2021-11-15 21:46:38.898 17127-17127/com.android.todolist D/ViewRootImpl@6ded667[MainActivity]: setView = com.android.internal.policy.DecorView@8869776 TM=true MM=false
+2021-11-15 21:46:38.928 4311-7087/? V/WindowManager: Relayout Window{8ac6f6c u0 com.android.todolist/com.android.todolist.MainActivity}: viewVisibility=0 req=683x348
+2021-11-15 21:46:38.945 3867-4302/? I/SurfaceFlinger: createSurf start. lock debugging [com.android.todolist/com.android.todolist.MainActivity$_17127]
+2021-11-15 21:46:38.946 3867-4302/? I/SurfaceFlinger: id=12876 createSurf (795x460),1 flag=4, com.android.todolist/com.android.todolist.MainActivity$_17127#1
+2021-11-15 21:46:38.947 4311-7087/? D/WindowManager: makeSurface duration=3 name=com.android.todolist/com.android.todolist.MainActivity$_17127
+2021-11-15 21:46:38.952 17127-17127/com.android.todolist D/ViewRootImpl@6ded667[MainActivity]: Relayout returned: old=(0,53,720,1476) new=(18,590,701,938) req=(683,348)0 dur=26 res=0x7 s={true 487422947328} ch=true
+2021-11-15 21:46:38.956 17127-17151/com.android.todolist D/OpenGLRenderer: createReliableSurface : 0x717cb95880, 0x717cabf000
+2021-11-15 21:46:38.958 17127-17151/com.android.todolist D/mali_winsys: EGLint new_window_surface(egl_winsys_display *, void *, EGLSurface, EGLConfig, egl_winsys_surface **, EGLBoolean) returns 0x3000
+2021-11-15 21:46:38.967 17127-17127/com.android.todolist D/ScrollView:  onsize change changed 
+2021-11-15 21:46:38.972 17127-17127/com.android.todolist E/DecorView: mWindow.mActivityCurrentConfig is null
+2021-11-15 21:46:39.027 4311-5068/? D/WindowManager: finishDrawingWindow: Window{8ac6f6c u0 com.android.todolist/com.android.todolist.MainActivity} mDrawState=DRAW_PENDING
+2021-11-15 21:46:39.028 17127-17127/com.android.todolist D/ViewRootImpl@6ded667[MainActivity]: MSG_WINDOW_FOCUS_CHANGED 1 1
+2021-11-15 21:46:39.038 4311-4361/? I/WindowManager: Reparenting to leash, surface=Surface(name=8ac6f6c com.android.todolist/com.android.todolist.MainActivity)/@0x72ef0f
+2021-11-15 21:46:39.039 3867-4302/? I/SurfaceFlinger: createSurf start. lock debugging [Surface(name=8ac6f6c com.android.todolist/com.android.todolist.MainActivity)/@0x72ef0f - animation-leash]
+2021-11-15 21:46:39.039 3867-4302/? I/SurfaceFlinger: id=12877 createSurf (0x0),-1 flag=80004, Surface(name=8ac6f6c com.android.todolist/com.android.todolist.MainActivity)/@0x72ef0f - animation-leash#0
+2021-11-15 21:46:39.040 4311-4361/? D/WindowManager: makeSurface duration=2 leash=Surface(name=Surface(name=8ac6f6c com.android.todolist/com.android.todolist.MainActivity)/@0x72ef0f - animation-leash)/@0xa608b9c
+2021-11-15 21:46:39.053 17127-17127/com.android.todolist D/ViewRootImpl@6ded667[MainActivity]: MSG_RESIZED: frame=(18,590,701,938) ci=(0,0,0,0) vi=(0,0,0,0) or=1
+2021-11-15 21:46:39.062 4311-4358/? D/WindowManager: setSystemUiVisibility: displayId=0, vis=0x8008, fullVis=0x0, dockVis=0x0, win=Window{8ac6f6c u0 com.android.todolist/com.android.todolist.MainActivity}
+2021-11-15 21:46:39.073 17127-17127/com.android.todolist D/ViewRootImpl@f4de547[MainActivity]: MSG_WINDOW_FOCUS_CHANGED 0 1
+2021-11-15 21:46:39.073 17127-17127/com.android.todolist D/InputMethodManager: prepareNavigationBarInfo() DecorView@71537db[MainActivity]
+2021-11-15 21:46:39.073 17127-17127/com.android.todolist D/InputMethodManager: getNavigationBarColor() -855310
+2021-11-15 21:46:39.092 3867-3867/? I/SurfaceFlinger: Display 0 HWC layers:
+        type    |    handle    | flag |  format   |   source crop (l,t,r,b)    |         frame       | name 
+    ------------+--------------+------+-----------+----------------------------+---------------------+------
+         DEVICE | 0x71ddb20480 | 0002 | RGBA_8888 |   0.0    0.0  720.0 1560.0 |    0    0  720 1560 | com.android.todolist/com.android.todolist.MainActivity$_17127#0
+     SOLID_COLOR |              | 0004 |  Unknown  |   0.0    0.0    0.0    0.0 |    0    0  720 1560 | Dim Layer for - Task=13898#0
+         DEVICE | 0x71d9ed6a80 | 0000 | RGBA_8888 |  38.0    0.0  758.0  460.0 |    0  534  720  994 | com.android.todolist/com.android.todolist.MainActivity$_17127#1
+         DEVICE | 0x71d9ed7840 | 0000 | RGBA_8888 |   0.0    0.0  720.0   53.0 |    0    0  720   53 | StatusBar$_4655#0
+         DEVICE | 0x71d9ed57c0 | 0000 | RGBA_8888 |   0.0    0.0  720.0   84.0 |    0 1476  720 1560 | NavigationBar0$_4655#0
+         DEVICE | 0x71d9ed7980 | 0000 | RGBA_8888 |   0.0    0.0  720.0  101.0 |    0    0  720  101 
+2021-11-15 21:46:39.200 4311-4361/? I/WindowManager: Reparenting to original parent: Surface(name=AppWindowToken{16f3aa4 token=Token{b25537 ActivityRecord{dcbc236 u0 com.android.todolist/.MainActivity t13898}}})/@0x78cfa27, destroyLeash=true, surface=Surface(name=8ac6f6c com.android.todolist/com.android.todolist.MainActivity)/@0x72ef0f
+2021-11-15 21:46:39.203 3867-5370/? I/Layer: id=12877 removeFromCurrentState Surface(name=8ac6f6c com.android.todolist/com.android.todolist.MainActivity)/@0x72ef0f - animation-leash#0 (106)
+2021-11-15 21:46:39.206 3867-5370/? I/SurfaceFlinger: id=12877 Removed Surface(name=8ac6f6c com.android.todolist/com.android.todolist.MainActivity)/@0x72ef0f - animation-leash#0 (106)
+2021-11-15 21:46:39.216 3867-3867/? I/Layer: id=12877[1] Destroyed Surface(name=8ac6f6c com.android.todolist/com.android.todolist.MainActivity)/@0x72ef0f - animation-leash#0
+2021-11-15 21:46:39.923 17127-17127/com.android.todolist D/ViewRootImpl@6ded667[MainActivity]: ViewPostIme pointer 0
+2021-11-15 21:46:40.021 17127-17127/com.android.todolist D/ViewRootImpl@6ded667[MainActivity]: ViewPostIme pointer 1
+2021-11-15 21:46:40.044 3867-3917/? E/BufferQueueProducer: [com.android.todolist/com.android.todolist.MainActivity$_17127#1] disconnect: not connected (req=1)
+2021-11-15 21:46:40.044 17127-17151/com.android.todolist W/libEGL: EGLNativeWindowType 0x717cb95890 disconnect failed
+2021-11-15 21:46:40.044 17127-17151/com.android.todolist D/OpenGLRenderer: endAllActiveAnimators on 0x710833af00 (RippleDrawable) with handle 0x7108566c20
+2021-11-15 21:46:40.045 17127-17127/com.android.todolist D/ViewRootImpl@6ded667[MainActivity]: dispatchDetachedFromWindow
+2021-11-15 21:46:40.046 4311-5068/? I/WindowManager: Reparenting to leash, surface=Surface(name=8ac6f6c com.android.todolist/com.android.todolist.MainActivity)/@0x72ef0f
+2021-11-15 21:46:40.046 3867-3917/? I/SurfaceFlinger: createSurf start. lock debugging [Surface(name=8ac6f6c com.android.todolist/com.android.todolist.MainActivity)/@0x72ef0f - animation-leash]
+2021-11-15 21:46:40.047 3867-3917/? I/SurfaceFlinger: id=12880 createSurf (0x0),-1 flag=80004, Surface(name=8ac6f6c com.android.todolist/com.android.todolist.MainActivity)/@0x72ef0f - animation-leash#0
+2021-11-15 21:46:40.047 4311-5068/? D/WindowManager: makeSurface duration=1 leash=Surface(name=Surface(name=8ac6f6c com.android.todolist/com.android.todolist.MainActivity)/@0x72ef0f - animation-leash)/@0x25a7e8
+2021-11-15 21:46:40.047 4311-5068/? V/WindowManager: Changing focus from Window{8ac6f6c u0 com.android.todolist/com.android.todolist.MainActivity EXITING} to Window{51ec688 u0 com.android.todolist/com.android.todolist.MainActivity} displayId=0 Callers=com.android.server.wm.RootWindowContainer.updateFocusedWindowLocked:203 com.android.server.wm.WindowManagerService.updateFocusedWindowLocked:6107 com.android.server.wm.WindowState.setupWindowForRemoveOnExit:2441 com.android.server.wm.WindowState.removeIfPossible:2410 com.android.server.wm.WindowState.removeIfPossible:2297 com.android.server.wm.WindowManagerService.removeWindow:2024 
+2021-11-15 21:46:40.050 4311-6948/? E/InputDispatcher: Window handle Window{8ac6f6c u0 com.android.todolist/com.android.todolist.MainActivity} has no registered input channel
+2021-11-15 21:46:40.055 17127-17127/com.android.todolist D/InputTransport: Input channel destroyed: '8ac6f6c', fd=80
+2021-11-15 21:46:40.056 4311-4358/? D/WindowManager: setSystemUiVisibility: displayId=0, vis=0x8018, fullVis=0x0, dockVis=0x0, win=Window{51ec688 u0 com.android.todolist/com.android.todolist.MainActivity}
+2021-11-15 21:46:40.062 17127-17127/com.android.todolist E/ViewRootImpl: sendUserActionEvent() mView returned.
+2021-11-15 21:46:40.063 17127-17127/com.android.todolist D/ViewRootImpl@f4de547[MainActivity]: MSG_WINDOW_FOCUS_CHANGED 1 1
+2021-11-15 21:46:40.063 17127-17127/com.android.todolist D/InputMethodManager: prepareNavigationBarInfo() DecorView@71537db[MainActivity]
+2021-11-15 21:46:40.063 17127-17127/com.android.todolist D/InputMethodManager: getNavigationBarColor() -855310
+2021-11-15 21:46:40.067 4311-4519/? E/InputDispatcher: Window handle Window{8ac6f6c u0 com.android.todolist/com.android.todolist.MainActivity} has no registered input channel
+2021-11-15 21:46:40.199 4311-4361/? I/WindowManager: Reparenting to original parent: Surface(name=AppWindowToken{16f3aa4 token=Token{b25537 ActivityRecord{dcbc236 u0 com.android.todolist/.MainActivity t13898}}})/@0x78cfa27, destroyLeash=true, surface=Surface(name=8ac6f6c com.android.todolist/com.android.todolist.MainActivity)/@0x72ef0f
+2021-11-15 21:46:40.200 4311-4361/? E/WindowManager: win=Window{8ac6f6c u0 com.android.todolist/com.android.todolist.MainActivity EXITING} destroySurfaces: appStopped=false win.mWindowRemovalAllowed=true win.mRemoveOnExit=true win.mViewVisibility=0 caller=com.android.server.wm.AppWindowToken.destroySurfaces:1199 com.android.server.wm.AppWindowToken.destroySurfaces:1180 com.android.server.wm.WindowState.onExitAnimationDone:5030 com.android.server.wm.WindowStateAnimator.onAnimationFinished:287 com.android.server.wm.WindowState.onAnimationFinished:5471 com.android.server.wm.-$$Lambda$yVRF8YoeNdTa8GR1wDStVsHu8xM.run:2 com.android.server.wm.SurfaceAnimator.lambda$getFinishedCallback$0$SurfaceAnimator:100 
+2021-11-15 21:46:40.200 4311-4361/? I/WindowManager: Destroying surface Surface(name=com.android.todolist/com.android.todolist.MainActivity$_17127)/@0xe08827e called by com.android.server.wm.WindowStateAnimator.destroySurface:1734 com.android.server.wm.WindowStateAnimator.destroySurfaceLocked:693 com.android.server.wm.WindowState.destroySurfaceUnchecked:3482 com.android.server.wm.WindowState.destroySurface:3456 com.android.server.wm.AppWindowToken.destroySurfaces:1199 com.android.server.wm.AppWindowToken.destroySurfaces:1180 com.android.server.wm.WindowState.onExitAnimationDone:5030 com.android.server.wm.WindowStateAnimator.onAnimationFinished:287 
+2021-11-15 21:46:40.200 3867-5370/? I/Layer: id=12876 removeFromCurrentState com.android.todolist/com.android.todolist.MainActivity$_17127#1 (105)
+2021-11-15 21:46:40.204 3867-4302/? I/Layer: id=12875 removeFromCurrentState 8ac6f6c com.android.todolist/com.android.todolist.MainActivity#0 (105)
+2021-11-15 21:46:40.204 3867-4302/? I/Layer: id=12880 removeFromCurrentState Surface(name=8ac6f6c com.android.todolist/com.android.todolist.MainActivity)/@0x72ef0f - animation-leash#0 (105)
+2021-11-15 21:46:40.206 3867-4302/? I/SurfaceFlinger: id=12880 Removed Surface(name=8ac6f6c com.android.todolist/com.android.todolist.MainActivity)/@0x72ef0f - animation-leash#0 (105)
+2021-11-15 21:46:40.207 3867-5370/? I/SurfaceFlinger: id=12876 Removed com.android.todolist/com.android.todolist.MainActivity$_17127#1 (105)
+2021-11-15 21:46:40.215 3867-3867/? I/Layer: id=12880[1] Destroyed Surface(name=8ac6f6c com.android.todolist/com.android.todolist.MainActivity)/@0x72ef0f - animation-leash#0
+2021-11-15 21:46:40.218 3867-3867/? I/Layer: id=12876[1] Destroyed com.android.todolist/com.android.todolist.MainActivity$_17127#1
+2021-11-15 21:46:40.221 3867-3867/? I/SurfaceFlinger: Display 0 HWC layers:
+        type    |    handle    | flag |  format   |   source crop (l,t,r,b)    |         frame       | name 
+    ------------+--------------+------+-----------+----------------------------+---------------------+------
+         DEVICE | 0x71ddb1ee00 | 0002 | RGBA_8888 |   0.0    0.0  720.0 1560.0 |    0    0  720 1560 | com.android.todolist/com.android.todolist.MainActivity$_17127#0
+         DEVICE | 0x71d9ed5540 | 0000 | RGBA_8888 |   0.0    0.0  720.0   53.0 |    0    0  720   53 | StatusBar$_4655#0
+         DEVICE | 0x71d9ed8380 | 0000 | RGBA_8888 |   0.0    0.0  720.0   84.0 |    0 1476  720 1560 | NavigationBar0$_4655#0
+         DEVICE | 0x71d9ed7980 | 0000 | RGBA_8888 |   0.0    0.0  720.0  101.0 |    0    0  720  101 | ScreenDecorOverlay$_4655#0
+         DEVICE | 0x71bbf11900 | 0000 | RGBA_8888 |   0.0    0.0  720.0  101.0 |    0 1459  720 1560 | ScreenDecorOverlayBottom$_4655#0
+2021-11-15 21:46:42.411 17127-17127/com.android.todolist D/ViewRootImpl@f4de547[MainActivity]: ViewPostIme pointer 0
+2021-11-15 21:46:42.498 17127-17127/com.android.todolist D/ViewRootImpl@f4de547[MainActivity]: ViewPostIme pointer 1
+2021-11-15 21:46:43.361 17127-17127/com.android.todolist D/ViewRootImpl@f4de547[MainActivity]: ViewPostIme pointer 0
+2021-11-15 21:46:43.432 17127-17127/com.android.todolist D/ViewRootImpl@f4de547[MainActivity]: ViewPostIme pointer 1
+2021-11-15 21:46:46.626 17127-17127/com.android.todolist D/ViewRootImpl@f4de547[MainActivity]: ViewPostIme pointer 0
+2021-11-15 21:46:46.706 17127-17127/com.android.todolist D/ViewRootImpl@f4de547[MainActivity]: ViewPostIme pointer 1
+2021-11-15 21:46:47.495 17127-17127/com.android.todolist D/ViewRootImpl@f4de547[MainActivity]: ViewPostIme pointer 0
+2021-11-15 21:46:47.601 17127-17127/com.android.todolist D/ViewRootImpl@f4de547[MainActivity]: ViewPostIme pointer 1
+2021-11-15 21:46:48.794 17127-17127/com.android.todolist D/ViewRootImpl@f4de547[MainActivity]: ViewPostIme pointer 0
+2021-11-15 21:46:48.874 17127-17127/com.android.todolist D/ViewRootImpl@f4de547[MainActivity]: ViewPostIme pointer 1
+2021-11-15 21:46:50.489 17127-17127/com.android.todolist D/ViewRootImpl@f4de547[MainActivity]: ViewPostIme pointer 0
+2021-11-15 21:46:50.551 17127-17127/com.android.todolist D/ViewRootImpl@f4de547[MainActivity]: ViewPostIme pointer 1
+2021-11-15 21:46:50.602 17127-17127/com.android.todolist D/Dialog: mIsSamsungBasicInteraction = false, isMetaDataInActivity = false
+2021-11-15 21:46:50.610 17127-17127/com.android.todolist I/MultiWindowDecorSupport: updateCaptionType >> DecorView@f3cc53f[], isFloating: true, isApplication: true, hasWindowDecorCaption: false, hasWindowControllerCallback: false
+2021-11-15 21:46:50.610 17127-17127/com.android.todolist D/MultiWindowDecorSupport: setCaptionType = 0, DecorView = DecorView@f3cc53f[]
+2021-11-15 21:46:50.646 17127-17127/com.android.todolist D/ScrollView: initGoToTop
+2021-11-15 21:46:50.668 3867-5370/? I/SurfaceFlinger: createSurf start. lock debugging [f09676e com.android.todolist/com.android.todolist.MainActivity]
+2021-11-15 21:46:50.668 3867-5370/? I/SurfaceFlinger: id=12882 createSurf (0x0),-1 flag=80004, f09676e com.android.todolist/com.android.todolist.MainActivity#0
+2021-11-15 21:46:50.670 4311-5068/? V/WindowManager: Changing focus from Window{51ec688 u0 com.android.todolist/com.android.todolist.MainActivity} to Window{f09676e u0 com.android.todolist/com.android.todolist.MainActivity} displayId=0 Callers=com.android.server.wm.RootWindowContainer.updateFocusedWindowLocked:203 com.android.server.wm.WindowManagerService.updateFocusedWindowLocked:6107 com.android.server.wm.WindowManagerService.addWindow:1822 com.android.server.wm.Session.addToDisplay:167 android.view.IWindowSession$Stub.onTransact:549 com.android.server.wm.Session.onTransact:142 
+2021-11-15 21:46:50.672 17127-17127/com.android.todolist D/ViewRootImpl@8b033c2[MainActivity]: setView = com.android.internal.policy.DecorView@f3cc53f TM=true MM=false
+2021-11-15 21:46:50.707 4311-5068/? V/WindowManager: Relayout Window{f09676e u0 com.android.todolist/com.android.todolist.MainActivity}: viewVisibility=0 req=683x389
+2021-11-15 21:46:50.714 3867-4302/? I/SurfaceFlinger: createSurf start. lock debugging [com.android.todolist/com.android.todolist.MainActivity$_17127]
+2021-11-15 21:46:50.715 3867-4302/? I/SurfaceFlinger: id=12883 createSurf (795x501),1 flag=4, com.android.todolist/com.android.todolist.MainActivity$_17127#1
+2021-11-15 21:46:50.716 4311-5068/? D/WindowManager: makeSurface duration=2 name=com.android.todolist/com.android.todolist.MainActivity$_17127
+2021-11-15 21:46:50.721 17127-17127/com.android.todolist D/ViewRootImpl@8b033c2[MainActivity]: Relayout returned: old=(0,53,720,1476) new=(18,570,701,959) req=(683,389)0 dur=15 res=0x7 s={true 485449109504} ch=true
+2021-11-15 21:46:50.721 17127-17151/com.android.todolist D/OpenGLRenderer: createReliableSurface : 0x7106ffd6c0, 0x7107059000
+2021-11-15 21:46:50.723 17127-17151/com.android.todolist D/mali_winsys: EGLint new_window_surface(egl_winsys_display *, void *, EGLSurface, EGLConfig, egl_winsys_surface **, EGLBoolean) returns 0x3000
+2021-11-15 21:46:50.740 17127-17127/com.android.todolist D/ScrollView:  onsize change changed 
+2021-11-15 21:46:50.742 17127-17127/com.android.todolist E/DecorView: mWindow.mActivityCurrentConfig is null
+2021-11-15 21:46:50.757 4311-7361/? D/WindowManager: finishDrawingWindow: Window{f09676e u0 com.android.todolist/com.android.todolist.MainActivity} mDrawState=DRAW_PENDING
+2021-11-15 21:46:50.761 4311-4361/? I/WindowManager: Reparenting to leash, surface=Surface(name=f09676e com.android.todolist/com.android.todolist.MainActivity)/@0x198be0f
+2021-11-15 21:46:50.761 3867-3917/? I/SurfaceFlinger: createSurf start. lock debugging [Surface(name=f09676e com.android.todolist/com.android.todolist.MainActivity)/@0x198be0f - animation-leash]
+2021-11-15 21:46:50.762 3867-3917/? I/SurfaceFlinger: id=12884 createSurf (0x0),-1 flag=80004, Surface(name=f09676e com.android.todolist/com.android.todolist.MainActivity)/@0x198be0f - animation-leash#0
+2021-11-15 21:46:50.762 4311-4361/? D/WindowManager: makeSurface duration=2 leash=Surface(name=Surface(name=f09676e com.android.todolist/com.android.todolist.MainActivity)/@0x198be0f - animation-leash)/@0x68bae9c
+2021-11-15 21:46:50.766 17127-17127/com.android.todolist D/ViewRootImpl@8b033c2[MainActivity]: MSG_WINDOW_FOCUS_CHANGED 1 1
+2021-11-15 21:46:50.766 17127-17127/com.android.todolist D/InputMethodManager: prepareNavigationBarInfo() DecorView@f3cc53f[MainActivity]
+2021-11-15 21:46:50.766 17127-17127/com.android.todolist D/InputMethodManager: getNavigationBarColor() -855310
+2021-11-15 21:46:50.773 17127-17127/com.android.todolist D/InputMethodManager: prepareNavigationBarInfo() DecorView@f3cc53f[MainActivity]
+2021-11-15 21:46:50.773 17127-17127/com.android.todolist D/InputMethodManager: getNavigationBarColor() -855310
+2021-11-15 21:46:50.773 17127-17127/com.android.todolist V/InputMethodManager: Starting input: tba=com.android.todolist ic=null mNaviBarColor -855310 mIsGetNaviBarColorSuccess true , NavVisible : true , NavTrans : false
+2021-11-15 21:46:50.773 17127-17127/com.android.todolist D/InputMethodManager: startInputInner - Id : 0
+2021-11-15 21:46:50.773 17127-17127/com.android.todolist I/InputMethodManager: startInputInner - mService.startInputOrWindowGainedFocus
+2021-11-15 21:46:50.779 4311-4358/? D/WindowManager: setSystemUiVisibility: displayId=0, vis=0x8008, fullVis=0x0, dockVis=0x0, win=Window{f09676e u0 com.android.todolist/com.android.todolist.MainActivity}
+2021-11-15 21:46:50.784 17127-17127/com.android.todolist D/InputTransport: Input channel destroyed: 'ClientS', fd=78
+2021-11-15 21:46:50.791 17127-17127/com.android.todolist D/ViewRootImpl@8b033c2[MainActivity]: MSG_RESIZED: frame=(18,570,701,959) ci=(0,0,0,0) vi=(0,0,0,0) or=1
+2021-11-15 21:46:50.791 17127-17127/com.android.todolist D/ViewRootImpl@f4de547[MainActivity]: MSG_WINDOW_FOCUS_CHANGED 0 1
+2021-11-15 21:46:50.791 17127-17127/com.android.todolist D/InputMethodManager: prepareNavigationBarInfo() DecorView@71537db[MainActivity]
+2021-11-15 21:46:50.791 17127-17127/com.android.todolist D/InputMethodManager: getNavigationBarColor() -855310
+2021-11-15 21:46:50.813 3867-3867/? I/SurfaceFlinger: Display 0 HWC layers:
+        type    |    handle    | flag |  format   |   source crop (l,t,r,b)    |         frame       | name 
+    ------------+--------------+------+-----------+----------------------------+---------------------+------
+         DEVICE | 0x71ddb1ee00 | 0002 | RGBA_8888 |   0.0    0.0  720.0 1560.0 |    0    0  720 1560 | com.android.todolist/com.android.todolist.MainActivity$_17127#0
+     SOLID_COLOR |              | 0004 |  Unknown  |   0.0    0.0    0.0    0.0 |    0    0  720 1560 | Dim Layer for - Task=13898#0
+         DEVICE | 0x71d9ed8240 | 0000 | RGBA_8888 |  38.0    0.0  758.0  501.0 |    0  514  720 1015 | com.android.todolist/com.android.todolist.MainActivity$_17127#1
+         DEVICE | 0x71d9ed6f80 | 0000 | RGBA_8888 |   0.0    0.0  720.0   53.0 |    0    0  720   53 | StatusBar$_4655#0
+         DEVICE | 0x71d9ed57c0 | 0000 | RGBA_8888 |   0.0    0.0  720.0   84.0 |    0 1476  720 1560 | NavigationBar0$_4655#0
+         DEVICE | 0x71d9ed7980 | 0000 | RGBA_8888 |   0.0    0.0  720.0  101.0 |    0    0  720  101 
+2021-11-15 21:46:50.923 4311-4361/? I/WindowManager: Reparenting to original parent: Surface(name=AppWindowToken{16f3aa4 token=Token{b25537 ActivityRecord{dcbc236 u0 com.android.todolist/.MainActivity t13898}}})/@0x78cfa27, destroyLeash=true, surface=Surface(name=f09676e com.android.todolist/com.android.todolist.MainActivity)/@0x198be0f
+2021-11-15 21:46:50.928 3867-5370/? I/Layer: id=12884 removeFromCurrentState Surface(name=f09676e com.android.todolist/com.android.todolist.MainActivity)/@0x198be0f - animation-leash#0 (106)
+2021-11-15 21:46:50.932 3867-5370/? I/SurfaceFlinger: id=12884 Removed Surface(name=f09676e com.android.todolist/com.android.todolist.MainActivity)/@0x198be0f - animation-leash#0 (106)
+2021-11-15 21:46:50.939 3867-3867/? I/Layer: id=12884[1] Destroyed Surface(name=f09676e com.android.todolist/com.android.todolist.MainActivity)/@0x198be0f - animation-leash#0
+2021-11-15 21:46:51.971 17127-17127/com.android.todolist D/ViewRootImpl@8b033c2[MainActivity]: ViewPostIme pointer 0
+2021-11-15 21:46:52.035 17127-17127/com.android.todolist D/ViewRootImpl@8b033c2[MainActivity]: ViewPostIme pointer 1
+2021-11-15 21:46:52.084 17127-17127/com.android.todolist D/InputMethodManager: prepareNavigationBarInfo() DecorView@f3cc53f[MainActivity]
+2021-11-15 21:46:52.084 17127-17127/com.android.todolist D/InputMethodManager: getNavigationBarColor() -855310
+2021-11-15 21:46:52.084 17127-17127/com.android.todolist V/InputMethodManager: Starting input: tba=com.android.todolist ic=com.android.internal.widget.EditableInputConnection@d8f0304 mNaviBarColor -855310 mIsGetNaviBarColorSuccess true , NavVisible : true , NavTrans : false
+2021-11-15 21:46:52.085 17127-17127/com.android.todolist D/InputMethodManager: startInputInner - Id : 0
+2021-11-15 21:46:52.091 17127-17127/com.android.todolist I/InputMethodManager: startInputInner - mService.startInputOrWindowGainedFocus
+2021-11-15 21:46:52.094 17127-17127/com.android.todolist D/InputTransport: Input channel destroyed: 'ClientS', fd=87
+2021-11-15 21:46:52.094 17127-17127/com.android.todolist D/InputMethodManager: SSI - flag : 0 Pid : 17127 view : com.android.todolist
+2021-11-15 21:46:52.094 17127-17127/com.android.todolist D/InputMethodManager: prepareNavigationBarInfo() DecorView@f3cc53f[MainActivity]
+2021-11-15 21:46:52.094 17127-17127/com.android.todolist D/InputMethodManager: getNavigationBarColor() -855310
+2021-11-15 21:46:52.114 17127-17127/com.android.todolist D/Editor: waiting for the right moment
+2021-11-15 21:46:52.127 17127-17127/com.android.todolist E/ndroid.todolis: Invalid ID 0x00000000.
+2021-11-15 21:46:52.137 17127-17127/com.android.todolist I/AssistStructure: Flattened final assist data: 3200 bytes, containing 2 windows, 25 views
+2021-11-15 21:46:52.519 23603-23603/? D/[SPAF]StructureParser: Parsing structure for ComponentInfo{com.android.todolist/com.android.todolist.MainActivity}
+2021-11-15 21:46:52.779 4311-4358/? D/WindowManager: setSystemUiVisibility: displayId=0, vis=0x8018, fullVis=0x0, dockVis=0x0, win=Window{f09676e u0 com.android.todolist/com.android.todolist.MainActivity}
+2021-11-15 21:46:52.787 4311-5068/? I/WindowManager: Reparenting to leash, surface=Surface(name=f09676e com.android.todolist/com.android.todolist.MainActivity)/@0x198be0f
+2021-11-15 21:46:52.788 3867-3917/? I/SurfaceFlinger: createSurf start. lock debugging [Surface(name=f09676e com.android.todolist/com.android.todolist.MainActivity)/@0x198be0f - animation-leash]
+2021-11-15 21:46:52.788 3867-3917/? I/SurfaceFlinger: id=12888 createSurf (0x0),-1 flag=80004, Surface(name=f09676e com.android.todolist/com.android.todolist.MainActivity)/@0x198be0f - animation-leash#0
+2021-11-15 21:46:52.789 4311-5068/? D/WindowManager: makeSurface duration=2 leash=Surface(name=Surface(name=f09676e com.android.todolist/com.android.todolist.MainActivity)/@0x198be0f - animation-leash)/@0x9658339
+2021-11-15 21:46:52.797 17127-17127/com.android.todolist D/ViewRootImpl@f4de547[MainActivity]: MSG_RESIZED: frame=(0,0,720,1560) ci=(0,53,0,669) vi=(0,53,0,669) or=1
+2021-11-15 21:46:52.817 4311-7359/? V/WindowManager: Relayout Window{51ec688 u0 com.android.todolist/com.android.todolist.MainActivity}: viewVisibility=0 req=720x1560
+2021-11-15 21:46:52.830 17127-17127/com.android.todolist D/ViewRootImpl@f4de547[MainActivity]: Relayout returned: old=(0,0,720,1560) new=(0,0,720,1560) req=(720,1560)0 dur=13 res=0x1 s={true 485249970176} ch=false
+2021-11-15 21:46:52.976 3867-3867/? I/SurfaceFlinger: Display 0 HWC layers:
+        type    |    handle    | flag |  format   |   source crop (l,t,r,b)    |         frame       | name 
+    ------------+--------------+------+-----------+----------------------------+---------------------+------
+         DEVICE | 0x71ddb1ee00 | 0002 | RGBA_8888 |   0.0    0.0  720.0 1560.0 |    0    0  720 1560 | com.android.todolist/com.android.todolist.MainActivity$_17127#0
+     SOLID_COLOR |              | 0004 |  Unknown  |   0.0    0.0    0.0    0.0 |    0    0  720 1560 | Dim Layer for - Task=13898#0
+         DEVICE | 0x71d9ed8240 | 0000 | RGBA_8888 |  38.0    0.0  758.0  501.0 |    0  248  720  750 | com.android.todolist/com.android.todolist.MainActivity$_17127#1
+         DEVICE | 0x71bbf12940 | 0000 | RGBA_8888 |   0.0    0.0  720.0 1288.0 |    0  272  720 1560 | InputMethod$_7169#0
+         DEVICE | 0x71d9ed7840 | 0000 | RGBA_8888 |   0.0    0.0  720.0   53.0 |    0    0  720   53 | StatusBar$_4655#0
+         DEVICE | 0x71bbf108c0 | 0000 | RGBA_8888 |   0.0    0.0  720.0   84.0 |    0 1476  720 1560 | N
+2021-11-15 21:46:53.204 4311-4361/? I/WindowManager: Reparenting to original parent: Surface(name=AppWindowToken{16f3aa4 token=Token{b25537 ActivityRecord{dcbc236 u0 com.android.todolist/.MainActivity t13898}}})/@0x78cfa27, destroyLeash=true, surface=Surface(name=f09676e com.android.todolist/com.android.todolist.MainActivity)/@0x198be0f
+2021-11-15 21:46:53.223 3867-4302/? I/Layer: id=12888 removeFromCurrentState Surface(name=f09676e com.android.todolist/com.android.todolist.MainActivity)/@0x198be0f - animation-leash#0 (106)
+2021-11-15 21:46:53.225 3867-4302/? I/SurfaceFlinger: id=12888 Removed Surface(name=f09676e com.android.todolist/com.android.todolist.MainActivity)/@0x198be0f - animation-leash#0 (106)
+2021-11-15 21:46:53.237 3867-3867/? I/Layer: id=12888[1] Destroyed Surface(name=f09676e com.android.todolist/com.android.todolist.MainActivity)/@0x198be0f - animation-leash#0
+2021-11-15 21:46:53.563 3867-3867/? I/SurfaceFlinger: Display 0 HWC layers:
+        type    |    handle    | flag |  format   |   source crop (l,t,r,b)    |         frame       | name 
+    ------------+--------------+------+-----------+----------------------------+---------------------+------
+         DEVICE | 0x71ddb1ee00 | 0002 | RGBA_8888 |   0.0    0.0  720.0 1560.0 |    0    0  720 1560 | com.android.todolist/com.android.todolist.MainActivity$_17127#0
+     SOLID_COLOR |              | 0004 |  Unknown  |   0.0    0.0    0.0    0.0 |    0    0  720 1560 | Dim Layer for - Task=13898#0
+         DEVICE | 0x71d9ed8b00 | 0000 | RGBA_8888 |  38.0    0.0  758.0  501.0 |    0  221  720  722 | com.android.todolist/com.android.todolist.MainActivity$_17127#1
+         DEVICE | 0x71bbf11cc0 | 0000 | RGBA_8888 |   0.0    0.0  720.0 1507.0 |    0   53  720 1560 | InputMethod$_7169#0
+         DEVICE | 0x71d9ed89c0 | 0000 | RGBA_8888 |   0.0    0.0  720.0 1423.0 |    0   53  720 1476 | PopupWindow:ba8101b$_7169#0
+         DEVICE | 0x71d9ed7840 | 0000 | RGBA_8888 |   0.0    0.0  720.0   53.0 |    0    0  72
+2021-11-15 21:46:53.927 4311-4311/? D/GameManagerService: identifyGamePackage. com.android.todolist, mCurrentUserId: 0, callerUserId: 0
+2021-11-15 21:46:53.927 4311-4311/? D/GamePkgDataHelper: getGamePkgData(). com.android.todolist
+2021-11-15 21:46:54.142 4311-4311/? D/GameManagerService: identifyGamePackage. com.android.todolist, mCurrentUserId: 0, callerUserId: 0
+2021-11-15 21:46:54.142 4311-4311/? D/GamePkgDataHelper: getGamePkgData(). com.android.todolist
+2021-11-15 21:46:54.331 4311-4311/? D/GameManagerService: identifyGamePackage. com.android.todolist, mCurrentUserId: 0, callerUserId: 0
+2021-11-15 21:46:54.331 4311-4311/? D/GamePkgDataHelper: getGamePkgData(). com.android.todolist
+2021-11-15 21:46:55.043 17127-17127/com.android.todolist D/ViewRootImpl@8b033c2[MainActivity]: ViewPostIme pointer 0
+2021-11-15 21:46:55.130 17127-17127/com.android.todolist D/ViewRootImpl@8b033c2[MainActivity]: ViewPostIme pointer 1
+2021-11-15 21:46:55.164 3867-3917/? E/BufferQueueProducer: [com.android.todolist/com.android.todolist.MainActivity$_17127#1] disconnect: not connected (req=1)
+2021-11-15 21:46:55.164 17127-17151/com.android.todolist W/libEGL: EGLNativeWindowType 0x7106ffd6d0 disconnect failed
+2021-11-15 21:46:55.164 17127-17151/com.android.todolist D/OpenGLRenderer: endAllActiveAnimators on 0x70fb19ae00 (RippleDrawable) with handle 0x72099533c0
+2021-11-15 21:46:55.165 17127-17127/com.android.todolist D/ViewRootImpl@8b033c2[MainActivity]: dispatchDetachedFromWindow
+2021-11-15 21:46:55.166 4311-7359/? I/WindowManager: Reparenting to leash, surface=Surface(name=f09676e com.android.todolist/com.android.todolist.MainActivity)/@0x198be0f
+2021-11-15 21:46:55.167 3867-3917/? I/SurfaceFlinger: createSurf start. lock debugging [Surface(name=f09676e com.android.todolist/com.android.todolist.MainActivity)/@0x198be0f - animation-leash]
+2021-11-15 21:46:55.168 3867-3917/? I/SurfaceFlinger: id=12893 createSurf (0x0),-1 flag=80004, Surface(name=f09676e com.android.todolist/com.android.todolist.MainActivity)/@0x198be0f - animation-leash#0
+2021-11-15 21:46:55.169 4311-7359/? D/WindowManager: makeSurface duration=2 leash=Surface(name=Surface(name=f09676e com.android.todolist/com.android.todolist.MainActivity)/@0x198be0f - animation-leash)/@0xd68b59b
+2021-11-15 21:46:55.169 4311-4978/? E/InputDispatcher: Window handle Window{f09676e u0 com.android.todolist/com.android.todolist.MainActivity} has no registered input channel
+2021-11-15 21:46:55.170 4311-7359/? V/WindowManager: Changing focus from Window{f09676e u0 com.android.todolist/com.android.todolist.MainActivity EXITING} to Window{51ec688 u0 com.android.todolist/com.android.todolist.MainActivity} displayId=0 Callers=com.android.server.wm.RootWindowContainer.updateFocusedWindowLocked:203 com.android.server.wm.WindowManagerService.updateFocusedWindowLocked:6107 com.android.server.wm.WindowState.setupWindowForRemoveOnExit:2441 com.android.server.wm.WindowState.removeIfPossible:2410 com.android.server.wm.WindowState.removeIfPossible:2297 com.android.server.wm.WindowManagerService.removeWindow:2024 
+2021-11-15 21:46:55.176 17127-17127/com.android.todolist D/InputTransport: Input channel destroyed: 'f09676e', fd=80
+2021-11-15 21:46:55.188 4311-4978/? E/InputDispatcher: Window handle Window{f09676e u0 com.android.todolist/com.android.todolist.MainActivity} has no registered input channel
+2021-11-15 21:46:55.220 17127-17127/com.android.todolist D/ViewRootImpl@f4de547[MainActivity]: MSG_WINDOW_FOCUS_CHANGED 1 1
+2021-11-15 21:46:55.220 17127-17127/com.android.todolist D/InputMethodManager: prepareNavigationBarInfo() DecorView@71537db[MainActivity]
+2021-11-15 21:46:55.220 17127-17127/com.android.todolist D/InputMethodManager: getNavigationBarColor() -855310
+2021-11-15 21:46:55.225 17127-17127/com.android.todolist D/InputMethodManager: prepareNavigationBarInfo() DecorView@71537db[MainActivity]
+2021-11-15 21:46:55.225 17127-17127/com.android.todolist D/InputMethodManager: getNavigationBarColor() -855310
+2021-11-15 21:46:55.225 17127-17127/com.android.todolist V/InputMethodManager: Starting input: tba=com.android.todolist ic=null mNaviBarColor -855310 mIsGetNaviBarColorSuccess true , NavVisible : true , NavTrans : false
+2021-11-15 21:46:55.225 17127-17127/com.android.todolist D/InputMethodManager: startInputInner - Id : 0
+2021-11-15 21:46:55.225 17127-17127/com.android.todolist I/InputMethodManager: startInputInner - mService.startInputOrWindowGainedFocus
+2021-11-15 21:46:55.234 17127-17127/com.android.todolist D/InputTransport: Input channel destroyed: 'ClientS', fd=81
+2021-11-15 21:46:55.234 17127-17127/com.android.todolist E/ViewRootImpl: sendUserActionEvent() mView returned.
+2021-11-15 21:46:55.258 17127-17127/com.android.todolist W/IInputConnectionWrapper: beginBatchEdit on inactive InputConnection
+2021-11-15 21:46:55.258 17127-17127/com.android.todolist W/IInputConnectionWrapper: endBatchEdit on inactive InputConnection
+2021-11-15 21:46:55.259 3867-3867/? I/SurfaceFlinger: Display 0 HWC layers:
+        type    |    handle    | flag |  format   |   source crop (l,t,r,b)    |         frame       | name 
+    ------------+--------------+------+-----------+----------------------------+---------------------+------
+         DEVICE | 0x71ddb20480 | 0002 | RGBA_8888 |   0.0    0.0  720.0 1560.0 |    0    0  720 1560 | com.android.todolist/com.android.todolist.MainActivity$_17127#0
+     SOLID_COLOR |              | 0004 |  Unknown  |   0.0    0.0    0.0    0.0 |    0    0  720 1560 | Dim Layer for - Task=13898#0
+         DEVICE | 0x71d9ed8b00 | 0000 | RGBA_8888 |  38.0    0.0  758.0  501.0 |    0  221  720  722 | com.android.todolist/com.android.todolist.MainActivity$_17127#1
+         DEVICE | 0x71bbf130c0 | 0000 | RGBA_8888 |   0.0    0.0  720.0 1507.0 |    0   53  720 1560 | InputMethod$_7169#0
+         DEVICE | 0x71d9ed7840 | 0000 | RGBA_8888 |   0.0    0.0  720.0   53.0 |    0    0  720   53 | StatusBar$_4655#0
+         DEVICE | 0x71d9ed8380 | 0000 | RGBA_8888 |   0.0    0.0  720.0   84.0 |    0 1476  720 1560 | N
+2021-11-15 21:46:55.279 17127-17127/com.android.todolist W/IInputConnectionWrapper: requestCursorAnchorInfo on inactive InputConnection
+2021-11-15 21:46:55.336 4311-4361/? I/WindowManager: Reparenting to original parent: Surface(name=AppWindowToken{16f3aa4 token=Token{b25537 ActivityRecord{dcbc236 u0 com.android.todolist/.MainActivity t13898}}})/@0x78cfa27, destroyLeash=true, surface=Surface(name=f09676e com.android.todolist/com.android.todolist.MainActivity)/@0x198be0f
+2021-11-15 21:46:55.337 4311-4361/? E/WindowManager: win=Window{f09676e u0 com.android.todolist/com.android.todolist.MainActivity EXITING} destroySurfaces: appStopped=false win.mWindowRemovalAllowed=true win.mRemoveOnExit=true win.mViewVisibility=0 caller=com.android.server.wm.AppWindowToken.destroySurfaces:1199 com.android.server.wm.AppWindowToken.destroySurfaces:1180 com.android.server.wm.WindowState.onExitAnimationDone:5030 com.android.server.wm.WindowStateAnimator.onAnimationFinished:287 com.android.server.wm.WindowState.onAnimationFinished:5471 com.android.server.wm.-$$Lambda$yVRF8YoeNdTa8GR1wDStVsHu8xM.run:2 com.android.server.wm.SurfaceAnimator.lambda$getFinishedCallback$0$SurfaceAnimator:100 
+2021-11-15 21:46:55.338 4311-4361/? I/WindowManager: Destroying surface Surface(name=com.android.todolist/com.android.todolist.MainActivity$_17127)/@0x99e3d13 called by com.android.server.wm.WindowStateAnimator.destroySurface:1734 com.android.server.wm.WindowStateAnimator.destroySurfaceLocked:693 com.android.server.wm.WindowState.destroySurfaceUnchecked:3482 com.android.server.wm.WindowState.destroySurface:3456 com.android.server.wm.AppWindowToken.destroySurfaces:1199 com.android.server.wm.AppWindowToken.destroySurfaces:1180 com.android.server.wm.WindowState.onExitAnimationDone:5030 com.android.server.wm.WindowStateAnimator.onAnimationFinished:287 
+2021-11-15 21:46:55.338 3867-4302/? I/Layer: id=12883 removeFromCurrentState com.android.todolist/com.android.todolist.MainActivity$_17127#1 (107)
+2021-11-15 21:46:55.346 3867-4302/? I/Layer: id=12882 removeFromCurrentState f09676e com.android.todolist/com.android.todolist.MainActivity#0 (107)
+2021-11-15 21:46:55.346 3867-4302/? I/Layer: id=12893 removeFromCurrentState Surface(name=f09676e com.android.todolist/com.android.todolist.MainActivity)/@0x198be0f - animation-leash#0 (107)
+2021-11-15 21:46:55.349 3867-3917/? I/SurfaceFlinger: id=12893 Removed Surface(name=f09676e com.android.todolist/com.android.todolist.MainActivity)/@0x198be0f - animation-leash#0 (107)
+2021-11-15 21:46:55.349 3867-3917/? I/SurfaceFlinger: id=12883 Removed com.android.todolist/com.android.todolist.MainActivity$_17127#1 (107)
+2021-11-15 21:46:55.352 3867-3867/? I/Layer: id=12893[1] Destroyed Surface(name=f09676e com.android.todolist/com.android.todolist.MainActivity)/@0x198be0f - animation-leash#0
+2021-11-15 21:46:55.359 3867-3867/? I/Layer: id=12883[1] Destroyed com.android.todolist/com.android.todolist.MainActivity$_17127#1
+2021-11-15 21:46:55.366 3867-3867/? I/SurfaceFlinger: Display 0 HWC layers:
+        type    |    handle    | flag |  format   |   source crop (l,t,r,b)    |         frame       | name 
+    ------------+--------------+------+-----------+----------------------------+---------------------+------
+         DEVICE | 0x71ddb20480 | 0002 | RGBA_8888 |   0.0    0.0  720.0 1560.0 |    0    0  720 1560 | com.android.todolist/com.android.todolist.MainActivity$_17127#0
+         DEVICE | 0x71bbf130c0 | 0000 | RGBA_8888 |   0.0    0.0  720.0 1507.0 |    0   53  720 1560 | InputMethod$_7169#0
+         DEVICE | 0x71d9ed7840 | 0000 | RGBA_8888 |   0.0    0.0  720.0   53.0 |    0    0  720   53 | StatusBar$_4655#0
+         DEVICE | 0x71d9ed8380 | 0000 | RGBA_8888 |   0.0    0.0  720.0   84.0 |    0 1476  720 1560 | NavigationBar0$_4655#0
+         DEVICE | 0x71d9ed7980 | 0000 | RGBA_8888 |   0.0    0.0  720.0  101.0 |    0    0  720  101 | ScreenDecorOverlay$_4655#0
+         DEVICE | 0x71bbf11900 | 0000 | RGBA_8888 |   0.0    0.0  720.0  101.0 |    0 1459  720 1560 | ScreenDecorOverlayBottom$_4655#0
+2021-11-15 21:46:55.384 17127-17127/com.android.todolist D/ViewRootImpl@f4de547[MainActivity]: MSG_RESIZED: frame=(0,0,720,1560) ci=(0,53,0,84) vi=(0,53,0,84) or=1
+2021-11-15 21:46:55.412 4311-5068/? V/WindowManager: Relayout Window{51ec688 u0 com.android.todolist/com.android.todolist.MainActivity}: viewVisibility=0 req=720x1560
+2021-11-15 21:46:55.428 17127-17127/com.android.todolist D/ViewRootImpl@f4de547[MainActivity]: Relayout returned: old=(0,0,720,1560) new=(0,0,720,1560) req=(720,1560)0 dur=16 res=0x1 s={true 485249970176} ch=false
+2021-11-15 21:46:55.561 3867-3867/? I/SurfaceFlinger: Display 0 HWC layers:
+        type    |    handle    | flag |  format   |   source crop (l,t,r,b)    |         frame       | name 
+    ------------+--------------+------+-----------+----------------------------+---------------------+------
+         DEVICE | 0x71ddb1ee00 | 0002 | RGBA_8888 |   0.0    0.0  720.0 1560.0 |    0    0  720 1560 | com.android.todolist/com.android.todolist.MainActivity$_17127#0
+         DEVICE | 0x71d9ed7840 | 0000 | RGBA_8888 |   0.0    0.0  720.0   53.0 |    0    0  720   53 | StatusBar$_4655#0
+         DEVICE | 0x71d9ed8380 | 0000 | RGBA_8888 |   0.0    0.0  720.0   84.0 |    0 1476  720 1560 | NavigationBar0$_4655#0
+         DEVICE | 0x71d9ed7980 | 0000 | RGBA_8888 |   0.0    0.0  720.0  101.0 |    0    0  720  101 | ScreenDecorOverlay$_4655#0
+         DEVICE | 0x71bbf11900 | 0000 | RGBA_8888 |   0.0    0.0  720.0  101.0 |    0 1459  720 1560 | ScreenDecorOverlayBottom$_4655#0
+2021-11-15 21:47:34.985 3867-3917/? I/SurfaceFlinger: id=12875 Removed 8ac6f6c com.android.todolist/com.android.todolist.MainActivity#0 (102)
+2021-11-15 21:47:34.989 3867-3917/? I/SurfaceFlinger: id=12882 Removed f09676e com.android.todolist/com.android.todolist.MainActivity#0 (102)
+2021-11-15 21:47:34.999 3867-3867/? I/Layer: id=12875[1] Destroyed 8ac6f6c com.android.todolist/com.android.todolist.MainActivity#0
+2021-11-15 21:47:34.999 3867-3867/? I/Layer: id=12882[1] Destroyed f09676e com.android.todolist/com.android.todolist.MainActivity#0
